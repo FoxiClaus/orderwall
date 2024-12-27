@@ -381,14 +381,14 @@ class OrderBookMonitor:
                     avg_imbalance = sum(self.current_minute_data['imbalances']) / len(self.current_minute_data['imbalances'])
                     avg_bid_vol = sum(self.current_minute_data['bid_volumes']) / len(self.current_minute_data['bid_volumes'])
                     avg_ask_vol = sum(self.current_minute_data['ask_volumes']) / len(self.current_minute_data['ask_volumes'])
-                    
+
                     logger.debug(f"Минутная статистика: "
-                               f"Avg Imb: {avg_imbalance:.2f}% "
-                               f"(min: {min(self.current_minute_data['imbalances']):.2f}%, "
-                               f"max: {max(self.current_minute_data['imbalances']):.2f}%), "
-                               f"Avg Bid Vol: {avg_bid_vol:.0f}, "
-                               f"Avg Ask Vol: {avg_ask_vol:.0f}")
-                    
+                            f"Avg Imb: {avg_imbalance:.2f}% "
+                            f"(min: {min(self.current_minute_data['imbalances']):.2f}%, "
+                            f"max: {max(self.current_minute_data['imbalances']):.2f}%), "
+                            f"Avg Bid Vol: {avg_bid_vol:.0f}, "
+                            f"Avg Ask Vol: {avg_ask_vol:.0f}")
+
                     # Обновляем историю средними значениями
                     self.history['1m']['imbalance'].append(avg_imbalance)
                     self.history['1m']['bid_volume'].append(avg_bid_vol)
@@ -405,6 +405,33 @@ class OrderBookMonitor:
                             f"Vol Ratio: {analysis['volume_ratio']:4.1f}",
                             "==================\n"
                         ]))
+
+                    # Обновляем и выводим 5m и 15m статистику только в начале минуты
+                    if current_time.second == 0 and current_time.microsecond < 100000:
+                        if current_time.minute % 5 == 0:
+                            self._update_higher_timeframe('5m', current_time, 5)
+                            analysis_5m = self.analyze_timeframe('5m', min_history=1)
+                            if analysis_5m:
+                                logger.info("\n".join([
+                                    "=== СТАТИСТИКА 5M ===",
+                                    f"5m  | Trend: {analysis_5m['trend_ascii']:4} | "
+                                    f"Imb: {analysis_5m['current_imbalance']:+6.1f}% | "
+                                    f"Vol Ratio: {analysis_5m['volume_ratio']:4.1f}",
+                                    "==================\n"
+                                ]))
+
+                            # Проверяем и обновляем 15m статистику
+                            if current_time.minute % 15 == 0:
+                                self._update_higher_timeframe('15m', current_time, 15)
+                                analysis_15m = self.analyze_timeframe('15m', min_history=1)
+                                if analysis_15m:
+                                    logger.info("\n".join([
+                                        "=== СТАТИСТИКА 15M ===",
+                                        f"15m | Trend: {analysis_15m['trend_ascii']:4} | "
+                                        f"Imb: {analysis_15m['current_imbalance']:+6.1f}% | "
+                                        f"Vol Ratio: {analysis_15m['volume_ratio']:4.1f}",
+                                        "==================\n"
+                                    ]))
                 
                 # Очищаем буфер для новой минуты
                 self.current_minute_data = {
@@ -418,37 +445,11 @@ class OrderBookMonitor:
             self.current_minute_data['imbalances'].append(self.current_metrics['imbalance'])
             self.current_minute_data['bid_volumes'].append(self.current_metrics['bid_volume'])
             self.current_minute_data['ask_volumes'].append(self.current_metrics['ask_volume'])
-            
-            # Обновляем и выводим 5m и 15m статистику
-            # Добавляем проверку микросекунд, чтобы выводить статистику только один раз
-            if current_time.second == 0 and current_time.microsecond < 100000:  # Выполняем только в первые 100ms секунды
-                if current_time.minute % 5 == 0:
-                    self._update_higher_timeframe('5m', current_time, 5)
-                    analysis_5m = self.analyze_timeframe('5m', min_history=1)
-                    if analysis_5m:
-                        logger.info("\n".join([
-                            "=== СТАТИСТИКА 5M ===",
-                            f"5m  | Trend: {analysis_5m['trend_ascii']:4} | "
-                            f"Imb: {analysis_5m['current_imbalance']:+6.1f}% | "
-                            f"Vol Ratio: {analysis_5m['volume_ratio']:4.1f}",
-                            "==================\n"
-                        ]))
-                
-                if current_time.minute % 15 == 0:
-                    self._update_higher_timeframe('15m', current_time, 15)
-                    analysis_15m = self.analyze_timeframe('15m', min_history=1)
-                    if analysis_15m:
-                        logger.info("\n".join([
-                            "=== СТАТИСТИКА 15M ===",
-                            f"15m | Trend: {analysis_15m['trend_ascii']:4} | "
-                            f"Imb: {analysis_15m['current_imbalance']:+6.1f}% | "
-                            f"Vol Ratio: {analysis_15m['volume_ratio']:4.1f}",
-                            "==================\n"
-                        ]))
-            
+
         except Exception as e:
             logger.error(f"Ошибка обновления истории: {str(e)}")
-    
+            logger.exception(e)
+        
     def _update_higher_timeframe(self, timeframe: str, current_time: datetime, n_minutes: int):
         """Обновление статистики старших таймфреймов на основе минутных данных"""
         try:

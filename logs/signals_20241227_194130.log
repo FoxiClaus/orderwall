@@ -1,0 +1,11 @@
+2024-12-27 19:41:30,043 - INFO - Starting order monitoring system
+2024-12-27 19:41:31,162 - INFO - Connected to Binance Futures WebSocket for strkusdt
+2024-12-27 19:50:00,055 - INFO - === СТАТИСТИКА 5M ===
+5m  | Trend: -    | Imb:   +0.0% | Vol Ratio:  1.0
+==================
+
+2024-12-27 19:53:00,000 - ERROR - Ошибка анализа 1m: list index out of range
+2024-12-27 19:55:00,045 - INFO - === СТАТИСТИКА 5M ===
+5m  | Trend: -    | Imb:   +0.0% | Vol Ratio:  1.0
+==================
+
