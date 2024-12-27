@@ -64,36 +64,62 @@ class OrderBookMonitor:
         self.ws_connections = {}  # Добавляем хранение WebSocket соединений
 
     def _setup_logging(self):
-        """Настройка логгера с корректной обработкой Unicode"""
+        """Настройка логгера с сохранением в файл"""
         if not os.path.exists('logs'):
             os.makedirs('logs')
         
         # Очищаем существующие обработчики
         logger.handlers.clear()
         
-        # Файловый handler с UTF-8
-        file_handler = logging.FileHandler('logs/orderbook.log', encoding='utf-8')
-        file_formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
-        file_handler.setFormatter(file_formatter)
+        # Создаем форматтеры
+        detailed_formatter = logging.Formatter(
+            '%(asctime)s - %(levelname)s - %(message)s'
+        )
+        console_formatter = logging.Formatter(
+            '%(asctime)s - %(levelname)s - %(message)s'
+        )
         
-        # Консольный handler с ASCII-символами
+        # Файловый handler для подробного лога
+        detailed_handler = logging.FileHandler(
+            f'logs/detailed_{datetime.now().strftime("%Y%m%d_%H%M%S")}.log',
+            encoding='utf-8'
+        )
+        detailed_handler.setFormatter(detailed_formatter)
+        detailed_handler.setLevel(logging.DEBUG)
+        
+        # Файловый handler для сигналов
+        signals_handler = logging.FileHandler(
+            f'logs/signals_{datetime.now().strftime("%Y%m%d_%H%M%S")}.log',
+            encoding='utf-8'
+        )
+        signals_handler.setFormatter(detailed_formatter)
+        signals_handler.setLevel(logging.INFO)
+        
+        # Консольный handler
         console_handler = logging.StreamHandler()
-        console_formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
         console_handler.setFormatter(console_formatter)
+        console_handler.setLevel(logging.INFO)
         
-        logger.addHandler(file_handler)
+        # Добавляем handlers
+        logger.addHandler(detailed_handler)
+        logger.addHandler(signals_handler)
         logger.addHandler(console_handler)
         logger.setLevel(logging.DEBUG)
 
     def analyze_timeframe(self, timeframe: str) -> Dict:
         """Анализ данных по таймфрейму"""
         try:
+            logger.debug(f"Анализ {timeframe}: длина истории = {len(self.history[timeframe]['imbalance'])}")
+            
             if len(self.history[timeframe]['imbalance']) < 2:
+                logger.debug(f"Недостаточно данных для {timeframe}")
                 return None
             
-            imbalances = self.history[timeframe]['imbalance'][-10:]  # Берем последние 10 значений
+            imbalances = self.history[timeframe]['imbalance'][-10:]
             volumes_bid = self.history[timeframe]['bid_volume'][-10:]
             volumes_ask = self.history[timeframe]['ask_volume'][-10:]
+            
+            logger.debug(f"Данные {timeframe}: imbalances={imbalances}")
             
             # Определяем тренд по последним значениям
             if imbalances[-1] > imbalances[0] + 5:
@@ -112,6 +138,7 @@ class OrderBookMonitor:
                 'volume_ratio': volumes_bid[-1] / volumes_ask[-1] if volumes_ask[-1] > 0 else 1
             }
             
+            logger.debug(f"Результат анализа {timeframe}: {result}")
             return result
             
         except Exception as e:
@@ -159,25 +186,26 @@ class OrderBookMonitor:
         
         return signals
 
-    async def process_depth_message(self, symbol: str, message: Dict):
+    async def process_depth_message(self, symbol: str, message: dict):
+        """Обработка сообщения стакана"""
         try:
+            # Обновляем стакан
+            self._update_orderbook(message)
+            
+            # Рассчитываем метрики
+            self._calculate_metrics()
+            
+            # Получаем текущее время
             current_time = datetime.now()
             
-            if 'b' in message and 'a' in message:
-                # 1. Обновляем стакан
-                self._update_orderbook(message)
-                
-                # 2. Рассчитываем текущие метрики
-                self._calculate_metrics()
-                
-                # 3. Обновляем историю если нужно
-                self._update_history(current_time)
-                
-                # 4. Выводим отладочную информацию
-                self._print_debug_info(current_time)
-                
+            # Обновляем историю
+            self._update_history(current_time)
+            
+            # Выводим отладочную информацию
+            self._print_debug_info(current_time)
+            
         except Exception as e:
-            logger.error(f"Ошибка обработки сообщения: {str(e)}")
+            logger.error(f"Error processing depth message: {e}")
     
     def _update_orderbook(self, message: Dict):
         """Обновление стакана"""
@@ -207,14 +235,14 @@ class OrderBookMonitor:
         """Расчет текущих метрик"""
         try:
             # Получаем отсортированные списки
-            bids = sorted(self.current_orderbook['bids'].items(), reverse=True)  # По убыванию
-            asks = sorted(self.current_orderbook['asks'].items())  # По возрастанию
+            bids = sorted(self.current_orderbook['bids'].items(), reverse=True)[:10]  # Топ 10 ордеров
+            asks = sorted(self.current_orderbook['asks'].items())[:10]  # Топ 10 ордеров
             
             if bids and asks:
                 # Текущая цена как среднее между лучшим бидом и аском
                 self.current_metrics['current_price'] = (bids[0][0] + asks[0][0]) / 2
                 
-                # Расчет объемов в USD
+                # Расчет объемов в USD (только топ-10)
                 self.current_metrics['bid_volume'] = sum(
                     qty * self.current_metrics['current_price'] 
                     for _, qty in bids
@@ -225,10 +253,11 @@ class OrderBookMonitor:
                 )
                 
                 # Расчет дисбаланса
-                if self.current_metrics['ask_volume'] > 0:
+                total_volume = self.current_metrics['bid_volume'] + self.current_metrics['ask_volume']
+                if total_volume > 0:
                     self.current_metrics['imbalance'] = (
                         (self.current_metrics['bid_volume'] - self.current_metrics['ask_volume']) 
-                        / self.current_metrics['ask_volume'] * 100
+                        / total_volume * 100
                     )
                 else:
                     self.current_metrics['imbalance'] = 0
@@ -329,28 +358,51 @@ class OrderBookMonitor:
     def _update_history(self, current_time: datetime):
         """Обновление исторических данных"""
         try:
-            # Обновляем историю только раз в секунду
+            # Обновляем историю только в начале каждой секунды
             if current_time.microsecond < 100000:  # Первые 100мс каждой секунды
-                logger.debug(f"Проверка обновления истории в {current_time}")
                 
-                # Обновляем 1m
-                if (self.history['1m']['time'] is None or 
-                    current_time.minute != self.history['1m']['time'].minute):
+                # Обновляем и выводим статистику для 1m
+                if current_time.second == 0:
                     logger.debug("Обновление 1m данных")
                     self._append_history('1m', current_time)
+                    analysis = self.analyze_timeframe('1m')
+                    if analysis:
+                        logger.info("\n".join([
+                            "=== СТАТИСТИКА 1M ===",
+                            f"1m  | Trend: {analysis['trend_ascii']:4} | "
+                            f"Imb: {analysis['current_imbalance']:+6.1f}% | "
+                            f"Vol Ratio: {analysis['volume_ratio']:4.1f}",
+                            "==================\n"
+                        ]))
                 
-                # Обновляем 5m
-                if (self.history['5m']['time'] is None or 
-                    current_time.minute // 5 != self.history['5m']['time'].minute // 5):
+                # Обновляем и выводим статистику для 5m
+                if current_time.minute % 5 == 0 and current_time.second == 0:
                     logger.debug("Обновление 5m данных")
                     self._append_history('5m', current_time)
+                    analysis = self.analyze_timeframe('5m')
+                    if analysis:
+                        logger.info("\n".join([
+                            "=== СТАТИСТИКА 5M ===",
+                            f"5m  | Trend: {analysis['trend_ascii']:4} | "
+                            f"Imb: {analysis['current_imbalance']:+6.1f}% | "
+                            f"Vol Ratio: {analysis['volume_ratio']:4.1f}",
+                            "==================\n"
+                        ]))
                 
-                # Обновляем 15m
-                if (self.history['15m']['time'] is None or 
-                    current_time.minute // 15 != self.history['15m']['time'].minute // 15):
+                # Обновляем и выводим статистику для 15m
+                if current_time.minute % 15 == 0 and current_time.second == 0:
                     logger.debug("Обновление 15m данных")
                     self._append_history('15m', current_time)
-                    
+                    analysis = self.analyze_timeframe('15m')
+                    if analysis:
+                        logger.info("\n".join([
+                            "=== СТАТИСТИКА 15M ===",
+                            f"15m | Trend: {analysis['trend_ascii']:4} | "
+                            f"Imb: {analysis['current_imbalance']:+6.1f}% | "
+                            f"Vol Ratio: {analysis['volume_ratio']:4.1f}",
+                            "==================\n"
+                        ]))
+                
                 # Очищаем старые данные
                 self._cleanup_history()
                 
@@ -375,7 +427,11 @@ class OrderBookMonitor:
     
     def _cleanup_history(self):
         """Очистка устаревших данных"""
-        max_items = {'1m': 60, '5m': 12, '15m': 4}  # Храним час истории
+        max_items = {
+            '1m': 60,  # Храним час истории для 1m
+            '5m': 12,  # Храним час истории для 5m
+            '15m': 4   # Храним час истории для 15m
+        }
         for tf in self.history:
             while len(self.history[tf]['imbalance']) > max_items[tf]:
                 self.history[tf]['imbalance'].pop(0)
@@ -384,27 +440,46 @@ class OrderBookMonitor:
     
     def _print_debug_info(self, current_time: datetime):
         """Вывод отладочной информации"""
-        # Базовая информация каждую секунду
-        if current_time.microsecond < 100000:  # Только в начале каждой секунды
-            logger.debug(
-                f"[{current_time.strftime('%H:%M:%S')}] "
+        # Базовая информация в начале каждой секунды
+        if current_time.microsecond < 100000:
+            metrics_info = (
                 f"Price: {self.current_metrics['current_price']:.2f} | "
                 f"Bid Vol: {self.current_metrics['bid_volume']:,.0f} | "
                 f"Ask Vol: {self.current_metrics['ask_volume']:,.0f} | "
                 f"Imb: {self.current_metrics['imbalance']:+.2f}%"
             )
-        
-        # Расширенная статистика каждую минуту
-        if current_time.second == 0 and current_time.microsecond < 100000:
-            for tf in ['1m', '5m', '15m']:
-                analysis = self.analyze_timeframe(tf)
-                if analysis:
-                    logger.info(
-                        f"{tf} Stats | "
-                        f"Trend: {analysis['trend_ascii']} | "
-                        f"Curr Imb: {analysis['current_imbalance']:+.2f}% | "
-                        f"Vol Ratio: {analysis['volume_ratio']:.2f}"
+            logger.debug(metrics_info)
+            
+            # Статистика по таймфреймам только в 0 секунду каждой минуты
+            # и только при первом вызове (microsecond < 1000)
+            if current_time.second == 0 and current_time.microsecond < 1000:
+                timeframe_stats = []
+                
+                # 1m статистика каждую минуту
+                analysis_1m = self.analyze_timeframe('1m')
+                if analysis_1m:
+                    timeframe_stats.append("=== СТАТИСТИКА 1M ===")
+                    timeframe_stats.append(
+                        f"1m  | Trend: {analysis_1m['trend_ascii']:4} | "
+                        f"Imb: {analysis_1m['current_imbalance']:+6.1f}% | "
+                        f"Vol Ratio: {analysis_1m['volume_ratio']:4.1f}"
                     )
+                    timeframe_stats.append("==================\n")
+                
+                # 5m статистика каждые 5 минут
+                if current_time.minute % 5 == 0:
+                    analysis_5m = self.analyze_timeframe('5m')
+                    if analysis_5m:
+                        timeframe_stats.append("=== СТАТИСТИКА 5M ===")
+                        timeframe_stats.append(
+                            f"5m  | Trend: {analysis_5m['trend_ascii']:4} | "
+                            f"Imb: {analysis_5m['current_imbalance']:+6.1f}% | "
+                            f"Vol Ratio: {analysis_5m['volume_ratio']:4.1f}"
+                        )
+                        timeframe_stats.append("==================\n")
+                
+                if timeframe_stats:
+                    logger.info("\n".join(timeframe_stats))
 
     def generate_signals(self) -> List[str]:
         """Генерация торговых сигналов"""
@@ -456,21 +531,25 @@ class OrderBookMonitor:
         try:
             result = {'bids': [], 'asks': []}
             
+            # Берем только топ-20 ордеров для анализа
+            bids = sorted(self.current_orderbook['bids'].items(), reverse=True)[:20]
+            asks = sorted(self.current_orderbook['asks'].items())[:20]
+            
             # Рассчитываем средний объем
-            all_volumes = [qty for _, qty in self.current_orderbook['bids'].items()]
-            all_volumes.extend([qty for _, qty in self.current_orderbook['asks'].items()])
+            all_volumes = [qty for _, qty in bids]
+            all_volumes.extend([qty for _, qty in asks])
             if not all_volumes:
                 return result
             
             avg_volume = sum(all_volumes) / len(all_volumes)
-            threshold = avg_volume * 3  # Ордер в 3 раза больше среднего считаем крупным
+            threshold = avg_volume * 5  # Увеличиваем порог до 5x от среднего
             
             # Ищем крупные ордера
-            for price, qty in self.current_orderbook['bids'].items():
+            for price, qty in bids:
                 if qty > threshold:
                     result['bids'].append((price, qty))
-            
-            for price, qty in self.current_orderbook['asks'].items():
+                
+            for price, qty in asks:
                 if qty > threshold:
                     result['asks'].append((price, qty))
             

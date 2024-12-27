@@ -1,0 +1,45 @@
+2024-12-27 13:54:27,402 - INFO - Starting order monitoring system
+2024-12-27 13:54:27,403 - DEBUG - Attempting to connect to: wss://fstream.binance.com/ws/strkusdt@depth@100ms
+2024-12-27 13:54:29,226 - INFO - Connected to Binance Futures WebSocket for strkusdt
+2024-12-27 13:54:32,099 - DEBUG - Price: 0.49 | Bid Vol: 82,592 | Ask Vol: 106,134 | Imb: -12.47%
+2024-12-27 13:54:34,083 - DEBUG - Price: 0.49 | Bid Vol: 82,592 | Ask Vol: 106,297 | Imb: -12.55%
+2024-12-27 13:54:35,056 - DEBUG - Price: 0.49 | Bid Vol: 83,484 | Ask Vol: 106,113 | Imb: -11.94%
+2024-12-27 13:54:39,045 - DEBUG - Price: 0.49 | Bid Vol: 83,148 | Ask Vol: 103,466 | Imb: -10.89%
+2024-12-27 13:54:42,043 - DEBUG - Price: 0.49 | Bid Vol: 84,176 | Ask Vol: 112,702 | Imb: -14.49%
+2024-12-27 13:54:43,035 - DEBUG - Price: 0.49 | Bid Vol: 83,322 | Ask Vol: 112,656 | Imb: -14.97%
+2024-12-27 13:54:45,077 - DEBUG - Price: 0.49 | Bid Vol: 82,726 | Ask Vol: 102,411 | Imb: -10.63%
+2024-12-27 13:54:48,060 - DEBUG - Price: 0.49 | Bid Vol: 83,841 | Ask Vol: 102,938 | Imb: -10.22%
+2024-12-27 13:54:49,099 - DEBUG - Price: 0.49 | Bid Vol: 81,607 | Ask Vol: 105,682 | Imb: -12.85%
+2024-12-27 13:54:50,083 - DEBUG - Price: 0.49 | Bid Vol: 82,299 | Ask Vol: 105,822 | Imb: -12.50%
+2024-12-27 13:54:51,048 - DEBUG - Price: 0.49 | Bid Vol: 82,432 | Ask Vol: 104,681 | Imb: -11.89%
+2024-12-27 13:54:52,001 - DEBUG - Price: 0.49 | Bid Vol: 82,294 | Ask Vol: 104,873 | Imb: -12.06%
+2024-12-27 13:54:53,041 - DEBUG - Price: 0.49 | Bid Vol: 81,287 | Ask Vol: 105,025 | Imb: -12.74%
+2024-12-27 13:54:54,019 - DEBUG - Price: 0.49 | Bid Vol: 91,032 | Ask Vol: 84,312 | Imb: +3.83%
+2024-12-27 13:54:55,016 - DEBUG - Price: 0.49 | Bid Vol: 122,777 | Ask Vol: 86,900 | Imb: +17.11%
+2024-12-27 13:54:56,079 - DEBUG - Price: 0.49 | Bid Vol: 85,585 | Ask Vol: 85,551 | Imb: +0.02%
+2024-12-27 13:54:58,093 - DEBUG - Price: 0.49 | Bid Vol: 125,253 | Ask Vol: 86,318 | Imb: +18.40%
+2024-12-27 13:55:00,069 - DEBUG - Обновление 1m данных
+2024-12-27 13:55:00,069 - DEBUG - Добавлены данные для 1m: imbalance=18.33, bid_vol=125092, ask_vol=86334
+2024-12-27 13:55:00,069 - DEBUG - Анализ 1m: длина истории = 1
+2024-12-27 13:55:00,069 - DEBUG - Недостаточно данных для 1m
+2024-12-27 13:55:00,069 - DEBUG - Обновление 5m данных
+2024-12-27 13:55:00,069 - DEBUG - Добавлены данные для 5m: imbalance=18.33, bid_vol=125092, ask_vol=86334
+2024-12-27 13:55:00,069 - DEBUG - Анализ 5m: длина истории = 1
+2024-12-27 13:55:00,069 - DEBUG - Недостаточно данных для 5m
+2024-12-27 13:55:00,069 - DEBUG - Price: 0.49 | Bid Vol: 125,092 | Ask Vol: 86,334 | Imb: +18.33%
+2024-12-27 13:55:02,077 - DEBUG - Price: 0.49 | Bid Vol: 86,680 | Ask Vol: 87,559 | Imb: -0.50%
+2024-12-27 13:55:03,095 - DEBUG - Price: 0.49 | Bid Vol: 87,435 | Ask Vol: 87,369 | Imb: +0.04%
+2024-12-27 13:55:04,028 - DEBUG - Price: 0.49 | Bid Vol: 85,809 | Ask Vol: 88,344 | Imb: -1.46%
+2024-12-27 13:55:05,024 - DEBUG - Price: 0.49 | Bid Vol: 85,746 | Ask Vol: 88,389 | Imb: -1.52%
+2024-12-27 13:55:07,002 - DEBUG - Price: 0.49 | Bid Vol: 90,264 | Ask Vol: 82,767 | Imb: +4.33%
+2024-12-27 13:55:07,029 - DEBUG - Price: 0.49 | Bid Vol: 90,764 | Ask Vol: 82,767 | Imb: +4.61%
+2024-12-27 13:55:08,009 - DEBUG - Price: 0.49 | Bid Vol: 89,274 | Ask Vol: 101,740 | Imb: -6.53%
+2024-12-27 13:55:09,017 - DEBUG - Price: 0.49 | Bid Vol: 91,496 | Ask Vol: 102,098 | Imb: -5.48%
+2024-12-27 13:55:10,014 - DEBUG - Price: 0.49 | Bid Vol: 90,042 | Ask Vol: 103,173 | Imb: -6.80%
+2024-12-27 13:55:10,079 - DEBUG - Price: 0.49 | Bid Vol: 90,813 | Ask Vol: 103,185 | Imb: -6.38%
+2024-12-27 13:55:11,082 - DEBUG - Price: 0.49 | Bid Vol: 84,194 | Ask Vol: 113,946 | Imb: -15.02%
+2024-12-27 13:55:13,020 - DEBUG - Price: 0.49 | Bid Vol: 89,030 | Ask Vol: 105,756 | Imb: -8.59%
+2024-12-27 13:55:40,031 - DEBUG - Price: 0.49 | Bid Vol: 91,008 | Ask Vol: 95,896 | Imb: -2.62%
+2024-12-27 13:55:45,024 - DEBUG - Price: 0.49 | Bid Vol: 93,426 | Ask Vol: 96,831 | Imb: -1.79%
+2024-12-27 13:55:45,024 - DEBUG - Price: 0.49 | Bid Vol: 93,426 | Ask Vol: 96,270 | Imb: -1.50%
+2024-12-27 13:55:45,046 - DEBUG - Price: 0.49 | Bid Vol: 92,705 | Ask Vol: 96,115 | Imb: -1.81%

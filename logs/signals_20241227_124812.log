@@ -1,0 +1,26 @@
+2024-12-27 12:48:12,101 - INFO - Starting order monitoring system
+2024-12-27 12:48:13,528 - INFO - Connected to Binance Futures WebSocket for strkusdt
+2024-12-27 12:50:00,072 - INFO - === СТАТИСТИКА 1M ===
+1m  | Trend: -    | Imb:   +6.4% | Vol Ratio:  1.1
+==================
+
+=== СТАТИСТИКА 5M ===
+5m  | Trend: -    | Imb:   +6.4% | Vol Ratio:  1.1
+==================
+
+2024-12-27 12:54:00,078 - INFO - === СТАТИСТИКА 1M ===
+1m  | Trend: UP   | Imb:  +30.1% | Vol Ratio:  1.9
+==================
+
+2024-12-27 12:55:00,041 - INFO - === СТАТИСТИКА 1M ===
+1m  | Trend: UP   | Imb:  +16.6% | Vol Ratio:  1.4
+==================
+
+=== СТАТИСТИКА 5M ===
+5m  | Trend: UP   | Imb:  +16.6% | Vol Ratio:  1.4
+==================
+
+2024-12-27 12:57:00,044 - INFO - === СТАТИСТИКА 1M ===
+1m  | Trend: -    | Imb:   -1.4% | Vol Ratio:  1.0
+==================
+
