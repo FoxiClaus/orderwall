@@ -1,0 +1,1649 @@
+2024-12-27 14:29:51,214 - INFO - Starting order monitoring system
+2024-12-27 14:29:51,214 - DEBUG - Attempting to connect to: wss://fstream.binance.com/ws/strkusdt@depth@100ms
+2024-12-27 14:29:52,685 - INFO - Connected to Binance Futures WebSocket for strkusdt
+2024-12-27 14:29:53,038 - DEBUG - Price: 0.44 | Bid Vol: 5,626 | Ask Vol: 14,186 | Imb: -43.21%
+2024-12-27 14:29:55,055 - DEBUG - Price: 0.49 | Bid Vol: 105,548 | Ask Vol: 92,939 | Imb: +6.35%
+2024-12-27 14:29:56,062 - DEBUG - Price: 0.49 | Bid Vol: 107,686 | Ask Vol: 91,560 | Imb: +8.09%
+2024-12-27 14:29:57,093 - DEBUG - Price: 0.49 | Bid Vol: 108,017 | Ask Vol: 91,576 | Imb: +8.24%
+2024-12-27 14:29:58,017 - DEBUG - Price: 0.49 | Bid Vol: 108,163 | Ask Vol: 93,125 | Imb: +7.47%
+2024-12-27 14:29:59,063 - DEBUG - Price: 0.49 | Bid Vol: 103,844 | Ask Vol: 92,273 | Imb: +5.90%
+2024-12-27 14:30:00,005 - DEBUG - Добавлены данные для 1m: imbalance=5.81, bid_vol=104578, ask_vol=93098
+2024-12-27 14:30:00,005 - DEBUG - Недостаточно данных для 1m (нужно 3, есть 1)
+2024-12-27 14:30:00,005 - INFO - === СТАТИСТИКА 1M ===
+1m  | Trend: -    | Imb:   +5.8% | Vol Ratio:  1.1
+==================
+
+2024-12-27 14:30:00,005 - DEBUG - Добавлены данные для 5m: imbalance=5.81, bid_vol=104578, ask_vol=93098
+2024-12-27 14:30:00,006 - DEBUG - Анализ 5m: длина истории = 1
+2024-12-27 14:30:00,006 - DEBUG - Недостаточно данных для 5m
+2024-12-27 14:30:00,006 - DEBUG - Добавлены данные для 15m: imbalance=5.81, bid_vol=104578, ask_vol=93098
+2024-12-27 14:30:00,006 - DEBUG - Анализ 15m: длина истории = 1
+2024-12-27 14:30:00,006 - DEBUG - Недостаточно данных для 15m
+2024-12-27 14:30:00,006 - DEBUG - Price: 0.49 | Bid Vol: 104,578 | Ask Vol: 93,098 | Imb: +5.81%
+2024-12-27 14:30:01,020 - DEBUG - Price: 0.49 | Bid Vol: 97,446 | Ask Vol: 99,941 | Imb: -1.26%
+2024-12-27 14:30:02,079 - DEBUG - Price: 0.49 | Bid Vol: 101,749 | Ask Vol: 95,592 | Imb: +3.12%
+2024-12-27 14:30:04,061 - DEBUG - Price: 0.49 | Bid Vol: 107,222 | Ask Vol: 91,783 | Imb: +7.76%
+2024-12-27 14:30:05,043 - DEBUG - Price: 0.49 | Bid Vol: 107,772 | Ask Vol: 98,030 | Imb: +4.73%
+2024-12-27 14:30:06,072 - DEBUG - Price: 0.49 | Bid Vol: 117,849 | Ask Vol: 99,851 | Imb: +8.27%
+2024-12-27 14:30:07,065 - DEBUG - Price: 0.49 | Bid Vol: 107,265 | Ask Vol: 100,266 | Imb: +3.37%
+2024-12-27 14:30:08,001 - DEBUG - Price: 0.49 | Bid Vol: 105,043 | Ask Vol: 102,940 | Imb: +1.01%
+2024-12-27 14:30:10,048 - DEBUG - Price: 0.49 | Bid Vol: 104,910 | Ask Vol: 102,946 | Imb: +0.94%
+2024-12-27 14:30:11,068 - DEBUG - Price: 0.49 | Bid Vol: 106,333 | Ask Vol: 103,266 | Imb: +1.46%
+2024-12-27 14:30:13,012 - DEBUG - Price: 0.49 | Bid Vol: 121,891 | Ask Vol: 105,715 | Imb: +7.11%
+2024-12-27 14:30:14,045 - DEBUG - Price: 0.49 | Bid Vol: 115,056 | Ask Vol: 100,385 | Imb: +6.81%
+2024-12-27 14:30:15,039 - DEBUG - Price: 0.49 | Bid Vol: 115,056 | Ask Vol: 99,504 | Imb: +7.25%
+2024-12-27 14:30:17,072 - DEBUG - Price: 0.49 | Bid Vol: 102,183 | Ask Vol: 95,566 | Imb: +3.35%
+2024-12-27 14:30:19,053 - DEBUG - Price: 0.49 | Bid Vol: 104,960 | Ask Vol: 107,903 | Imb: -1.38%
+2024-12-27 14:30:22,043 - DEBUG - Price: 0.49 | Bid Vol: 104,966 | Ask Vol: 100,499 | Imb: +2.17%
+2024-12-27 14:30:23,005 - DEBUG - Price: 0.49 | Bid Vol: 106,402 | Ask Vol: 99,565 | Imb: +3.32%
+2024-12-27 14:30:25,021 - DEBUG - Price: 0.49 | Bid Vol: 105,878 | Ask Vol: 100,875 | Imb: +2.42%
+2024-12-27 14:30:26,077 - DEBUG - Price: 0.49 | Bid Vol: 106,042 | Ask Vol: 98,806 | Imb: +3.53%
+2024-12-27 14:30:27,046 - DEBUG - Price: 0.49 | Bid Vol: 102,026 | Ask Vol: 103,982 | Imb: -0.95%
+2024-12-27 14:30:30,044 - DEBUG - Price: 0.49 | Bid Vol: 101,825 | Ask Vol: 105,707 | Imb: -1.87%
+2024-12-27 14:30:31,024 - DEBUG - Price: 0.49 | Bid Vol: 101,844 | Ask Vol: 106,538 | Imb: -2.25%
+2024-12-27 14:30:32,040 - DEBUG - Price: 0.49 | Bid Vol: 118,768 | Ask Vol: 102,792 | Imb: +7.21%
+2024-12-27 14:30:33,000 - DEBUG - Price: 0.49 | Bid Vol: 131,807 | Ask Vol: 85,016 | Imb: +21.58%
+2024-12-27 14:30:34,052 - DEBUG - Price: 0.49 | Bid Vol: 130,235 | Ask Vol: 89,311 | Imb: +18.64%
+2024-12-27 14:30:35,087 - DEBUG - Price: 0.49 | Bid Vol: 131,239 | Ask Vol: 87,839 | Imb: +19.81%
+2024-12-27 14:30:36,069 - DEBUG - Price: 0.49 | Bid Vol: 131,037 | Ask Vol: 88,026 | Imb: +19.63%
+2024-12-27 14:30:37,094 - DEBUG - Price: 0.49 | Bid Vol: 131,108 | Ask Vol: 87,646 | Imb: +19.87%
+2024-12-27 14:30:38,014 - DEBUG - Price: 0.49 | Bid Vol: 131,434 | Ask Vol: 87,559 | Imb: +20.04%
+2024-12-27 14:30:41,000 - DEBUG - Price: 0.49 | Bid Vol: 127,311 | Ask Vol: 84,805 | Imb: +20.04%
+2024-12-27 14:30:43,011 - DEBUG - Price: 0.49 | Bid Vol: 129,041 | Ask Vol: 84,616 | Imb: +20.79%
+2024-12-27 14:30:46,029 - DEBUG - Price: 0.49 | Bid Vol: 126,343 | Ask Vol: 90,138 | Imb: +16.72%
+2024-12-27 14:30:48,014 - DEBUG - Price: 0.49 | Bid Vol: 116,225 | Ask Vol: 90,154 | Imb: +12.63%
+2024-12-27 14:30:50,011 - DEBUG - Price: 0.49 | Bid Vol: 107,645 | Ask Vol: 87,449 | Imb: +10.35%
+2024-12-27 14:30:51,045 - DEBUG - Price: 0.49 | Bid Vol: 107,520 | Ask Vol: 88,939 | Imb: +9.46%
+2024-12-27 14:30:52,049 - DEBUG - Price: 0.49 | Bid Vol: 127,838 | Ask Vol: 79,019 | Imb: +23.60%
+2024-12-27 14:30:53,030 - DEBUG - Price: 0.49 | Bid Vol: 119,294 | Ask Vol: 85,768 | Imb: +16.35%
+2024-12-27 14:30:54,008 - DEBUG - Price: 0.49 | Bid Vol: 104,377 | Ask Vol: 89,386 | Imb: +7.74%
+2024-12-27 14:30:55,044 - DEBUG - Price: 0.49 | Bid Vol: 104,908 | Ask Vol: 95,295 | Imb: +4.80%
+2024-12-27 14:30:56,018 - DEBUG - Price: 0.49 | Bid Vol: 132,101 | Ask Vol: 85,358 | Imb: +21.50%
+2024-12-27 14:30:56,081 - DEBUG - Price: 0.49 | Bid Vol: 133,001 | Ask Vol: 87,634 | Imb: +20.56%
+2024-12-27 14:30:57,099 - DEBUG - Price: 0.49 | Bid Vol: 109,750 | Ask Vol: 97,423 | Imb: +5.95%
+2024-12-27 14:30:58,046 - DEBUG - Price: 0.49 | Bid Vol: 110,654 | Ask Vol: 96,787 | Imb: +6.68%
+2024-12-27 14:31:01,096 - DEBUG - Price: 0.49 | Bid Vol: 105,550 | Ask Vol: 93,617 | Imb: +5.99%
+2024-12-27 14:31:02,013 - DEBUG - Price: 0.49 | Bid Vol: 111,566 | Ask Vol: 95,276 | Imb: +7.88%
+2024-12-27 14:31:05,078 - DEBUG - Price: 0.49 | Bid Vol: 104,242 | Ask Vol: 87,919 | Imb: +8.49%
+2024-12-27 14:31:07,033 - DEBUG - Price: 0.49 | Bid Vol: 104,108 | Ask Vol: 90,004 | Imb: +7.27%
+2024-12-27 14:31:09,021 - DEBUG - Price: 0.49 | Bid Vol: 139,156 | Ask Vol: 90,357 | Imb: +21.26%
+2024-12-27 14:31:10,065 - DEBUG - Price: 0.49 | Bid Vol: 103,159 | Ask Vol: 90,213 | Imb: +6.69%
+2024-12-27 14:31:12,062 - DEBUG - Price: 0.49 | Bid Vol: 111,415 | Ask Vol: 95,231 | Imb: +7.83%
+2024-12-27 14:31:13,016 - DEBUG - Price: 0.49 | Bid Vol: 109,250 | Ask Vol: 97,053 | Imb: +5.91%
+2024-12-27 14:31:14,027 - DEBUG - Price: 0.49 | Bid Vol: 110,407 | Ask Vol: 94,729 | Imb: +7.64%
+2024-12-27 14:31:15,080 - DEBUG - Price: 0.49 | Bid Vol: 107,935 | Ask Vol: 104,288 | Imb: +1.72%
+2024-12-27 14:31:16,048 - DEBUG - Price: 0.49 | Bid Vol: 107,131 | Ask Vol: 106,175 | Imb: +0.45%
+2024-12-27 14:31:17,018 - DEBUG - Price: 0.49 | Bid Vol: 119,648 | Ask Vol: 106,431 | Imb: +5.85%
+2024-12-27 14:31:20,061 - DEBUG - Price: 0.49 | Bid Vol: 117,191 | Ask Vol: 100,836 | Imb: +7.50%
+2024-12-27 14:31:21,055 - DEBUG - Price: 0.49 | Bid Vol: 118,408 | Ask Vol: 99,382 | Imb: +8.74%
+2024-12-27 14:31:23,053 - DEBUG - Price: 0.49 | Bid Vol: 114,210 | Ask Vol: 91,142 | Imb: +11.23%
+2024-12-27 14:31:24,026 - DEBUG - Price: 0.49 | Bid Vol: 113,965 | Ask Vol: 98,188 | Imb: +7.44%
+2024-12-27 14:31:26,065 - DEBUG - Price: 0.49 | Bid Vol: 111,710 | Ask Vol: 99,170 | Imb: +5.95%
+2024-12-27 14:31:27,009 - DEBUG - Price: 0.49 | Bid Vol: 112,544 | Ask Vol: 100,404 | Imb: +5.70%
+2024-12-27 14:31:28,069 - DEBUG - Price: 0.49 | Bid Vol: 112,532 | Ask Vol: 100,151 | Imb: +5.82%
+2024-12-27 14:31:30,022 - DEBUG - Price: 0.49 | Bid Vol: 113,230 | Ask Vol: 90,717 | Imb: +11.04%
+2024-12-27 14:31:32,037 - DEBUG - Price: 0.49 | Bid Vol: 113,138 | Ask Vol: 93,208 | Imb: +9.66%
+2024-12-27 14:31:34,027 - DEBUG - Price: 0.49 | Bid Vol: 115,711 | Ask Vol: 91,475 | Imb: +11.70%
+2024-12-27 14:31:34,027 - DEBUG - Price: 0.49 | Bid Vol: 115,746 | Ask Vol: 91,475 | Imb: +11.71%
+2024-12-27 14:31:34,027 - DEBUG - Price: 0.49 | Bid Vol: 113,875 | Ask Vol: 95,800 | Imb: +8.62%
+2024-12-27 14:31:34,029 - DEBUG - Price: 0.49 | Bid Vol: 112,967 | Ask Vol: 94,557 | Imb: +8.87%
+2024-12-27 14:31:34,029 - DEBUG - Price: 0.49 | Bid Vol: 112,831 | Ask Vol: 94,557 | Imb: +8.81%
+2024-12-27 14:31:36,010 - DEBUG - Price: 0.49 | Bid Vol: 129,087 | Ask Vol: 84,608 | Imb: +20.81%
+2024-12-27 14:31:37,074 - DEBUG - Price: 0.49 | Bid Vol: 115,101 | Ask Vol: 94,734 | Imb: +9.71%
+2024-12-27 14:31:38,037 - DEBUG - Price: 0.49 | Bid Vol: 115,549 | Ask Vol: 94,740 | Imb: +9.90%
+2024-12-27 14:31:39,053 - DEBUG - Price: 0.49 | Bid Vol: 122,273 | Ask Vol: 107,608 | Imb: +6.38%
+2024-12-27 14:31:39,059 - DEBUG - Price: 0.49 | Bid Vol: 121,344 | Ask Vol: 107,608 | Imb: +6.00%
+2024-12-27 14:31:40,010 - DEBUG - Price: 0.49 | Bid Vol: 121,922 | Ask Vol: 109,379 | Imb: +5.42%
+2024-12-27 14:31:42,062 - DEBUG - Price: 0.49 | Bid Vol: 113,058 | Ask Vol: 101,430 | Imb: +5.42%
+2024-12-27 14:31:43,048 - DEBUG - Price: 0.49 | Bid Vol: 99,881 | Ask Vol: 124,276 | Imb: -10.88%
+2024-12-27 14:31:44,036 - DEBUG - Price: 0.49 | Bid Vol: 96,805 | Ask Vol: 124,679 | Imb: -12.59%
+2024-12-27 14:31:46,035 - DEBUG - Price: 0.49 | Bid Vol: 98,934 | Ask Vol: 125,213 | Imb: -11.72%
+2024-12-27 14:31:49,082 - DEBUG - Price: 0.49 | Bid Vol: 100,143 | Ask Vol: 128,960 | Imb: -12.58%
+2024-12-27 14:31:50,003 - DEBUG - Price: 0.49 | Bid Vol: 113,217 | Ask Vol: 123,020 | Imb: -4.15%
+2024-12-27 14:31:51,077 - DEBUG - Price: 0.49 | Bid Vol: 103,569 | Ask Vol: 105,556 | Imb: -0.95%
+2024-12-27 14:31:52,006 - DEBUG - Price: 0.49 | Bid Vol: 94,617 | Ask Vol: 116,363 | Imb: -10.31%
+2024-12-27 14:31:53,011 - DEBUG - Price: 0.49 | Bid Vol: 99,908 | Ask Vol: 116,677 | Imb: -7.74%
+2024-12-27 14:31:54,006 - DEBUG - Price: 0.49 | Bid Vol: 105,911 | Ask Vol: 116,045 | Imb: -4.57%
+2024-12-27 14:31:55,002 - DEBUG - Price: 0.49 | Bid Vol: 106,129 | Ask Vol: 116,977 | Imb: -4.86%
+2024-12-27 14:31:56,095 - DEBUG - Price: 0.49 | Bid Vol: 106,632 | Ask Vol: 115,142 | Imb: -3.84%
+2024-12-27 14:31:57,034 - DEBUG - Price: 0.49 | Bid Vol: 105,049 | Ask Vol: 113,299 | Imb: -3.78%
+2024-12-27 14:31:58,011 - DEBUG - Price: 0.49 | Bid Vol: 105,345 | Ask Vol: 115,425 | Imb: -4.57%
+2024-12-27 14:31:59,090 - DEBUG - Price: 0.49 | Bid Vol: 105,683 | Ask Vol: 119,196 | Imb: -6.01%
+2024-12-27 14:32:01,095 - DEBUG - Price: 0.49 | Bid Vol: 108,972 | Ask Vol: 118,035 | Imb: -3.99%
+2024-12-27 14:32:02,057 - DEBUG - Price: 0.49 | Bid Vol: 108,106 | Ask Vol: 118,249 | Imb: -4.48%
+2024-12-27 14:32:04,021 - DEBUG - Price: 0.49 | Bid Vol: 113,430 | Ask Vol: 113,720 | Imb: -0.13%
+2024-12-27 14:32:05,009 - DEBUG - Price: 0.49 | Bid Vol: 107,976 | Ask Vol: 124,292 | Imb: -7.02%
+2024-12-27 14:32:06,020 - DEBUG - Price: 0.49 | Bid Vol: 93,078 | Ask Vol: 135,022 | Imb: -18.39%
+2024-12-27 14:32:09,061 - DEBUG - Price: 0.49 | Bid Vol: 107,720 | Ask Vol: 121,465 | Imb: -6.00%
+2024-12-27 14:32:10,000 - DEBUG - Price: 0.49 | Bid Vol: 89,761 | Ask Vol: 136,055 | Imb: -20.50%
+2024-12-27 14:32:11,013 - DEBUG - Price: 0.49 | Bid Vol: 90,093 | Ask Vol: 136,814 | Imb: -20.59%
+2024-12-27 14:32:12,006 - DEBUG - Price: 0.49 | Bid Vol: 91,588 | Ask Vol: 134,964 | Imb: -19.15%
+2024-12-27 14:32:13,043 - DEBUG - Price: 0.49 | Bid Vol: 93,961 | Ask Vol: 130,944 | Imb: -16.44%
+2024-12-27 14:32:14,096 - DEBUG - Price: 0.49 | Bid Vol: 100,793 | Ask Vol: 124,874 | Imb: -10.67%
+2024-12-27 14:32:15,033 - DEBUG - Price: 0.49 | Bid Vol: 100,252 | Ask Vol: 128,471 | Imb: -12.34%
+2024-12-27 14:32:16,040 - DEBUG - Price: 0.49 | Bid Vol: 100,287 | Ask Vol: 128,603 | Imb: -12.37%
+2024-12-27 14:32:17,054 - DEBUG - Price: 0.49 | Bid Vol: 96,972 | Ask Vol: 131,749 | Imb: -15.20%
+2024-12-27 14:32:18,097 - DEBUG - Price: 0.49 | Bid Vol: 93,723 | Ask Vol: 126,800 | Imb: -15.00%
+2024-12-27 14:32:19,091 - DEBUG - Price: 0.49 | Bid Vol: 89,897 | Ask Vol: 114,604 | Imb: -12.08%
+2024-12-27 14:32:20,030 - DEBUG - Price: 0.49 | Bid Vol: 82,349 | Ask Vol: 123,643 | Imb: -20.05%
+2024-12-27 14:32:24,039 - DEBUG - Price: 0.49 | Bid Vol: 83,360 | Ask Vol: 130,764 | Imb: -22.14%
+2024-12-27 14:32:26,093 - DEBUG - Price: 0.49 | Bid Vol: 90,600 | Ask Vol: 120,738 | Imb: -14.26%
+2024-12-27 14:32:28,017 - DEBUG - Price: 0.49 | Bid Vol: 91,954 | Ask Vol: 116,324 | Imb: -11.70%
+2024-12-27 14:32:29,029 - DEBUG - Price: 0.49 | Bid Vol: 93,583 | Ask Vol: 105,507 | Imb: -5.99%
+2024-12-27 14:32:30,066 - DEBUG - Price: 0.49 | Bid Vol: 91,938 | Ask Vol: 118,122 | Imb: -12.46%
+2024-12-27 14:32:31,007 - DEBUG - Price: 0.49 | Bid Vol: 88,913 | Ask Vol: 137,777 | Imb: -21.56%
+2024-12-27 14:32:32,012 - DEBUG - Price: 0.49 | Bid Vol: 98,333 | Ask Vol: 121,316 | Imb: -10.46%
+2024-12-27 14:32:33,023 - DEBUG - Price: 0.49 | Bid Vol: 93,802 | Ask Vol: 125,407 | Imb: -14.42%
+2024-12-27 14:32:34,000 - DEBUG - Price: 0.49 | Bid Vol: 90,948 | Ask Vol: 114,186 | Imb: -11.33%
+2024-12-27 14:32:35,084 - DEBUG - Price: 0.49 | Bid Vol: 89,574 | Ask Vol: 123,011 | Imb: -15.73%
+2024-12-27 14:32:37,055 - DEBUG - Price: 0.49 | Bid Vol: 86,897 | Ask Vol: 124,296 | Imb: -17.71%
+2024-12-27 14:32:38,024 - DEBUG - Price: 0.49 | Bid Vol: 88,505 | Ask Vol: 120,559 | Imb: -15.33%
+2024-12-27 14:32:40,026 - DEBUG - Price: 0.49 | Bid Vol: 96,418 | Ask Vol: 87,473 | Imb: +4.86%
+2024-12-27 14:32:41,021 - DEBUG - Price: 0.49 | Bid Vol: 95,035 | Ask Vol: 95,922 | Imb: -0.46%
+2024-12-27 14:32:42,010 - DEBUG - Price: 0.49 | Bid Vol: 93,593 | Ask Vol: 105,247 | Imb: -5.86%
+2024-12-27 14:32:43,084 - DEBUG - Price: 0.49 | Bid Vol: 89,169 | Ask Vol: 127,424 | Imb: -17.66%
+2024-12-27 14:32:44,099 - DEBUG - Price: 0.49 | Bid Vol: 92,020 | Ask Vol: 132,915 | Imb: -18.18%
+2024-12-27 14:32:48,009 - DEBUG - Price: 0.49 | Bid Vol: 86,640 | Ask Vol: 131,476 | Imb: -20.56%
+2024-12-27 14:32:49,053 - DEBUG - Price: 0.49 | Bid Vol: 87,531 | Ask Vol: 127,968 | Imb: -18.76%
+2024-12-27 14:32:50,048 - DEBUG - Price: 0.49 | Bid Vol: 85,229 | Ask Vol: 144,002 | Imb: -25.64%
+2024-12-27 14:32:51,047 - DEBUG - Price: 0.49 | Bid Vol: 89,248 | Ask Vol: 93,386 | Imb: -2.27%
+2024-12-27 14:32:53,088 - DEBUG - Price: 0.49 | Bid Vol: 86,686 | Ask Vol: 93,285 | Imb: -3.67%
+2024-12-27 14:32:54,096 - DEBUG - Price: 0.49 | Bid Vol: 90,859 | Ask Vol: 106,642 | Imb: -7.99%
+2024-12-27 14:32:57,011 - DEBUG - Price: 0.49 | Bid Vol: 100,214 | Ask Vol: 100,897 | Imb: -0.34%
+2024-12-27 14:32:58,066 - DEBUG - Price: 0.49 | Bid Vol: 100,610 | Ask Vol: 102,571 | Imb: -0.97%
+2024-12-27 14:32:59,033 - DEBUG - Price: 0.49 | Bid Vol: 100,616 | Ask Vol: 102,343 | Imb: -0.85%
+2024-12-27 14:33:00,067 - DEBUG - Добавлены данные для 1m: imbalance=-5.23, bid_vol=89455, ask_vol=99319
+2024-12-27 14:33:00,068 - DEBUG - Недостаточно данных для 1m (нужно 3, есть 2)
+2024-12-27 14:33:00,068 - INFO - === СТАТИСТИКА 1M ===
+1m  | Trend: -    | Imb:   -5.2% | Vol Ratio:  0.9
+==================
+
+2024-12-27 14:33:00,072 - DEBUG - Price: 0.49 | Bid Vol: 89,455 | Ask Vol: 99,319 | Imb: -5.23%
+2024-12-27 14:33:01,052 - DEBUG - Price: 0.49 | Bid Vol: 98,244 | Ask Vol: 99,879 | Imb: -0.83%
+2024-12-27 14:33:02,048 - DEBUG - Price: 0.49 | Bid Vol: 95,440 | Ask Vol: 96,638 | Imb: -0.62%
+2024-12-27 14:33:03,015 - DEBUG - Price: 0.49 | Bid Vol: 102,510 | Ask Vol: 90,059 | Imb: +6.47%
+2024-12-27 14:33:04,020 - DEBUG - Price: 0.49 | Bid Vol: 89,992 | Ask Vol: 89,248 | Imb: +0.42%
+2024-12-27 14:33:05,007 - DEBUG - Price: 0.49 | Bid Vol: 74,701 | Ask Vol: 92,696 | Imb: -10.75%
+2024-12-27 14:33:07,064 - DEBUG - Price: 0.49 | Bid Vol: 74,164 | Ask Vol: 92,787 | Imb: -11.15%
+2024-12-27 14:33:08,024 - DEBUG - Price: 0.49 | Bid Vol: 75,495 | Ask Vol: 92,818 | Imb: -10.29%
+2024-12-27 14:33:09,010 - DEBUG - Price: 0.49 | Bid Vol: 75,524 | Ask Vol: 94,855 | Imb: -11.35%
+2024-12-27 14:33:10,044 - DEBUG - Price: 0.49 | Bid Vol: 79,464 | Ask Vol: 100,200 | Imb: -11.54%
+2024-12-27 14:33:11,071 - DEBUG - Price: 0.49 | Bid Vol: 81,756 | Ask Vol: 90,057 | Imb: -4.83%
+2024-12-27 14:33:13,085 - DEBUG - Price: 0.49 | Bid Vol: 83,160 | Ask Vol: 93,598 | Imb: -5.91%
+2024-12-27 14:33:14,037 - DEBUG - Price: 0.49 | Bid Vol: 82,115 | Ask Vol: 97,518 | Imb: -8.57%
+2024-12-27 14:33:15,015 - DEBUG - Price: 0.49 | Bid Vol: 77,373 | Ask Vol: 105,308 | Imb: -15.29%
+2024-12-27 14:33:18,020 - DEBUG - Price: 0.49 | Bid Vol: 80,242 | Ask Vol: 126,361 | Imb: -22.32%
+2024-12-27 14:33:20,037 - DEBUG - Price: 0.49 | Bid Vol: 88,123 | Ask Vol: 120,229 | Imb: -15.41%
+2024-12-27 14:33:23,083 - DEBUG - Price: 0.49 | Bid Vol: 85,654 | Ask Vol: 127,860 | Imb: -19.77%
+2024-12-27 14:33:25,023 - DEBUG - Price: 0.49 | Bid Vol: 85,939 | Ask Vol: 131,305 | Imb: -20.88%
+2024-12-27 14:33:26,008 - DEBUG - Price: 0.49 | Bid Vol: 88,353 | Ask Vol: 113,807 | Imb: -12.59%
+2024-12-27 14:33:28,002 - DEBUG - Price: 0.49 | Bid Vol: 93,148 | Ask Vol: 111,633 | Imb: -9.03%
+2024-12-27 14:33:28,092 - DEBUG - Price: 0.49 | Bid Vol: 93,148 | Ask Vol: 111,633 | Imb: -9.03%
+2024-12-27 14:33:29,033 - DEBUG - Price: 0.49 | Bid Vol: 90,792 | Ask Vol: 117,575 | Imb: -12.85%
+2024-12-27 14:33:31,009 - DEBUG - Price: 0.49 | Bid Vol: 88,360 | Ask Vol: 117,204 | Imb: -14.03%
+2024-12-27 14:33:32,069 - DEBUG - Price: 0.49 | Bid Vol: 97,098 | Ask Vol: 105,596 | Imb: -4.19%
+2024-12-27 14:33:33,010 - DEBUG - Price: 0.49 | Bid Vol: 92,920 | Ask Vol: 108,074 | Imb: -7.54%
+2024-12-27 14:33:36,016 - DEBUG - Price: 0.49 | Bid Vol: 85,197 | Ask Vol: 118,889 | Imb: -16.51%
+2024-12-27 14:33:39,092 - DEBUG - Price: 0.49 | Bid Vol: 89,293 | Ask Vol: 112,217 | Imb: -11.38%
+2024-12-27 14:33:40,045 - DEBUG - Price: 0.49 | Bid Vol: 82,252 | Ask Vol: 99,407 | Imb: -9.44%
+2024-12-27 14:33:43,050 - DEBUG - Price: 0.49 | Bid Vol: 82,774 | Ask Vol: 97,581 | Imb: -8.21%
+2024-12-27 14:33:44,074 - DEBUG - Price: 0.49 | Bid Vol: 92,898 | Ask Vol: 106,577 | Imb: -6.86%
+2024-12-27 14:33:45,065 - DEBUG - Price: 0.49 | Bid Vol: 82,065 | Ask Vol: 107,017 | Imb: -13.20%
+2024-12-27 14:33:46,000 - DEBUG - Price: 0.49 | Bid Vol: 93,987 | Ask Vol: 108,221 | Imb: -7.04%
+2024-12-27 14:33:49,034 - DEBUG - Price: 0.49 | Bid Vol: 86,210 | Ask Vol: 100,701 | Imb: -7.75%
+2024-12-27 14:33:50,085 - DEBUG - Price: 0.49 | Bid Vol: 85,553 | Ask Vol: 117,337 | Imb: -15.67%
+2024-12-27 14:33:52,035 - DEBUG - Price: 0.49 | Bid Vol: 86,678 | Ask Vol: 108,027 | Imb: -10.97%
+2024-12-27 14:33:55,012 - DEBUG - Price: 0.49 | Bid Vol: 85,958 | Ask Vol: 113,388 | Imb: -13.76%
+2024-12-27 14:33:56,076 - DEBUG - Price: 0.49 | Bid Vol: 84,609 | Ask Vol: 102,279 | Imb: -9.45%
+2024-12-27 14:33:57,017 - DEBUG - Price: 0.49 | Bid Vol: 93,234 | Ask Vol: 93,617 | Imb: -0.20%
+2024-12-27 14:33:58,009 - DEBUG - Price: 0.49 | Bid Vol: 88,307 | Ask Vol: 98,458 | Imb: -5.43%
+2024-12-27 14:34:01,098 - DEBUG - Price: 0.49 | Bid Vol: 89,239 | Ask Vol: 100,234 | Imb: -5.80%
+2024-12-27 14:34:02,050 - DEBUG - Price: 0.49 | Bid Vol: 89,738 | Ask Vol: 104,225 | Imb: -7.47%
+2024-12-27 14:34:04,025 - DEBUG - Price: 0.49 | Bid Vol: 84,892 | Ask Vol: 105,984 | Imb: -11.05%
+2024-12-27 14:34:06,019 - DEBUG - Price: 0.49 | Bid Vol: 87,560 | Ask Vol: 99,054 | Imb: -6.16%
+2024-12-27 14:34:07,063 - DEBUG - Price: 0.49 | Bid Vol: 90,515 | Ask Vol: 92,568 | Imb: -1.12%
+2024-12-27 14:34:08,006 - DEBUG - Price: 0.49 | Bid Vol: 92,608 | Ask Vol: 93,821 | Imb: -0.65%
+2024-12-27 14:34:09,055 - DEBUG - Price: 0.49 | Bid Vol: 87,255 | Ask Vol: 102,280 | Imb: -7.93%
+2024-12-27 14:34:10,040 - DEBUG - Price: 0.49 | Bid Vol: 91,908 | Ask Vol: 102,573 | Imb: -5.48%
+2024-12-27 14:34:11,016 - DEBUG - Price: 0.49 | Bid Vol: 94,469 | Ask Vol: 102,980 | Imb: -4.31%
+2024-12-27 14:34:11,079 - DEBUG - Price: 0.49 | Bid Vol: 94,369 | Ask Vol: 102,985 | Imb: -4.37%
+2024-12-27 14:34:11,082 - DEBUG - Price: 0.49 | Bid Vol: 94,376 | Ask Vol: 102,985 | Imb: -4.36%
+2024-12-27 14:34:13,054 - DEBUG - Price: 0.49 | Bid Vol: 91,242 | Ask Vol: 102,210 | Imb: -5.67%
+2024-12-27 14:34:16,036 - DEBUG - Price: 0.49 | Bid Vol: 96,450 | Ask Vol: 85,650 | Imb: +5.93%
+2024-12-27 14:34:17,015 - DEBUG - Price: 0.49 | Bid Vol: 91,869 | Ask Vol: 87,803 | Imb: +2.26%
+2024-12-27 14:34:18,036 - DEBUG - Price: 0.49 | Bid Vol: 118,263 | Ask Vol: 79,721 | Imb: +19.47%
+2024-12-27 14:34:19,065 - DEBUG - Price: 0.49 | Bid Vol: 106,165 | Ask Vol: 79,715 | Imb: +14.23%
+2024-12-27 14:34:21,007 - DEBUG - Price: 0.49 | Bid Vol: 109,502 | Ask Vol: 81,479 | Imb: +14.67%
+2024-12-27 14:34:23,071 - DEBUG - Price: 0.49 | Bid Vol: 92,667 | Ask Vol: 90,373 | Imb: +1.25%
+2024-12-27 14:34:24,029 - DEBUG - Price: 0.49 | Bid Vol: 81,762 | Ask Vol: 102,917 | Imb: -11.45%
+2024-12-27 14:34:25,067 - DEBUG - Price: 0.49 | Bid Vol: 80,982 | Ask Vol: 103,082 | Imb: -12.01%
+2024-12-27 14:34:26,021 - DEBUG - Price: 0.49 | Bid Vol: 81,598 | Ask Vol: 104,170 | Imb: -12.15%
+2024-12-27 14:34:27,024 - DEBUG - Price: 0.49 | Bid Vol: 83,953 | Ask Vol: 103,801 | Imb: -10.57%
+2024-12-27 14:34:29,001 - DEBUG - Price: 0.49 | Bid Vol: 91,042 | Ask Vol: 102,864 | Imb: -6.10%
+2024-12-27 14:34:30,014 - DEBUG - Price: 0.49 | Bid Vol: 80,727 | Ask Vol: 107,192 | Imb: -14.08%
+2024-12-27 14:34:32,060 - DEBUG - Price: 0.49 | Bid Vol: 92,883 | Ask Vol: 108,313 | Imb: -7.67%
+2024-12-27 14:34:33,091 - DEBUG - Price: 0.49 | Bid Vol: 93,103 | Ask Vol: 109,188 | Imb: -7.95%
+2024-12-27 14:34:34,064 - DEBUG - Price: 0.49 | Bid Vol: 93,007 | Ask Vol: 111,728 | Imb: -9.14%
+2024-12-27 14:34:36,085 - DEBUG - Price: 0.49 | Bid Vol: 104,338 | Ask Vol: 102,666 | Imb: +0.81%
+2024-12-27 14:34:37,004 - DEBUG - Price: 0.49 | Bid Vol: 92,092 | Ask Vol: 102,716 | Imb: -5.45%
+2024-12-27 14:34:38,008 - DEBUG - Price: 0.49 | Bid Vol: 92,273 | Ask Vol: 102,244 | Imb: -5.13%
+2024-12-27 14:34:42,040 - DEBUG - Price: 0.49 | Bid Vol: 82,861 | Ask Vol: 104,639 | Imb: -11.61%
+2024-12-27 14:34:43,050 - DEBUG - Price: 0.49 | Bid Vol: 82,623 | Ask Vol: 92,158 | Imb: -5.46%
+2024-12-27 14:34:44,053 - DEBUG - Price: 0.49 | Bid Vol: 81,459 | Ask Vol: 93,061 | Imb: -6.65%
+2024-12-27 14:34:45,095 - DEBUG - Price: 0.49 | Bid Vol: 81,459 | Ask Vol: 93,061 | Imb: -6.65%
+2024-12-27 14:34:46,079 - DEBUG - Price: 0.49 | Bid Vol: 100,224 | Ask Vol: 84,780 | Imb: +8.35%
+2024-12-27 14:34:47,084 - DEBUG - Price: 0.49 | Bid Vol: 90,340 | Ask Vol: 95,023 | Imb: -2.53%
+2024-12-27 14:34:48,099 - DEBUG - Price: 0.49 | Bid Vol: 79,747 | Ask Vol: 97,770 | Imb: -10.15%
+2024-12-27 14:34:50,014 - DEBUG - Price: 0.49 | Bid Vol: 84,278 | Ask Vol: 92,131 | Imb: -4.45%
+2024-12-27 14:34:51,081 - DEBUG - Price: 0.49 | Bid Vol: 86,486 | Ask Vol: 103,391 | Imb: -8.90%
+2024-12-27 14:34:53,082 - DEBUG - Price: 0.49 | Bid Vol: 90,984 | Ask Vol: 106,681 | Imb: -7.94%
+2024-12-27 14:34:54,058 - DEBUG - Price: 0.49 | Bid Vol: 89,558 | Ask Vol: 91,093 | Imb: -0.85%
+2024-12-27 14:34:56,023 - DEBUG - Price: 0.49 | Bid Vol: 77,076 | Ask Vol: 119,219 | Imb: -21.47%
+2024-12-27 14:34:57,015 - DEBUG - Price: 0.49 | Bid Vol: 77,227 | Ask Vol: 119,620 | Imb: -21.54%
+2024-12-27 14:34:58,008 - DEBUG - Price: 0.49 | Bid Vol: 80,070 | Ask Vol: 119,289 | Imb: -19.67%
+2024-12-27 14:35:01,006 - DEBUG - Price: 0.49 | Bid Vol: 84,233 | Ask Vol: 115,930 | Imb: -15.84%
+2024-12-27 14:35:03,008 - DEBUG - Price: 0.49 | Bid Vol: 86,120 | Ask Vol: 115,930 | Imb: -14.75%
+2024-12-27 14:35:04,078 - DEBUG - Price: 0.49 | Bid Vol: 91,316 | Ask Vol: 115,340 | Imb: -11.63%
+2024-12-27 14:35:05,048 - DEBUG - Price: 0.49 | Bid Vol: 91,391 | Ask Vol: 115,346 | Imb: -11.59%
+2024-12-27 14:35:06,032 - DEBUG - Price: 0.49 | Bid Vol: 84,749 | Ask Vol: 115,351 | Imb: -15.29%
+2024-12-27 14:35:07,000 - DEBUG - Price: 0.49 | Bid Vol: 86,144 | Ask Vol: 115,442 | Imb: -14.53%
+2024-12-27 14:35:08,099 - DEBUG - Price: 0.49 | Bid Vol: 86,804 | Ask Vol: 115,387 | Imb: -14.14%
+2024-12-27 14:35:10,095 - DEBUG - Price: 0.49 | Bid Vol: 88,065 | Ask Vol: 109,998 | Imb: -11.07%
+2024-12-27 14:35:11,065 - DEBUG - Price: 0.49 | Bid Vol: 94,482 | Ask Vol: 108,141 | Imb: -6.74%
+2024-12-27 14:35:12,043 - DEBUG - Price: 0.49 | Bid Vol: 87,973 | Ask Vol: 116,675 | Imb: -14.02%
+2024-12-27 14:35:13,070 - DEBUG - Price: 0.49 | Bid Vol: 83,470 | Ask Vol: 126,568 | Imb: -20.52%
+2024-12-27 14:35:14,007 - DEBUG - Price: 0.49 | Bid Vol: 90,576 | Ask Vol: 126,236 | Imb: -16.45%
+2024-12-27 14:35:15,035 - DEBUG - Price: 0.49 | Bid Vol: 89,643 | Ask Vol: 127,856 | Imb: -17.57%
+2024-12-27 14:35:16,082 - DEBUG - Price: 0.49 | Bid Vol: 89,158 | Ask Vol: 128,581 | Imb: -18.11%
+2024-12-27 14:35:17,074 - DEBUG - Price: 0.49 | Bid Vol: 102,903 | Ask Vol: 125,126 | Imb: -9.75%
+2024-12-27 14:35:18,040 - DEBUG - Price: 0.49 | Bid Vol: 104,741 | Ask Vol: 126,495 | Imb: -9.41%
+2024-12-27 14:35:21,064 - DEBUG - Price: 0.49 | Bid Vol: 87,911 | Ask Vol: 131,123 | Imb: -19.73%
+2024-12-27 14:35:22,086 - DEBUG - Price: 0.49 | Bid Vol: 93,804 | Ask Vol: 113,176 | Imb: -9.36%
+2024-12-27 14:35:23,073 - DEBUG - Price: 0.49 | Bid Vol: 93,180 | Ask Vol: 99,889 | Imb: -3.47%
+2024-12-27 14:35:25,087 - DEBUG - Price: 0.49 | Bid Vol: 84,858 | Ask Vol: 108,095 | Imb: -12.04%
+2024-12-27 14:35:26,008 - DEBUG - Price: 0.49 | Bid Vol: 101,719 | Ask Vol: 107,621 | Imb: -2.82%
+2024-12-27 14:35:27,095 - DEBUG - Price: 0.49 | Bid Vol: 100,414 | Ask Vol: 86,228 | Imb: +7.60%
+2024-12-27 14:35:28,020 - DEBUG - Price: 0.49 | Bid Vol: 102,676 | Ask Vol: 91,599 | Imb: +5.70%
+2024-12-27 14:35:29,057 - DEBUG - Price: 0.49 | Bid Vol: 101,084 | Ask Vol: 106,634 | Imb: -2.67%
+2024-12-27 14:35:30,022 - DEBUG - Price: 0.49 | Bid Vol: 85,428 | Ask Vol: 98,108 | Imb: -6.91%
+2024-12-27 14:35:31,077 - DEBUG - Price: 0.49 | Bid Vol: 86,708 | Ask Vol: 106,537 | Imb: -10.26%
+2024-12-27 14:35:33,098 - DEBUG - Price: 0.49 | Bid Vol: 88,300 | Ask Vol: 103,607 | Imb: -7.98%
+2024-12-27 14:35:34,007 - DEBUG - Price: 0.49 | Bid Vol: 90,603 | Ask Vol: 102,862 | Imb: -6.34%
+2024-12-27 14:35:34,023 - DEBUG - Price: 0.49 | Bid Vol: 88,440 | Ask Vol: 104,992 | Imb: -8.56%
+2024-12-27 14:35:35,078 - DEBUG - Price: 0.49 | Bid Vol: 89,456 | Ask Vol: 104,694 | Imb: -7.85%
+2024-12-27 14:35:37,067 - DEBUG - Price: 0.49 | Bid Vol: 86,274 | Ask Vol: 106,521 | Imb: -10.50%
+2024-12-27 14:35:38,029 - DEBUG - Price: 0.49 | Bid Vol: 90,963 | Ask Vol: 104,601 | Imb: -6.97%
+2024-12-27 14:35:40,089 - DEBUG - Price: 0.49 | Bid Vol: 83,611 | Ask Vol: 123,661 | Imb: -19.32%
+2024-12-27 14:35:42,043 - DEBUG - Price: 0.49 | Bid Vol: 99,725 | Ask Vol: 111,487 | Imb: -5.57%
+2024-12-27 14:35:43,095 - DEBUG - Price: 0.49 | Bid Vol: 86,017 | Ask Vol: 115,904 | Imb: -14.80%
+2024-12-27 14:35:44,002 - DEBUG - Price: 0.49 | Bid Vol: 85,861 | Ask Vol: 108,540 | Imb: -11.67%
+2024-12-27 14:35:45,017 - DEBUG - Price: 0.49 | Bid Vol: 90,816 | Ask Vol: 96,890 | Imb: -3.24%
+2024-12-27 14:35:46,085 - DEBUG - Price: 0.49 | Bid Vol: 91,321 | Ask Vol: 94,446 | Imb: -1.68%
+2024-12-27 14:35:47,057 - DEBUG - Price: 0.49 | Bid Vol: 91,004 | Ask Vol: 95,552 | Imb: -2.44%
+2024-12-27 14:35:50,031 - DEBUG - Price: 0.49 | Bid Vol: 92,344 | Ask Vol: 96,541 | Imb: -2.22%
+2024-12-27 14:35:52,040 - DEBUG - Price: 0.49 | Bid Vol: 86,142 | Ask Vol: 116,693 | Imb: -15.06%
+2024-12-27 14:35:55,006 - DEBUG - Price: 0.49 | Bid Vol: 97,073 | Ask Vol: 97,006 | Imb: +0.03%
+2024-12-27 14:35:56,044 - DEBUG - Price: 0.49 | Bid Vol: 89,678 | Ask Vol: 99,166 | Imb: -5.02%
+2024-12-27 14:35:57,051 - DEBUG - Price: 0.49 | Bid Vol: 90,578 | Ask Vol: 97,200 | Imb: -3.53%
+2024-12-27 14:36:01,004 - DEBUG - Price: 0.49 | Bid Vol: 87,992 | Ask Vol: 89,171 | Imb: -0.67%
+2024-12-27 14:36:02,027 - DEBUG - Price: 0.49 | Bid Vol: 97,016 | Ask Vol: 72,603 | Imb: +14.39%
+2024-12-27 14:36:03,056 - DEBUG - Price: 0.49 | Bid Vol: 89,248 | Ask Vol: 85,755 | Imb: +2.00%
+2024-12-27 14:36:04,049 - DEBUG - Price: 0.49 | Bid Vol: 90,495 | Ask Vol: 86,933 | Imb: +2.01%
+2024-12-27 14:36:07,041 - DEBUG - Price: 0.49 | Bid Vol: 103,399 | Ask Vol: 85,752 | Imb: +9.33%
+2024-12-27 14:36:09,028 - DEBUG - Price: 0.49 | Bid Vol: 95,793 | Ask Vol: 85,561 | Imb: +5.64%
+2024-12-27 14:36:10,011 - DEBUG - Price: 0.49 | Bid Vol: 75,633 | Ask Vol: 75,800 | Imb: -0.11%
+2024-12-27 14:36:11,055 - DEBUG - Price: 0.49 | Bid Vol: 88,613 | Ask Vol: 76,638 | Imb: +7.25%
+2024-12-27 14:36:12,016 - DEBUG - Price: 0.49 | Bid Vol: 91,964 | Ask Vol: 79,445 | Imb: +7.30%
+2024-12-27 14:36:13,067 - DEBUG - Price: 0.49 | Bid Vol: 84,496 | Ask Vol: 90,915 | Imb: -3.66%
+2024-12-27 14:36:14,021 - DEBUG - Price: 0.49 | Bid Vol: 80,958 | Ask Vol: 83,548 | Imb: -1.57%
+2024-12-27 14:36:15,082 - DEBUG - Price: 0.49 | Bid Vol: 93,761 | Ask Vol: 77,025 | Imb: +9.80%
+2024-12-27 14:36:16,004 - DEBUG - Price: 0.49 | Bid Vol: 96,785 | Ask Vol: 87,733 | Imb: +4.91%
+2024-12-27 14:36:18,016 - DEBUG - Price: 0.49 | Bid Vol: 101,431 | Ask Vol: 87,462 | Imb: +7.40%
+2024-12-27 14:36:20,012 - DEBUG - Price: 0.49 | Bid Vol: 77,048 | Ask Vol: 92,395 | Imb: -9.06%
+2024-12-27 14:36:21,076 - DEBUG - Price: 0.49 | Bid Vol: 80,531 | Ask Vol: 92,597 | Imb: -6.97%
+2024-12-27 14:36:22,049 - DEBUG - Price: 0.49 | Bid Vol: 80,604 | Ask Vol: 92,357 | Imb: -6.80%
+2024-12-27 14:36:25,038 - DEBUG - Price: 0.49 | Bid Vol: 79,013 | Ask Vol: 90,142 | Imb: -6.58%
+2024-12-27 14:36:26,039 - DEBUG - Price: 0.49 | Bid Vol: 80,467 | Ask Vol: 99,628 | Imb: -10.64%
+2024-12-27 14:36:27,033 - DEBUG - Price: 0.49 | Bid Vol: 81,702 | Ask Vol: 89,954 | Imb: -4.81%
+2024-12-27 14:36:28,048 - DEBUG - Price: 0.49 | Bid Vol: 86,178 | Ask Vol: 95,190 | Imb: -4.97%
+2024-12-27 14:36:31,018 - DEBUG - Price: 0.49 | Bid Vol: 86,674 | Ask Vol: 99,153 | Imb: -6.72%
+2024-12-27 14:36:32,069 - DEBUG - Price: 0.49 | Bid Vol: 86,539 | Ask Vol: 99,303 | Imb: -6.87%
+2024-12-27 14:36:36,008 - DEBUG - Price: 0.49 | Bid Vol: 79,753 | Ask Vol: 117,503 | Imb: -19.14%
+2024-12-27 14:36:39,077 - DEBUG - Price: 0.49 | Bid Vol: 88,721 | Ask Vol: 95,343 | Imb: -3.60%
+2024-12-27 14:36:40,063 - DEBUG - Price: 0.49 | Bid Vol: 93,722 | Ask Vol: 93,878 | Imb: -0.08%
+2024-12-27 14:36:41,015 - DEBUG - Price: 0.49 | Bid Vol: 84,055 | Ask Vol: 103,692 | Imb: -10.46%
+2024-12-27 14:36:43,043 - DEBUG - Price: 0.49 | Bid Vol: 83,477 | Ask Vol: 107,130 | Imb: -12.41%
+2024-12-27 14:36:46,097 - DEBUG - Price: 0.49 | Bid Vol: 90,809 | Ask Vol: 97,791 | Imb: -3.70%
+2024-12-27 14:36:49,036 - DEBUG - Price: 0.49 | Bid Vol: 86,862 | Ask Vol: 101,599 | Imb: -7.82%
+2024-12-27 14:36:50,064 - DEBUG - Price: 0.49 | Bid Vol: 86,967 | Ask Vol: 101,911 | Imb: -7.91%
+2024-12-27 14:36:52,081 - DEBUG - Price: 0.49 | Bid Vol: 86,315 | Ask Vol: 102,270 | Imb: -8.46%
+2024-12-27 14:36:53,073 - DEBUG - Price: 0.49 | Bid Vol: 74,731 | Ask Vol: 126,781 | Imb: -25.83%
+2024-12-27 14:36:57,042 - DEBUG - Price: 0.49 | Bid Vol: 87,158 | Ask Vol: 104,517 | Imb: -9.06%
+2024-12-27 14:36:58,069 - DEBUG - Price: 0.49 | Bid Vol: 87,324 | Ask Vol: 103,224 | Imb: -8.34%
+2024-12-27 14:36:59,067 - DEBUG - Price: 0.49 | Bid Vol: 82,912 | Ask Vol: 80,823 | Imb: +1.28%
+2024-12-27 14:37:00,058 - DEBUG - Добавлены данные для 1m: imbalance=6.09, bid_vol=90498, ask_vol=80114
+2024-12-27 14:37:00,058 - DEBUG - Анализ 1m: длина истории = 3
+2024-12-27 14:37:00,058 - DEBUG - Данные 1m: imbalances=[5.807478043899849, -5.225548700576851, 6.086003310479649]
+2024-12-27 14:37:00,058 - DEBUG - Результат анализа 1m: {'trend_ascii': '-', 'current_imbalance': 6.086003310479649, 'volume_ratio': 1.1296080142473326}
+2024-12-27 14:37:00,058 - INFO - === СТАТИСТИКА 1M ===
+1m  | Trend: -    | Imb:   +6.1% | Vol Ratio:  1.1
+==================
+
+2024-12-27 14:37:00,059 - DEBUG - Price: 0.49 | Bid Vol: 90,498 | Ask Vol: 80,114 | Imb: +6.09%
+2024-12-27 14:37:01,030 - DEBUG - Price: 0.49 | Bid Vol: 90,897 | Ask Vol: 81,515 | Imb: +5.44%
+2024-12-27 14:37:03,079 - DEBUG - Price: 0.49 | Bid Vol: 87,318 | Ask Vol: 87,834 | Imb: -0.29%
+2024-12-27 14:37:04,013 - DEBUG - Price: 0.49 | Bid Vol: 88,301 | Ask Vol: 88,046 | Imb: +0.14%
+2024-12-27 14:37:05,019 - DEBUG - Price: 0.49 | Bid Vol: 84,912 | Ask Vol: 92,643 | Imb: -4.35%
+2024-12-27 14:37:07,070 - DEBUG - Price: 0.49 | Bid Vol: 84,095 | Ask Vol: 107,921 | Imb: -12.41%
+2024-12-27 14:37:09,041 - DEBUG - Price: 0.49 | Bid Vol: 91,610 | Ask Vol: 90,925 | Imb: +0.38%
+2024-12-27 14:37:10,039 - DEBUG - Price: 0.49 | Bid Vol: 98,284 | Ask Vol: 80,875 | Imb: +9.72%
+2024-12-27 14:37:11,090 - DEBUG - Price: 0.49 | Bid Vol: 94,957 | Ask Vol: 88,203 | Imb: +3.69%
+2024-12-27 14:37:12,089 - DEBUG - Price: 0.49 | Bid Vol: 94,335 | Ask Vol: 90,809 | Imb: +1.90%
+2024-12-27 14:37:13,086 - DEBUG - Price: 0.49 | Bid Vol: 95,822 | Ask Vol: 88,036 | Imb: +4.23%
+2024-12-27 14:37:14,010 - DEBUG - Price: 0.49 | Bid Vol: 95,657 | Ask Vol: 88,036 | Imb: +4.15%
+2024-12-27 14:37:17,006 - DEBUG - Price: 0.49 | Bid Vol: 95,486 | Ask Vol: 88,648 | Imb: +3.71%
+2024-12-27 14:37:21,085 - DEBUG - Price: 0.49 | Bid Vol: 94,376 | Ask Vol: 87,294 | Imb: +3.90%
+2024-12-27 14:37:22,075 - DEBUG - Price: 0.49 | Bid Vol: 86,438 | Ask Vol: 94,485 | Imb: -4.45%
+2024-12-27 14:37:23,009 - DEBUG - Price: 0.49 | Bid Vol: 86,299 | Ask Vol: 92,775 | Imb: -3.62%
+2024-12-27 14:37:26,095 - DEBUG - Price: 0.49 | Bid Vol: 86,295 | Ask Vol: 92,411 | Imb: -3.42%
+2024-12-27 14:37:27,084 - DEBUG - Price: 0.49 | Bid Vol: 86,191 | Ask Vol: 92,560 | Imb: -3.56%
+2024-12-27 14:37:28,083 - DEBUG - Price: 0.49 | Bid Vol: 85,298 | Ask Vol: 94,414 | Imb: -5.07%
+2024-12-27 14:37:29,016 - DEBUG - Price: 0.49 | Bid Vol: 85,298 | Ask Vol: 94,718 | Imb: -5.23%
+2024-12-27 14:37:31,028 - DEBUG - Price: 0.49 | Bid Vol: 85,298 | Ask Vol: 96,210 | Imb: -6.01%
+2024-12-27 14:37:33,001 - DEBUG - Price: 0.49 | Bid Vol: 94,169 | Ask Vol: 87,153 | Imb: +3.87%
+2024-12-27 14:37:35,006 - DEBUG - Price: 0.49 | Bid Vol: 96,314 | Ask Vol: 85,639 | Imb: +5.87%
+2024-12-27 14:37:36,089 - DEBUG - Price: 0.49 | Bid Vol: 97,351 | Ask Vol: 87,375 | Imb: +5.40%
+2024-12-27 14:37:40,047 - DEBUG - Price: 0.49 | Bid Vol: 100,551 | Ask Vol: 87,419 | Imb: +6.99%
+2024-12-27 14:37:41,053 - DEBUG - Price: 0.49 | Bid Vol: 101,052 | Ask Vol: 86,640 | Imb: +7.68%
+2024-12-27 14:37:43,095 - DEBUG - Price: 0.49 | Bid Vol: 101,911 | Ask Vol: 86,405 | Imb: +8.23%
+2024-12-27 14:37:44,054 - DEBUG - Price: 0.49 | Bid Vol: 101,911 | Ask Vol: 86,405 | Imb: +8.23%
+2024-12-27 14:37:46,021 - DEBUG - Price: 0.49 | Bid Vol: 92,572 | Ask Vol: 91,025 | Imb: +0.84%
+2024-12-27 14:37:47,039 - DEBUG - Price: 0.49 | Bid Vol: 85,379 | Ask Vol: 102,865 | Imb: -9.29%
+2024-12-27 14:37:49,030 - DEBUG - Price: 0.49 | Bid Vol: 92,277 | Ask Vol: 95,330 | Imb: -1.63%
+2024-12-27 14:37:54,074 - DEBUG - Price: 0.49 | Bid Vol: 106,167 | Ask Vol: 85,632 | Imb: +10.71%
+2024-12-27 14:37:56,050 - DEBUG - Price: 0.49 | Bid Vol: 106,462 | Ask Vol: 85,721 | Imb: +10.79%
+2024-12-27 14:37:57,000 - DEBUG - Price: 0.49 | Bid Vol: 106,863 | Ask Vol: 85,721 | Imb: +10.98%
+2024-12-27 14:37:59,074 - DEBUG - Price: 0.49 | Bid Vol: 108,032 | Ask Vol: 85,689 | Imb: +11.53%
+2024-12-27 14:38:00,099 - DEBUG - Добавлены данные для 1m: imbalance=11.64, bid_vol=108206, ask_vol=85646
+2024-12-27 14:38:00,100 - DEBUG - Анализ 1m: длина истории = 4
+2024-12-27 14:38:00,100 - DEBUG - Данные 1m: imbalances=[5.807478043899849, -5.225548700576851, 6.086003310479649, 11.637364546103452]
+2024-12-27 14:38:00,100 - DEBUG - Результат анализа 1m: {'trend_ascii': 'UP', 'current_imbalance': 11.637364546103452, 'volume_ratio': 1.26340012350979}
+2024-12-27 14:38:00,100 - INFO - === СТАТИСТИКА 1M ===
+1m  | Trend: UP   | Imb:  +11.6% | Vol Ratio:  1.3
+==================
+
+2024-12-27 14:38:00,101 - DEBUG - Price: 0.49 | Bid Vol: 108,206 | Ask Vol: 85,646 | Imb: +11.64%
+2024-12-27 14:38:01,038 - DEBUG - Price: 0.49 | Bid Vol: 110,618 | Ask Vol: 85,537 | Imb: +12.79%
+2024-12-27 14:38:02,016 - DEBUG - Price: 0.49 | Bid Vol: 86,607 | Ask Vol: 93,222 | Imb: -3.68%
+2024-12-27 14:38:06,007 - DEBUG - Price: 0.49 | Bid Vol: 96,678 | Ask Vol: 90,770 | Imb: +3.15%
+2024-12-27 14:38:07,055 - DEBUG - Price: 0.49 | Bid Vol: 83,996 | Ask Vol: 108,072 | Imb: -12.54%
+2024-12-27 14:38:08,065 - DEBUG - Price: 0.49 | Bid Vol: 84,991 | Ask Vol: 108,894 | Imb: -12.33%
+2024-12-27 14:38:17,033 - DEBUG - Price: 0.49 | Bid Vol: 88,733 | Ask Vol: 113,626 | Imb: -12.30%
+2024-12-27 14:38:19,033 - DEBUG - Price: 0.49 | Bid Vol: 89,239 | Ask Vol: 112,424 | Imb: -11.50%
+2024-12-27 14:38:21,090 - DEBUG - Price: 0.49 | Bid Vol: 89,340 | Ask Vol: 113,528 | Imb: -11.92%
+2024-12-27 14:38:22,095 - DEBUG - Price: 0.49 | Bid Vol: 89,594 | Ask Vol: 112,637 | Imb: -11.39%
+2024-12-27 14:38:24,004 - DEBUG - Price: 0.49 | Bid Vol: 88,177 | Ask Vol: 106,778 | Imb: -9.54%
+2024-12-27 14:38:25,043 - DEBUG - Price: 0.49 | Bid Vol: 100,715 | Ask Vol: 108,497 | Imb: -3.72%
+2024-12-27 14:38:26,004 - DEBUG - Price: 0.49 | Bid Vol: 101,230 | Ask Vol: 106,665 | Imb: -2.61%
+2024-12-27 14:38:31,018 - DEBUG - Price: 0.49 | Bid Vol: 102,811 | Ask Vol: 106,364 | Imb: -1.70%
+2024-12-27 14:38:33,039 - DEBUG - Price: 0.49 | Bid Vol: 86,989 | Ask Vol: 110,021 | Imb: -11.69%
+2024-12-27 14:38:37,039 - DEBUG - Price: 0.49 | Bid Vol: 93,749 | Ask Vol: 105,700 | Imb: -5.99%
+2024-12-27 14:38:38,004 - DEBUG - Price: 0.49 | Bid Vol: 86,434 | Ask Vol: 112,079 | Imb: -12.92%
+2024-12-27 14:38:39,035 - DEBUG - Price: 0.49 | Bid Vol: 87,484 | Ask Vol: 112,808 | Imb: -12.64%
+2024-12-27 14:38:41,038 - DEBUG - Price: 0.49 | Bid Vol: 103,039 | Ask Vol: 107,183 | Imb: -1.97%
+2024-12-27 14:38:42,061 - DEBUG - Price: 0.49 | Bid Vol: 89,444 | Ask Vol: 112,363 | Imb: -11.36%
+2024-12-27 14:38:47,067 - DEBUG - Price: 0.49 | Bid Vol: 89,793 | Ask Vol: 112,397 | Imb: -11.18%
+2024-12-27 14:38:49,071 - DEBUG - Price: 0.49 | Bid Vol: 91,862 | Ask Vol: 112,828 | Imb: -10.24%
+2024-12-27 14:38:50,069 - DEBUG - Price: 0.49 | Bid Vol: 92,083 | Ask Vol: 114,220 | Imb: -10.73%
+2024-12-27 14:38:51,099 - DEBUG - Price: 0.49 | Bid Vol: 91,230 | Ask Vol: 115,806 | Imb: -11.87%
+2024-12-27 14:38:52,007 - DEBUG - Price: 0.49 | Bid Vol: 91,230 | Ask Vol: 116,104 | Imb: -12.00%
+2024-12-27 14:38:55,088 - DEBUG - Price: 0.49 | Bid Vol: 91,232 | Ask Vol: 113,820 | Imb: -11.02%
+2024-12-27 14:38:57,005 - DEBUG - Price: 0.49 | Bid Vol: 91,452 | Ask Vol: 114,293 | Imb: -11.10%
+2024-12-27 14:38:57,037 - DEBUG - Price: 0.49 | Bid Vol: 91,452 | Ask Vol: 114,293 | Imb: -11.10%
+2024-12-27 14:39:00,093 - DEBUG - Добавлены данные для 1m: imbalance=-7.47, bid_vol=93842, ask_vol=108983
+2024-12-27 14:39:00,093 - DEBUG - Анализ 1m: длина истории = 5
+2024-12-27 14:39:00,093 - DEBUG - Данные 1m: imbalances=[5.807478043899849, -5.225548700576851, 6.086003310479649, 11.637364546103452, -7.4650174685313]
+2024-12-27 14:39:00,093 - DEBUG - Результат анализа 1m: {'trend_ascii': 'DOWN', 'current_imbalance': -7.4650174685313, 'volume_ratio': 0.8610707438684917}
+2024-12-27 14:39:00,093 - INFO - === СТАТИСТИКА 1M ===
+1m  | Trend: DOWN | Imb:   -7.5% | Vol Ratio:  0.9
+==================
+
+2024-12-27 14:39:00,094 - DEBUG - Price: 0.49 | Bid Vol: 93,842 | Ask Vol: 108,983 | Imb: -7.47%
+2024-12-27 14:39:01,066 - DEBUG - Price: 0.49 | Bid Vol: 93,842 | Ask Vol: 108,989 | Imb: -7.47%
+2024-12-27 14:39:02,016 - DEBUG - Price: 0.49 | Bid Vol: 92,709 | Ask Vol: 110,252 | Imb: -8.64%
+2024-12-27 14:39:03,079 - DEBUG - Price: 0.49 | Bid Vol: 92,709 | Ask Vol: 110,153 | Imb: -8.60%
+2024-12-27 14:39:04,036 - DEBUG - Price: 0.49 | Bid Vol: 90,747 | Ask Vol: 110,509 | Imb: -9.82%
+2024-12-27 14:39:06,058 - DEBUG - Price: 0.49 | Bid Vol: 90,919 | Ask Vol: 110,940 | Imb: -9.92%
+2024-12-27 14:39:07,055 - DEBUG - Price: 0.49 | Bid Vol: 90,919 | Ask Vol: 110,934 | Imb: -9.92%
+2024-12-27 14:39:09,013 - DEBUG - Price: 0.49 | Bid Vol: 89,959 | Ask Vol: 110,880 | Imb: -10.42%
+2024-12-27 14:39:10,070 - DEBUG - Price: 0.49 | Bid Vol: 90,993 | Ask Vol: 110,880 | Imb: -9.85%
+2024-12-27 14:39:13,022 - DEBUG - Price: 0.49 | Bid Vol: 89,858 | Ask Vol: 110,246 | Imb: -10.19%
+2024-12-27 14:39:15,055 - DEBUG - Price: 0.49 | Bid Vol: 90,930 | Ask Vol: 99,723 | Imb: -4.61%
+2024-12-27 14:39:16,026 - DEBUG - Price: 0.49 | Bid Vol: 89,921 | Ask Vol: 100,182 | Imb: -5.40%
+2024-12-27 14:39:17,013 - DEBUG - Price: 0.49 | Bid Vol: 90,312 | Ask Vol: 109,242 | Imb: -9.49%
+2024-12-27 14:39:18,075 - DEBUG - Price: 0.49 | Bid Vol: 83,182 | Ask Vol: 115,412 | Imb: -16.23%
+2024-12-27 14:39:19,093 - DEBUG - Price: 0.49 | Bid Vol: 95,541 | Ask Vol: 110,417 | Imb: -7.22%
+2024-12-27 14:39:20,003 - DEBUG - Price: 0.49 | Bid Vol: 95,516 | Ask Vol: 114,917 | Imb: -9.22%
+2024-12-27 14:39:21,017 - DEBUG - Price: 0.49 | Bid Vol: 99,419 | Ask Vol: 112,991 | Imb: -6.39%
+2024-12-27 14:39:23,077 - DEBUG - Price: 0.49 | Bid Vol: 96,661 | Ask Vol: 116,960 | Imb: -9.50%
+2024-12-27 14:39:25,015 - DEBUG - Price: 0.49 | Bid Vol: 95,343 | Ask Vol: 105,146 | Imb: -4.89%
+2024-12-27 14:39:25,015 - DEBUG - Price: 0.49 | Bid Vol: 95,443 | Ask Vol: 104,823 | Imb: -4.68%
+2024-12-27 14:39:25,015 - DEBUG - Price: 0.49 | Bid Vol: 95,443 | Ask Vol: 104,837 | Imb: -4.69%
+2024-12-27 14:39:25,016 - DEBUG - Price: 0.49 | Bid Vol: 95,443 | Ask Vol: 104,837 | Imb: -4.69%
+2024-12-27 14:39:27,088 - DEBUG - Price: 0.49 | Bid Vol: 96,582 | Ask Vol: 96,265 | Imb: +0.16%
+2024-12-27 14:39:28,072 - DEBUG - Price: 0.49 | Bid Vol: 120,760 | Ask Vol: 78,932 | Imb: +20.95%
+2024-12-27 14:39:30,023 - DEBUG - Price: 0.49 | Bid Vol: 102,644 | Ask Vol: 92,622 | Imb: +5.13%
+2024-12-27 14:39:31,045 - DEBUG - Price: 0.49 | Bid Vol: 123,492 | Ask Vol: 94,023 | Imb: +13.55%
+2024-12-27 14:39:32,097 - DEBUG - Price: 0.49 | Bid Vol: 100,934 | Ask Vol: 91,899 | Imb: +4.69%
+2024-12-27 14:39:35,032 - DEBUG - Price: 0.49 | Bid Vol: 88,790 | Ask Vol: 95,173 | Imb: -3.47%
+2024-12-27 14:39:36,053 - DEBUG - Price: 0.49 | Bid Vol: 102,275 | Ask Vol: 96,575 | Imb: +2.87%
+2024-12-27 14:39:37,068 - DEBUG - Price: 0.49 | Bid Vol: 102,348 | Ask Vol: 96,475 | Imb: +2.95%
+2024-12-27 14:39:44,016 - DEBUG - Price: 0.49 | Bid Vol: 87,973 | Ask Vol: 98,085 | Imb: -5.43%
+2024-12-27 14:39:45,023 - DEBUG - Price: 0.49 | Bid Vol: 88,609 | Ask Vol: 97,485 | Imb: -4.77%
+2024-12-27 14:39:46,050 - DEBUG - Price: 0.49 | Bid Vol: 88,614 | Ask Vol: 97,384 | Imb: -4.72%
+2024-12-27 14:39:47,018 - DEBUG - Price: 0.49 | Bid Vol: 86,606 | Ask Vol: 100,297 | Imb: -7.32%
+2024-12-27 14:39:47,093 - DEBUG - Price: 0.49 | Bid Vol: 86,606 | Ask Vol: 102,940 | Imb: -8.62%
+2024-12-27 14:39:48,084 - DEBUG - Price: 0.49 | Bid Vol: 87,140 | Ask Vol: 104,345 | Imb: -8.99%
+2024-12-27 14:39:53,014 - DEBUG - Price: 0.49 | Bid Vol: 88,085 | Ask Vol: 103,841 | Imb: -8.21%
+2024-12-27 14:39:53,098 - DEBUG - Price: 0.49 | Bid Vol: 88,090 | Ask Vol: 103,841 | Imb: -8.21%
+2024-12-27 14:39:54,060 - DEBUG - Price: 0.49 | Bid Vol: 88,190 | Ask Vol: 103,991 | Imb: -8.22%
+2024-12-27 14:39:55,088 - DEBUG - Price: 0.49 | Bid Vol: 87,896 | Ask Vol: 103,996 | Imb: -8.39%
+2024-12-27 14:40:00,013 - DEBUG - Добавлены данные для 1m: imbalance=-8.40, bid_vol=88176, ask_vol=104345
+2024-12-27 14:40:00,013 - DEBUG - Анализ 1m: длина истории = 6
+2024-12-27 14:40:00,013 - DEBUG - Данные 1m: imbalances=[5.807478043899849, -5.225548700576851, 6.086003310479649, 11.637364546103452, -7.4650174685313, -8.398757147652852]
+2024-12-27 14:40:00,013 - DEBUG - Результат анализа 1m: {'trend_ascii': 'DOWN', 'current_imbalance': -8.398757147652852, 'volume_ratio': 0.8450396043524249}
+2024-12-27 14:40:00,013 - INFO - === СТАТИСТИКА 1M ===
+1m  | Trend: DOWN | Imb:   -8.4% | Vol Ratio:  0.8
+==================
+
+2024-12-27 14:40:00,014 - DEBUG - Добавлены данные для 5m: imbalance=-8.40, bid_vol=88176, ask_vol=104345
+2024-12-27 14:40:00,014 - DEBUG - Анализ 5m: длина истории = 2
+2024-12-27 14:40:00,014 - DEBUG - Данные 5m: imbalances=[5.807478043899849, -8.398757147652852]
+2024-12-27 14:40:00,014 - DEBUG - Результат анализа 5m: {'trend_ascii': 'DOWN', 'current_imbalance': -8.398757147652852, 'volume_ratio': 0.8450396043524249}
+2024-12-27 14:40:00,014 - INFO - === СТАТИСТИКА 5M ===
+5m  | Trend: DOWN | Imb:   -8.4% | Vol Ratio:  0.8
+==================
+
+2024-12-27 14:40:00,015 - DEBUG - Price: 0.49 | Bid Vol: 88,176 | Ask Vol: 104,345 | Imb: -8.40%
+2024-12-27 14:40:02,000 - DEBUG - Price: 0.49 | Bid Vol: 88,314 | Ask Vol: 103,801 | Imb: -8.06%
+2024-12-27 14:40:08,037 - DEBUG - Price: 0.49 | Bid Vol: 91,513 | Ask Vol: 106,496 | Imb: -7.57%
+2024-12-27 14:40:09,026 - DEBUG - Price: 0.49 | Bid Vol: 90,736 | Ask Vol: 106,529 | Imb: -8.01%
+2024-12-27 14:40:10,056 - DEBUG - Price: 0.49 | Bid Vol: 89,846 | Ask Vol: 100,060 | Imb: -5.38%
+2024-12-27 14:40:11,000 - DEBUG - Price: 0.49 | Bid Vol: 94,094 | Ask Vol: 91,129 | Imb: +1.60%
+2024-12-27 14:40:12,034 - DEBUG - Price: 0.49 | Bid Vol: 110,226 | Ask Vol: 86,024 | Imb: +12.33%
+2024-12-27 14:40:13,005 - DEBUG - Price: 0.49 | Bid Vol: 109,574 | Ask Vol: 89,309 | Imb: +10.19%
+2024-12-27 14:40:14,008 - DEBUG - Price: 0.49 | Bid Vol: 106,388 | Ask Vol: 94,527 | Imb: +5.90%
+2024-12-27 14:40:15,044 - DEBUG - Price: 0.49 | Bid Vol: 94,435 | Ask Vol: 85,310 | Imb: +5.08%
+2024-12-27 14:40:16,097 - DEBUG - Price: 0.49 | Bid Vol: 86,881 | Ask Vol: 76,029 | Imb: +6.66%
+2024-12-27 14:40:17,089 - DEBUG - Price: 0.49 | Bid Vol: 87,811 | Ask Vol: 81,886 | Imb: +3.49%
+2024-12-27 14:40:18,000 - DEBUG - Price: 0.49 | Bid Vol: 88,043 | Ask Vol: 82,434 | Imb: +3.29%
+2024-12-27 14:40:19,016 - DEBUG - Price: 0.49 | Bid Vol: 79,121 | Ask Vol: 87,721 | Imb: -5.15%
+2024-12-27 14:40:20,093 - DEBUG - Price: 0.49 | Bid Vol: 88,473 | Ask Vol: 81,682 | Imb: +3.99%
+2024-12-27 14:40:21,058 - DEBUG - Price: 0.49 | Bid Vol: 89,786 | Ask Vol: 82,887 | Imb: +4.00%
+2024-12-27 14:40:23,040 - DEBUG - Price: 0.49 | Bid Vol: 90,375 | Ask Vol: 82,188 | Imb: +4.74%
+2024-12-27 14:40:24,055 - DEBUG - Price: 0.49 | Bid Vol: 84,652 | Ask Vol: 87,578 | Imb: -1.70%
+2024-12-27 14:40:25,049 - DEBUG - Price: 0.49 | Bid Vol: 74,810 | Ask Vol: 88,315 | Imb: -8.28%
+2024-12-27 14:40:26,027 - DEBUG - Price: 0.49 | Bid Vol: 74,208 | Ask Vol: 93,848 | Imb: -11.69%
+2024-12-27 14:40:27,046 - DEBUG - Price: 0.49 | Bid Vol: 76,007 | Ask Vol: 96,708 | Imb: -11.99%
+2024-12-27 14:40:28,001 - DEBUG - Price: 0.49 | Bid Vol: 86,925 | Ask Vol: 107,171 | Imb: -10.43%
+2024-12-27 14:40:31,087 - DEBUG - Price: 0.49 | Bid Vol: 83,665 | Ask Vol: 118,213 | Imb: -17.11%
+2024-12-27 14:40:34,019 - DEBUG - Price: 0.49 | Bid Vol: 87,612 | Ask Vol: 109,242 | Imb: -10.99%
+2024-12-27 14:40:36,061 - DEBUG - Price: 0.49 | Bid Vol: 91,549 | Ask Vol: 99,972 | Imb: -4.40%
+2024-12-27 14:40:37,019 - DEBUG - Price: 0.49 | Bid Vol: 89,633 | Ask Vol: 79,032 | Imb: +6.29%
+2024-12-27 14:40:38,025 - DEBUG - Price: 0.49 | Bid Vol: 90,405 | Ask Vol: 82,772 | Imb: +4.41%
+2024-12-27 14:40:39,043 - DEBUG - Price: 0.49 | Bid Vol: 90,197 | Ask Vol: 84,142 | Imb: +3.47%
+2024-12-27 14:40:40,016 - DEBUG - Price: 0.49 | Bid Vol: 90,946 | Ask Vol: 83,744 | Imb: +4.12%
+2024-12-27 14:40:41,017 - DEBUG - Price: 0.49 | Bid Vol: 95,433 | Ask Vol: 82,814 | Imb: +7.08%
+2024-12-27 14:40:42,037 - DEBUG - Price: 0.49 | Bid Vol: 90,933 | Ask Vol: 92,638 | Imb: -0.93%
+2024-12-27 14:40:43,018 - DEBUG - Price: 0.49 | Bid Vol: 91,271 | Ask Vol: 95,434 | Imb: -2.23%
+2024-12-27 14:40:45,074 - DEBUG - Price: 0.49 | Bid Vol: 91,377 | Ask Vol: 90,742 | Imb: +0.35%
+2024-12-27 14:40:46,075 - DEBUG - Price: 0.49 | Bid Vol: 90,561 | Ask Vol: 91,592 | Imb: -0.57%
+2024-12-27 14:40:47,036 - DEBUG - Price: 0.49 | Bid Vol: 90,473 | Ask Vol: 91,871 | Imb: -0.77%
+2024-12-27 14:40:48,051 - DEBUG - Price: 0.49 | Bid Vol: 98,839 | Ask Vol: 82,820 | Imb: +8.82%
+2024-12-27 14:40:50,040 - DEBUG - Price: 0.49 | Bid Vol: 100,444 | Ask Vol: 73,936 | Imb: +15.20%
+2024-12-27 14:40:51,059 - DEBUG - Price: 0.49 | Bid Vol: 88,112 | Ask Vol: 80,574 | Imb: +4.47%
+2024-12-27 14:40:55,099 - DEBUG - Price: 0.49 | Bid Vol: 86,660 | Ask Vol: 85,814 | Imb: +0.49%
+2024-12-27 14:40:56,014 - DEBUG - Price: 0.49 | Bid Vol: 88,260 | Ask Vol: 78,938 | Imb: +5.58%
+2024-12-27 14:40:58,017 - DEBUG - Price: 0.49 | Bid Vol: 82,352 | Ask Vol: 92,397 | Imb: -5.75%
+2024-12-27 14:40:59,001 - DEBUG - Price: 0.49 | Bid Vol: 85,292 | Ask Vol: 91,506 | Imb: -3.51%
+2024-12-27 14:41:00,029 - DEBUG - Добавлены данные для 1m: imbalance=-8.71, bid_vol=80909, ask_vol=96358
+2024-12-27 14:41:00,030 - DEBUG - Анализ 1m: длина истории = 7
+2024-12-27 14:41:00,030 - DEBUG - Данные 1m: imbalances=[5.807478043899849, -5.225548700576851, 6.086003310479649, 11.637364546103452, -7.4650174685313, -8.398757147652852, -8.7149506514497]
+2024-12-27 14:41:00,030 - DEBUG - Результат анализа 1m: {'trend_ascii': 'DOWN', 'current_imbalance': -8.7149506514497, 'volume_ratio': 0.8396733733635101}
+2024-12-27 14:41:00,030 - INFO - === СТАТИСТИКА 1M ===
+1m  | Trend: DOWN | Imb:   -8.7% | Vol Ratio:  0.8
+==================
+
+2024-12-27 14:41:00,030 - DEBUG - Price: 0.49 | Bid Vol: 80,909 | Ask Vol: 96,358 | Imb: -8.71%
+2024-12-27 14:41:01,012 - DEBUG - Price: 0.49 | Bid Vol: 83,422 | Ask Vol: 94,021 | Imb: -5.97%
+2024-12-27 14:41:02,061 - DEBUG - Price: 0.49 | Bid Vol: 84,598 | Ask Vol: 93,940 | Imb: -5.23%
+2024-12-27 14:41:03,001 - DEBUG - Price: 0.49 | Bid Vol: 88,678 | Ask Vol: 90,775 | Imb: -1.17%
+2024-12-27 14:41:04,065 - DEBUG - Price: 0.49 | Bid Vol: 91,042 | Ask Vol: 89,358 | Imb: +0.93%
+2024-12-27 14:41:05,097 - DEBUG - Price: 0.49 | Bid Vol: 75,436 | Ask Vol: 115,948 | Imb: -21.17%
+2024-12-27 14:41:06,027 - DEBUG - Price: 0.49 | Bid Vol: 83,444 | Ask Vol: 99,776 | Imb: -8.91%
+2024-12-27 14:41:07,016 - DEBUG - Price: 0.49 | Bid Vol: 90,894 | Ask Vol: 86,524 | Imb: +2.46%
+2024-12-27 14:41:08,042 - DEBUG - Price: 0.49 | Bid Vol: 91,627 | Ask Vol: 86,524 | Imb: +2.86%
+2024-12-27 14:41:09,067 - DEBUG - Price: 0.49 | Bid Vol: 86,001 | Ask Vol: 87,237 | Imb: -0.71%
+2024-12-27 14:41:10,027 - DEBUG - Price: 0.49 | Bid Vol: 86,634 | Ask Vol: 88,419 | Imb: -1.02%
+2024-12-27 14:41:12,055 - DEBUG - Price: 0.49 | Bid Vol: 89,363 | Ask Vol: 94,538 | Imb: -2.81%
+2024-12-27 14:41:14,002 - DEBUG - Price: 0.49 | Bid Vol: 90,772 | Ask Vol: 97,003 | Imb: -3.32%
+2024-12-27 14:41:16,053 - DEBUG - Price: 0.49 | Bid Vol: 96,758 | Ask Vol: 82,522 | Imb: +7.94%
+2024-12-27 14:41:17,091 - DEBUG - Price: 0.49 | Bid Vol: 96,889 | Ask Vol: 82,748 | Imb: +7.87%
+2024-12-27 14:41:19,041 - DEBUG - Price: 0.49 | Bid Vol: 105,778 | Ask Vol: 80,851 | Imb: +13.36%
+2024-12-27 14:41:22,059 - DEBUG - Price: 0.49 | Bid Vol: 94,155 | Ask Vol: 85,065 | Imb: +5.07%
+2024-12-27 14:41:23,050 - DEBUG - Price: 0.49 | Bid Vol: 114,345 | Ask Vol: 80,229 | Imb: +17.53%
+2024-12-27 14:41:24,001 - DEBUG - Price: 0.49 | Bid Vol: 93,310 | Ask Vol: 86,118 | Imb: +4.01%
+2024-12-27 14:41:25,024 - DEBUG - Price: 0.49 | Bid Vol: 97,902 | Ask Vol: 88,710 | Imb: +4.93%
+2024-12-27 14:41:26,038 - DEBUG - Price: 0.49 | Bid Vol: 87,776 | Ask Vol: 89,498 | Imb: -0.97%
+2024-12-27 14:41:27,005 - DEBUG - Price: 0.49 | Bid Vol: 86,474 | Ask Vol: 93,491 | Imb: -3.90%
+2024-12-27 14:41:28,090 - DEBUG - Price: 0.49 | Bid Vol: 87,332 | Ask Vol: 98,396 | Imb: -5.96%
+2024-12-27 14:41:31,009 - DEBUG - Price: 0.49 | Bid Vol: 87,108 | Ask Vol: 91,445 | Imb: -2.43%
+2024-12-27 14:41:32,066 - DEBUG - Price: 0.49 | Bid Vol: 81,771 | Ask Vol: 95,115 | Imb: -7.54%
+2024-12-27 14:41:34,080 - DEBUG - Price: 0.49 | Bid Vol: 94,896 | Ask Vol: 90,761 | Imb: +2.23%
+2024-12-27 14:41:35,060 - DEBUG - Price: 0.49 | Bid Vol: 85,082 | Ask Vol: 83,631 | Imb: +0.86%
+2024-12-27 14:41:36,058 - DEBUG - Price: 0.49 | Bid Vol: 85,082 | Ask Vol: 83,787 | Imb: +0.77%
+2024-12-27 14:41:37,088 - DEBUG - Price: 0.49 | Bid Vol: 85,076 | Ask Vol: 82,984 | Imb: +1.24%
+2024-12-27 14:41:38,001 - DEBUG - Price: 0.49 | Bid Vol: 83,236 | Ask Vol: 85,709 | Imb: -1.46%
+2024-12-27 14:41:39,091 - DEBUG - Price: 0.49 | Bid Vol: 82,958 | Ask Vol: 87,954 | Imb: -2.92%
+2024-12-27 14:41:40,020 - DEBUG - Price: 0.49 | Bid Vol: 80,712 | Ask Vol: 96,874 | Imb: -9.10%
+2024-12-27 14:41:41,074 - DEBUG - Price: 0.49 | Bid Vol: 88,819 | Ask Vol: 82,168 | Imb: +3.89%
+2024-12-27 14:41:43,049 - DEBUG - Price: 0.49 | Bid Vol: 89,947 | Ask Vol: 84,088 | Imb: +3.37%
+2024-12-27 14:41:44,089 - DEBUG - Price: 0.49 | Bid Vol: 89,941 | Ask Vol: 85,597 | Imb: +2.47%
+2024-12-27 14:41:45,025 - DEBUG - Price: 0.49 | Bid Vol: 85,285 | Ask Vol: 87,023 | Imb: -1.01%
+2024-12-27 14:41:46,002 - DEBUG - Price: 0.49 | Bid Vol: 84,820 | Ask Vol: 89,917 | Imb: -2.92%
+2024-12-27 14:41:49,044 - DEBUG - Price: 0.49 | Bid Vol: 85,330 | Ask Vol: 90,903 | Imb: -3.16%
+2024-12-27 14:41:52,094 - DEBUG - Price: 0.49 | Bid Vol: 84,822 | Ask Vol: 94,917 | Imb: -5.62%
+2024-12-27 14:41:53,019 - DEBUG - Price: 0.49 | Bid Vol: 84,811 | Ask Vol: 95,714 | Imb: -6.04%
+2024-12-27 14:41:54,055 - DEBUG - Price: 0.49 | Bid Vol: 87,594 | Ask Vol: 89,137 | Imb: -0.87%
+2024-12-27 14:41:55,035 - DEBUG - Price: 0.49 | Bid Vol: 88,678 | Ask Vol: 93,661 | Imb: -2.73%
+2024-12-27 14:41:56,077 - DEBUG - Price: 0.49 | Bid Vol: 82,324 | Ask Vol: 93,054 | Imb: -6.12%
+2024-12-27 14:41:57,095 - DEBUG - Price: 0.49 | Bid Vol: 83,493 | Ask Vol: 94,085 | Imb: -5.96%
+2024-12-27 14:41:58,009 - DEBUG - Price: 0.49 | Bid Vol: 82,052 | Ask Vol: 85,410 | Imb: -2.01%
+2024-12-27 14:41:59,075 - DEBUG - Price: 0.49 | Bid Vol: 81,384 | Ask Vol: 86,563 | Imb: -3.08%
+2024-12-27 14:42:00,020 - DEBUG - Добавлены данные для 1m: imbalance=-16.23, bid_vol=72641, ask_vol=100790
+2024-12-27 14:42:00,020 - DEBUG - Анализ 1m: длина истории = 8
+2024-12-27 14:42:00,020 - DEBUG - Данные 1m: imbalances=[5.807478043899849, -5.225548700576851, 6.086003310479649, 11.637364546103452, -7.4650174685313, -8.398757147652852, -8.7149506514497, -16.2304113062379]
+2024-12-27 14:42:00,020 - DEBUG - Результат анализа 1m: {'trend_ascii': 'DOWN', 'current_imbalance': -16.2304113062379, 'volume_ratio': 0.7207200572752883}
+2024-12-27 14:42:00,020 - INFO - === СТАТИСТИКА 1M ===
+1m  | Trend: DOWN | Imb:  -16.2% | Vol Ratio:  0.7
+==================
+
+2024-12-27 14:42:00,022 - DEBUG - Price: 0.49 | Bid Vol: 72,641 | Ask Vol: 100,790 | Imb: -16.23%
+2024-12-27 14:42:02,014 - DEBUG - Price: 0.49 | Bid Vol: 91,776 | Ask Vol: 77,843 | Imb: +8.21%
+2024-12-27 14:42:04,011 - DEBUG - Price: 0.49 | Bid Vol: 90,967 | Ask Vol: 81,071 | Imb: +5.75%
+2024-12-27 14:42:05,038 - DEBUG - Price: 0.49 | Bid Vol: 92,167 | Ask Vol: 81,766 | Imb: +5.98%
+2024-12-27 14:42:07,070 - DEBUG - Price: 0.49 | Bid Vol: 88,422 | Ask Vol: 89,258 | Imb: -0.47%
+2024-12-27 14:42:08,086 - DEBUG - Price: 0.49 | Bid Vol: 89,193 | Ask Vol: 81,876 | Imb: +4.28%
+2024-12-27 14:42:11,031 - DEBUG - Price: 0.49 | Bid Vol: 89,205 | Ask Vol: 86,795 | Imb: +1.37%
+2024-12-27 14:42:12,050 - DEBUG - Price: 0.49 | Bid Vol: 89,238 | Ask Vol: 86,179 | Imb: +1.74%
+2024-12-27 14:42:14,093 - DEBUG - Price: 0.49 | Bid Vol: 89,232 | Ask Vol: 87,584 | Imb: +0.93%
+2024-12-27 14:42:16,017 - DEBUG - Price: 0.49 | Bid Vol: 89,512 | Ask Vol: 88,279 | Imb: +0.69%
+2024-12-27 14:42:17,069 - DEBUG - Price: 0.49 | Bid Vol: 90,288 | Ask Vol: 87,873 | Imb: +1.36%
+2024-12-27 14:42:18,010 - DEBUG - Price: 0.49 | Bid Vol: 91,329 | Ask Vol: 84,031 | Imb: +4.16%
+2024-12-27 14:42:19,014 - DEBUG - Price: 0.49 | Bid Vol: 90,189 | Ask Vol: 83,808 | Imb: +3.67%
+2024-12-27 14:42:24,048 - DEBUG - Price: 0.49 | Bid Vol: 91,495 | Ask Vol: 83,703 | Imb: +4.45%
+2024-12-27 14:42:27,012 - DEBUG - Price: 0.49 | Bid Vol: 87,630 | Ask Vol: 100,890 | Imb: -7.03%
+2024-12-27 14:42:28,001 - DEBUG - Price: 0.49 | Bid Vol: 94,206 | Ask Vol: 85,024 | Imb: +5.12%
+2024-12-27 14:42:28,099 - DEBUG - Price: 0.49 | Bid Vol: 94,473 | Ask Vol: 84,558 | Imb: +5.54%
+2024-12-27 14:42:29,004 - DEBUG - Price: 0.49 | Bid Vol: 91,446 | Ask Vol: 83,998 | Imb: +4.25%
+2024-12-27 14:42:32,017 - DEBUG - Price: 0.49 | Bid Vol: 96,745 | Ask Vol: 85,676 | Imb: +6.07%
+2024-12-27 14:42:33,021 - DEBUG - Price: 0.49 | Bid Vol: 96,755 | Ask Vol: 85,347 | Imb: +6.26%
+2024-12-27 14:42:34,055 - DEBUG - Price: 0.49 | Bid Vol: 97,140 | Ask Vol: 87,179 | Imb: +5.40%
+2024-12-27 14:42:35,029 - DEBUG - Price: 0.49 | Bid Vol: 95,724 | Ask Vol: 87,395 | Imb: +4.55%
+2024-12-27 14:42:36,035 - DEBUG - Price: 0.49 | Bid Vol: 106,905 | Ask Vol: 82,009 | Imb: +13.18%
+2024-12-27 14:42:38,061 - DEBUG - Price: 0.49 | Bid Vol: 87,438 | Ask Vol: 81,505 | Imb: +3.51%
+2024-12-27 14:42:42,088 - DEBUG - Price: 0.49 | Bid Vol: 85,852 | Ask Vol: 84,425 | Imb: +0.84%
+2024-12-27 14:42:43,010 - DEBUG - Price: 0.49 | Bid Vol: 85,852 | Ask Vol: 83,447 | Imb: +1.42%
+2024-12-27 14:42:44,078 - DEBUG - Price: 0.49 | Bid Vol: 85,653 | Ask Vol: 83,447 | Imb: +1.30%
+2024-12-27 14:42:45,059 - DEBUG - Price: 0.49 | Bid Vol: 84,495 | Ask Vol: 95,811 | Imb: -6.28%
+2024-12-27 14:42:46,024 - DEBUG - Price: 0.49 | Bid Vol: 84,505 | Ask Vol: 97,399 | Imb: -7.09%
+2024-12-27 14:42:47,087 - DEBUG - Price: 0.49 | Bid Vol: 84,685 | Ask Vol: 97,399 | Imb: -6.98%
+2024-12-27 14:42:48,092 - DEBUG - Price: 0.49 | Bid Vol: 84,698 | Ask Vol: 97,398 | Imb: -6.97%
+2024-12-27 14:42:49,031 - DEBUG - Price: 0.49 | Bid Vol: 84,296 | Ask Vol: 97,392 | Imb: -7.21%
+2024-12-27 14:42:51,032 - DEBUG - Price: 0.49 | Bid Vol: 88,485 | Ask Vol: 83,315 | Imb: +3.01%
+2024-12-27 14:42:53,043 - DEBUG - Price: 0.49 | Bid Vol: 91,152 | Ask Vol: 85,860 | Imb: +2.99%
+2024-12-27 14:42:54,054 - DEBUG - Price: 0.49 | Bid Vol: 93,391 | Ask Vol: 81,293 | Imb: +6.93%
+2024-12-27 14:42:57,026 - DEBUG - Price: 0.49 | Bid Vol: 98,000 | Ask Vol: 82,397 | Imb: +8.65%
+2024-12-27 14:42:59,056 - DEBUG - Price: 0.49 | Bid Vol: 80,569 | Ask Vol: 92,011 | Imb: -6.63%
+2024-12-27 14:43:00,096 - DEBUG - Добавлены данные для 1m: imbalance=-6.24, bid_vol=81769, ask_vol=92661
+2024-12-27 14:43:00,096 - DEBUG - Анализ 1m: длина истории = 9
+2024-12-27 14:43:00,096 - DEBUG - Данные 1m: imbalances=[5.807478043899849, -5.225548700576851, 6.086003310479649, 11.637364546103452, -7.4650174685313, -8.398757147652852, -8.7149506514497, -16.2304113062379, -6.244010453660929]
+2024-12-27 14:43:00,096 - DEBUG - Результат анализа 1m: {'trend_ascii': 'DOWN', 'current_imbalance': -6.244010453660929, 'volume_ratio': 0.8824590595366447}
+2024-12-27 14:43:00,096 - INFO - === СТАТИСТИКА 1M ===
+1m  | Trend: DOWN | Imb:   -6.2% | Vol Ratio:  0.9
+==================
+
+2024-12-27 14:43:00,097 - DEBUG - Price: 0.49 | Bid Vol: 81,769 | Ask Vol: 92,661 | Imb: -6.24%
+2024-12-27 14:43:02,066 - DEBUG - Price: 0.49 | Bid Vol: 88,150 | Ask Vol: 91,179 | Imb: -1.69%
+2024-12-27 14:43:03,093 - DEBUG - Price: 0.49 | Bid Vol: 88,155 | Ask Vol: 91,086 | Imb: -1.63%
+2024-12-27 14:43:04,096 - DEBUG - Price: 0.49 | Bid Vol: 88,155 | Ask Vol: 91,086 | Imb: -1.63%
+2024-12-27 14:43:07,086 - DEBUG - Price: 0.49 | Bid Vol: 88,130 | Ask Vol: 92,066 | Imb: -2.18%
+2024-12-27 14:43:08,097 - DEBUG - Price: 0.49 | Bid Vol: 88,146 | Ask Vol: 92,297 | Imb: -2.30%
+2024-12-27 14:43:09,007 - DEBUG - Price: 0.49 | Bid Vol: 99,712 | Ask Vol: 82,361 | Imb: +9.53%
+2024-12-27 14:43:10,010 - DEBUG - Price: 0.49 | Bid Vol: 100,517 | Ask Vol: 83,228 | Imb: +9.41%
+2024-12-27 14:43:12,043 - DEBUG - Price: 0.49 | Bid Vol: 100,055 | Ask Vol: 83,685 | Imb: +8.91%
+2024-12-27 14:43:13,032 - DEBUG - Price: 0.49 | Bid Vol: 101,171 | Ask Vol: 84,077 | Imb: +9.23%
+2024-12-27 14:43:14,063 - DEBUG - Price: 0.49 | Bid Vol: 100,475 | Ask Vol: 83,074 | Imb: +9.48%
+2024-12-27 14:43:16,027 - DEBUG - Price: 0.49 | Bid Vol: 90,288 | Ask Vol: 93,543 | Imb: -1.77%
+2024-12-27 14:43:18,093 - DEBUG - Price: 0.49 | Bid Vol: 90,242 | Ask Vol: 94,841 | Imb: -2.49%
+2024-12-27 14:43:20,067 - DEBUG - Price: 0.49 | Bid Vol: 97,815 | Ask Vol: 89,669 | Imb: +4.34%
+2024-12-27 14:43:21,063 - DEBUG - Price: 0.49 | Bid Vol: 102,909 | Ask Vol: 84,692 | Imb: +9.71%
+2024-12-27 14:43:23,094 - DEBUG - Price: 0.49 | Bid Vol: 102,187 | Ask Vol: 84,703 | Imb: +9.36%
+2024-12-27 14:43:24,073 - DEBUG - Price: 0.49 | Bid Vol: 102,689 | Ask Vol: 84,703 | Imb: +9.60%
+2024-12-27 14:43:28,021 - DEBUG - Price: 0.49 | Bid Vol: 101,213 | Ask Vol: 83,472 | Imb: +9.61%
+2024-12-27 14:43:30,002 - DEBUG - Price: 0.49 | Bid Vol: 100,997 | Ask Vol: 83,597 | Imb: +9.43%
+2024-12-27 14:43:33,087 - DEBUG - Price: 0.49 | Bid Vol: 101,005 | Ask Vol: 84,499 | Imb: +8.90%
+2024-12-27 14:43:34,014 - DEBUG - Price: 0.49 | Bid Vol: 95,736 | Ask Vol: 91,414 | Imb: +2.31%
+2024-12-27 14:43:37,018 - DEBUG - Price: 0.49 | Bid Vol: 91,360 | Ask Vol: 93,834 | Imb: -1.34%
+2024-12-27 14:43:38,012 - DEBUG - Price: 0.49 | Bid Vol: 91,366 | Ask Vol: 94,215 | Imb: -1.54%
+2024-12-27 14:43:39,007 - DEBUG - Price: 0.49 | Bid Vol: 114,968 | Ask Vol: 90,838 | Imb: +11.73%
+2024-12-27 14:43:40,023 - DEBUG - Price: 0.49 | Bid Vol: 113,760 | Ask Vol: 94,155 | Imb: +9.43%
+2024-12-27 14:43:41,005 - DEBUG - Price: 0.49 | Bid Vol: 100,835 | Ask Vol: 95,496 | Imb: +2.72%
+2024-12-27 14:43:42,026 - DEBUG - Price: 0.49 | Bid Vol: 100,835 | Ask Vol: 96,496 | Imb: +2.20%
+2024-12-27 14:43:43,005 - DEBUG - Price: 0.49 | Bid Vol: 103,859 | Ask Vol: 91,642 | Imb: +6.25%
+2024-12-27 14:43:44,021 - DEBUG - Price: 0.49 | Bid Vol: 104,268 | Ask Vol: 91,642 | Imb: +6.44%
+2024-12-27 14:43:45,057 - DEBUG - Price: 0.49 | Bid Vol: 102,216 | Ask Vol: 93,963 | Imb: +4.21%
+2024-12-27 14:43:46,020 - DEBUG - Price: 0.49 | Bid Vol: 101,481 | Ask Vol: 95,045 | Imb: +3.27%
+2024-12-27 14:43:49,072 - DEBUG - Price: 0.49 | Bid Vol: 101,481 | Ask Vol: 96,834 | Imb: +2.34%
+2024-12-27 14:43:50,097 - DEBUG - Price: 0.49 | Bid Vol: 92,031 | Ask Vol: 108,203 | Imb: -8.08%
+2024-12-27 14:43:51,018 - DEBUG - Price: 0.49 | Bid Vol: 92,031 | Ask Vol: 110,050 | Imb: -8.92%
+2024-12-27 14:43:53,006 - DEBUG - Price: 0.49 | Bid Vol: 89,793 | Ask Vol: 104,398 | Imb: -7.52%
+2024-12-27 14:43:54,098 - DEBUG - Price: 0.49 | Bid Vol: 89,787 | Ask Vol: 107,163 | Imb: -8.82%
+2024-12-27 14:43:57,016 - DEBUG - Price: 0.49 | Bid Vol: 89,204 | Ask Vol: 108,335 | Imb: -9.68%
+2024-12-27 14:43:58,072 - DEBUG - Price: 0.49 | Bid Vol: 107,106 | Ask Vol: 87,425 | Imb: +10.12%
+2024-12-27 14:43:59,018 - DEBUG - Price: 0.49 | Bid Vol: 108,780 | Ask Vol: 86,052 | Imb: +11.67%
+2024-12-27 14:44:00,078 - DEBUG - Добавлены данные для 1m: imbalance=4.16, bid_vol=101035, ask_vol=92968
+2024-12-27 14:44:00,078 - DEBUG - Анализ 1m: длина истории = 10
+2024-12-27 14:44:00,078 - DEBUG - Данные 1m: imbalances=[5.807478043899849, -5.225548700576851, 6.086003310479649, 11.637364546103452, -7.4650174685313, -8.398757147652852, -8.7149506514497, -16.2304113062379, -6.244010453660929, 4.157845509295371]
+2024-12-27 14:44:00,078 - DEBUG - Результат анализа 1m: {'trend_ascii': '-', 'current_imbalance': 4.157845509295371, 'volume_ratio': 1.0867644416257072}
+2024-12-27 14:44:00,078 - INFO - === СТАТИСТИКА 1M ===
+1m  | Trend: -    | Imb:   +4.2% | Vol Ratio:  1.1
+==================
+
+2024-12-27 14:44:00,086 - DEBUG - Price: 0.49 | Bid Vol: 101,035 | Ask Vol: 92,968 | Imb: +4.16%
+2024-12-27 14:44:01,038 - DEBUG - Price: 0.49 | Bid Vol: 89,891 | Ask Vol: 104,170 | Imb: -7.36%
+2024-12-27 14:44:02,072 - DEBUG - Price: 0.49 | Bid Vol: 90,963 | Ask Vol: 105,614 | Imb: -7.45%
+2024-12-27 14:44:04,071 - DEBUG - Price: 0.49 | Bid Vol: 95,898 | Ask Vol: 106,413 | Imb: -5.20%
+2024-12-27 14:44:05,030 - DEBUG - Price: 0.49 | Bid Vol: 95,728 | Ask Vol: 108,127 | Imb: -6.08%
+2024-12-27 14:44:06,010 - DEBUG - Price: 0.49 | Bid Vol: 94,683 | Ask Vol: 110,655 | Imb: -7.78%
+2024-12-27 14:44:09,042 - DEBUG - Price: 0.49 | Bid Vol: 104,288 | Ask Vol: 88,451 | Imb: +8.22%
+2024-12-27 14:44:11,016 - DEBUG - Price: 0.49 | Bid Vol: 105,898 | Ask Vol: 90,555 | Imb: +7.81%
+2024-12-27 14:44:13,020 - DEBUG - Price: 0.49 | Bid Vol: 101,544 | Ask Vol: 101,483 | Imb: +0.03%
+2024-12-27 14:44:16,020 - DEBUG - Price: 0.49 | Bid Vol: 102,764 | Ask Vol: 89,880 | Imb: +6.69%
+2024-12-27 14:44:17,000 - DEBUG - Price: 0.49 | Bid Vol: 103,057 | Ask Vol: 88,885 | Imb: +7.38%
+2024-12-27 14:44:21,095 - DEBUG - Price: 0.49 | Bid Vol: 105,247 | Ask Vol: 90,383 | Imb: +7.60%
+2024-12-27 14:44:22,097 - DEBUG - Price: 0.49 | Bid Vol: 105,277 | Ask Vol: 106,900 | Imb: -0.76%
+2024-12-27 14:44:23,009 - DEBUG - Price: 0.49 | Bid Vol: 95,028 | Ask Vol: 107,044 | Imb: -5.95%
+2024-12-27 14:44:29,011 - DEBUG - Price: 0.49 | Bid Vol: 102,703 | Ask Vol: 92,346 | Imb: +5.31%
+2024-12-27 14:44:32,023 - DEBUG - Price: 0.49 | Bid Vol: 94,307 | Ask Vol: 109,230 | Imb: -7.33%
+2024-12-27 14:44:34,084 - DEBUG - Price: 0.49 | Bid Vol: 94,522 | Ask Vol: 107,761 | Imb: -6.54%
+2024-12-27 14:44:35,009 - DEBUG - Price: 0.49 | Bid Vol: 94,288 | Ask Vol: 108,165 | Imb: -6.85%
+2024-12-27 14:44:38,027 - DEBUG - Price: 0.49 | Bid Vol: 103,389 | Ask Vol: 93,632 | Imb: +4.95%
+2024-12-27 14:44:40,092 - DEBUG - Price: 0.49 | Bid Vol: 103,168 | Ask Vol: 94,975 | Imb: +4.13%
+2024-12-27 14:44:42,006 - DEBUG - Price: 0.49 | Bid Vol: 103,708 | Ask Vol: 93,619 | Imb: +5.11%
+2024-12-27 14:44:46,070 - DEBUG - Price: 0.49 | Bid Vol: 103,744 | Ask Vol: 92,440 | Imb: +5.76%
+2024-12-27 14:44:47,086 - DEBUG - Price: 0.49 | Bid Vol: 103,585 | Ask Vol: 92,407 | Imb: +5.70%
+2024-12-27 14:44:48,076 - DEBUG - Price: 0.49 | Bid Vol: 121,308 | Ask Vol: 93,717 | Imb: +12.83%
+2024-12-27 14:44:51,022 - DEBUG - Price: 0.49 | Bid Vol: 121,308 | Ask Vol: 93,520 | Imb: +12.93%
+2024-12-27 14:44:52,040 - DEBUG - Price: 0.49 | Bid Vol: 109,073 | Ask Vol: 94,842 | Imb: +6.98%
+2024-12-27 14:44:53,083 - DEBUG - Price: 0.49 | Bid Vol: 120,936 | Ask Vol: 86,041 | Imb: +16.86%
+2024-12-27 14:44:53,083 - DEBUG - Price: 0.49 | Bid Vol: 119,539 | Ask Vol: 91,418 | Imb: +13.33%
+2024-12-27 14:44:53,095 - DEBUG - Price: 0.49 | Bid Vol: 120,488 | Ask Vol: 99,645 | Imb: +9.47%
+2024-12-27 14:44:54,036 - DEBUG - Price: 0.49 | Bid Vol: 125,374 | Ask Vol: 86,508 | Imb: +18.34%
+2024-12-27 14:44:55,061 - DEBUG - Price: 0.49 | Bid Vol: 115,229 | Ask Vol: 87,422 | Imb: +13.72%
+2024-12-27 14:44:57,092 - DEBUG - Price: 0.49 | Bid Vol: 118,985 | Ask Vol: 86,986 | Imb: +15.54%
+2024-12-27 14:44:58,053 - DEBUG - Price: 0.49 | Bid Vol: 106,768 | Ask Vol: 99,040 | Imb: +3.75%
+2024-12-27 14:44:59,000 - DEBUG - Price: 0.49 | Bid Vol: 98,306 | Ask Vol: 97,497 | Imb: +0.41%
+2024-12-27 14:45:00,074 - DEBUG - Добавлены данные для 1m: imbalance=4.86, bid_vol=110443, ask_vol=100202
+2024-12-27 14:45:00,074 - DEBUG - Анализ 1m: длина истории = 11
+2024-12-27 14:45:00,074 - DEBUG - Данные 1m: imbalances=[-5.225548700576851, 6.086003310479649, 11.637364546103452, -7.4650174685313, -8.398757147652852, -8.7149506514497, -16.2304113062379, -6.244010453660929, 4.157845509295371, 4.8615345001065835]
+2024-12-27 14:45:00,074 - DEBUG - Результат анализа 1m: {'trend_ascii': 'UP', 'current_imbalance': 4.8615345001065835, 'volume_ratio': 1.1021991362707448}
+2024-12-27 14:45:00,074 - INFO - === СТАТИСТИКА 1M ===
+1m  | Trend: UP   | Imb:   +4.9% | Vol Ratio:  1.1
+==================
+
+2024-12-27 14:45:00,075 - DEBUG - Добавлены данные для 5m: imbalance=4.86, bid_vol=110443, ask_vol=100202
+2024-12-27 14:45:00,075 - DEBUG - Анализ 5m: длина истории = 3
+2024-12-27 14:45:00,075 - DEBUG - Данные 5m: imbalances=[5.807478043899849, -8.398757147652852, 4.8615345001065835]
+2024-12-27 14:45:00,075 - DEBUG - Результат анализа 5m: {'trend_ascii': '-', 'current_imbalance': 4.8615345001065835, 'volume_ratio': 1.1021991362707448}
+2024-12-27 14:45:00,075 - INFO - === СТАТИСТИКА 5M ===
+5m  | Trend: -    | Imb:   +4.9% | Vol Ratio:  1.1
+==================
+
+2024-12-27 14:45:00,075 - DEBUG - Добавлены данные для 15m: imbalance=4.86, bid_vol=110443, ask_vol=100202
+2024-12-27 14:45:00,075 - DEBUG - Анализ 15m: длина истории = 2
+2024-12-27 14:45:00,075 - DEBUG - Данные 15m: imbalances=[5.807478043899849, 4.8615345001065835]
+2024-12-27 14:45:00,075 - DEBUG - Результат анализа 15m: {'trend_ascii': '-', 'current_imbalance': 4.8615345001065835, 'volume_ratio': 1.1021991362707448}
+2024-12-27 14:45:00,075 - INFO - === СТАТИСТИКА 15M ===
+15m | Trend: -    | Imb:   +4.9% | Vol Ratio:  1.1
+==================
+
+2024-12-27 14:45:00,076 - DEBUG - Price: 0.49 | Bid Vol: 110,443 | Ask Vol: 100,202 | Imb: +4.86%
+2024-12-27 14:45:01,061 - DEBUG - Price: 0.49 | Bid Vol: 97,962 | Ask Vol: 104,867 | Imb: -3.40%
+2024-12-27 14:45:02,023 - DEBUG - Price: 0.49 | Bid Vol: 114,174 | Ask Vol: 98,885 | Imb: +7.18%
+2024-12-27 14:45:05,061 - DEBUG - Price: 0.49 | Bid Vol: 115,082 | Ask Vol: 87,678 | Imb: +13.52%
+2024-12-27 14:45:06,084 - DEBUG - Price: 0.49 | Bid Vol: 115,460 | Ask Vol: 88,185 | Imb: +13.39%
+2024-12-27 14:45:08,060 - DEBUG - Price: 0.49 | Bid Vol: 116,631 | Ask Vol: 86,462 | Imb: +14.85%
+2024-12-27 14:45:10,045 - DEBUG - Price: 0.49 | Bid Vol: 113,419 | Ask Vol: 90,800 | Imb: +11.08%
+2024-12-27 14:45:11,078 - DEBUG - Price: 0.49 | Bid Vol: 119,772 | Ask Vol: 95,177 | Imb: +11.44%
+2024-12-27 14:45:16,098 - DEBUG - Price: 0.49 | Bid Vol: 121,337 | Ask Vol: 97,309 | Imb: +10.99%
+2024-12-27 14:45:17,027 - DEBUG - Price: 0.49 | Bid Vol: 112,821 | Ask Vol: 101,672 | Imb: +5.20%
+2024-12-27 14:45:18,057 - DEBUG - Price: 0.49 | Bid Vol: 128,009 | Ask Vol: 89,977 | Imb: +17.45%
+2024-12-27 14:45:19,057 - DEBUG - Price: 0.49 | Bid Vol: 146,121 | Ask Vol: 95,975 | Imb: +20.71%
+2024-12-27 14:45:20,024 - DEBUG - Price: 0.49 | Bid Vol: 147,569 | Ask Vol: 91,852 | Imb: +23.27%
+2024-12-27 14:45:21,061 - DEBUG - Price: 0.49 | Bid Vol: 145,757 | Ask Vol: 89,981 | Imb: +23.66%
+2024-12-27 14:45:23,047 - DEBUG - Price: 0.49 | Bid Vol: 145,402 | Ask Vol: 90,370 | Imb: +23.34%
+2024-12-27 14:45:25,050 - DEBUG - Price: 0.49 | Bid Vol: 123,329 | Ask Vol: 86,847 | Imb: +17.36%
+2024-12-27 14:45:26,019 - DEBUG - Price: 0.49 | Bid Vol: 123,164 | Ask Vol: 92,859 | Imb: +14.03%
+2024-12-27 14:45:27,007 - DEBUG - Price: 0.49 | Bid Vol: 123,164 | Ask Vol: 93,370 | Imb: +13.76%
+2024-12-27 14:45:28,063 - DEBUG - Price: 0.49 | Bid Vol: 125,012 | Ask Vol: 93,389 | Imb: +14.48%
+2024-12-27 14:45:29,025 - DEBUG - Price: 0.49 | Bid Vol: 125,113 | Ask Vol: 87,846 | Imb: +17.50%
+2024-12-27 14:45:30,010 - DEBUG - Price: 0.49 | Bid Vol: 111,045 | Ask Vol: 110,249 | Imb: +0.36%
+2024-12-27 14:45:31,058 - DEBUG - Price: 0.49 | Bid Vol: 112,150 | Ask Vol: 107,903 | Imb: +1.93%
+2024-12-27 14:45:35,004 - DEBUG - Price: 0.49 | Bid Vol: 129,332 | Ask Vol: 84,401 | Imb: +21.02%
+2024-12-27 14:45:37,063 - DEBUG - Price: 0.49 | Bid Vol: 130,037 | Ask Vol: 90,806 | Imb: +17.76%
+2024-12-27 14:45:39,002 - DEBUG - Price: 0.49 | Bid Vol: 132,770 | Ask Vol: 84,479 | Imb: +22.23%
+2024-12-27 14:45:42,005 - DEBUG - Price: 0.49 | Bid Vol: 135,064 | Ask Vol: 89,472 | Imb: +20.31%
+2024-12-27 14:45:42,096 - DEBUG - Price: 0.49 | Bid Vol: 135,259 | Ask Vol: 89,472 | Imb: +20.37%
+2024-12-27 14:45:43,068 - DEBUG - Price: 0.49 | Bid Vol: 107,977 | Ask Vol: 104,931 | Imb: +1.43%
+2024-12-27 14:45:45,088 - DEBUG - Price: 0.49 | Bid Vol: 108,250 | Ask Vol: 101,049 | Imb: +3.44%
+2024-12-27 14:45:46,088 - DEBUG - Price: 0.49 | Bid Vol: 108,290 | Ask Vol: 102,425 | Imb: +2.78%
+2024-12-27 14:45:47,066 - DEBUG - Price: 0.49 | Bid Vol: 109,484 | Ask Vol: 102,275 | Imb: +3.40%
+2024-12-27 14:45:48,094 - DEBUG - Price: 0.49 | Bid Vol: 89,427 | Ask Vol: 113,685 | Imb: -11.94%
+2024-12-27 14:45:50,051 - DEBUG - Price: 0.49 | Bid Vol: 101,691 | Ask Vol: 99,243 | Imb: +1.22%
+2024-12-27 14:45:52,015 - DEBUG - Price: 0.49 | Bid Vol: 110,064 | Ask Vol: 97,356 | Imb: +6.13%
+2024-12-27 14:45:53,061 - DEBUG - Price: 0.49 | Bid Vol: 98,493 | Ask Vol: 98,777 | Imb: -0.14%
+2024-12-27 14:45:55,062 - DEBUG - Price: 0.49 | Bid Vol: 116,353 | Ask Vol: 84,338 | Imb: +15.95%
+2024-12-27 14:45:56,048 - DEBUG - Price: 0.49 | Bid Vol: 130,480 | Ask Vol: 86,662 | Imb: +20.18%
+2024-12-27 14:45:58,014 - DEBUG - Price: 0.49 | Bid Vol: 134,713 | Ask Vol: 82,543 | Imb: +24.01%
+2024-12-27 14:45:59,071 - DEBUG - Price: 0.49 | Bid Vol: 134,649 | Ask Vol: 82,052 | Imb: +24.27%
+2024-12-27 14:46:02,090 - DEBUG - Price: 0.49 | Bid Vol: 136,272 | Ask Vol: 84,671 | Imb: +23.35%
+2024-12-27 14:46:05,078 - DEBUG - Price: 0.49 | Bid Vol: 134,572 | Ask Vol: 87,633 | Imb: +21.12%
+2024-12-27 14:46:06,004 - DEBUG - Price: 0.49 | Bid Vol: 135,747 | Ask Vol: 86,459 | Imb: +22.18%
+2024-12-27 14:46:07,047 - DEBUG - Price: 0.49 | Bid Vol: 135,415 | Ask Vol: 87,634 | Imb: +21.42%
+2024-12-27 14:46:08,019 - DEBUG - Price: 0.49 | Bid Vol: 116,756 | Ask Vol: 92,268 | Imb: +11.72%
+2024-12-27 14:46:11,015 - DEBUG - Price: 0.49 | Bid Vol: 117,569 | Ask Vol: 90,116 | Imb: +13.22%
+2024-12-27 14:46:14,011 - DEBUG - Price: 0.49 | Bid Vol: 115,797 | Ask Vol: 93,767 | Imb: +10.51%
+2024-12-27 14:46:16,004 - DEBUG - Price: 0.49 | Bid Vol: 116,346 | Ask Vol: 83,429 | Imb: +16.48%
+2024-12-27 14:46:18,067 - DEBUG - Price: 0.49 | Bid Vol: 116,037 | Ask Vol: 83,790 | Imb: +16.14%
+2024-12-27 14:46:25,077 - DEBUG - Price: 0.49 | Bid Vol: 115,048 | Ask Vol: 85,518 | Imb: +14.72%
+2024-12-27 14:46:26,050 - DEBUG - Price: 0.49 | Bid Vol: 115,042 | Ask Vol: 85,531 | Imb: +14.71%
+2024-12-27 14:46:33,026 - DEBUG - Price: 0.49 | Bid Vol: 108,586 | Ask Vol: 92,784 | Imb: +7.85%
+2024-12-27 14:46:34,068 - DEBUG - Price: 0.49 | Bid Vol: 108,838 | Ask Vol: 92,788 | Imb: +7.96%
+2024-12-27 14:46:39,060 - DEBUG - Price: 0.49 | Bid Vol: 106,644 | Ask Vol: 93,811 | Imb: +6.40%
+2024-12-27 14:46:40,087 - DEBUG - Price: 0.49 | Bid Vol: 108,095 | Ask Vol: 92,396 | Imb: +7.83%
+2024-12-27 14:46:41,005 - DEBUG - Price: 0.49 | Bid Vol: 97,857 | Ask Vol: 85,673 | Imb: +6.64%
+2024-12-27 14:46:42,065 - DEBUG - Price: 0.49 | Bid Vol: 105,149 | Ask Vol: 91,084 | Imb: +7.17%
+2024-12-27 14:46:43,038 - DEBUG - Price: 0.49 | Bid Vol: 106,878 | Ask Vol: 89,073 | Imb: +9.09%
+2024-12-27 14:46:44,080 - DEBUG - Price: 0.49 | Bid Vol: 106,878 | Ask Vol: 89,085 | Imb: +9.08%
+2024-12-27 14:46:45,098 - DEBUG - Price: 0.49 | Bid Vol: 115,800 | Ask Vol: 88,024 | Imb: +13.63%
+2024-12-27 14:46:46,048 - DEBUG - Price: 0.49 | Bid Vol: 116,314 | Ask Vol: 87,782 | Imb: +13.98%
+2024-12-27 14:46:47,091 - DEBUG - Price: 0.49 | Bid Vol: 132,810 | Ask Vol: 82,642 | Imb: +23.29%
+2024-12-27 14:46:48,005 - DEBUG - Price: 0.49 | Bid Vol: 127,075 | Ask Vol: 89,920 | Imb: +17.12%
+2024-12-27 14:46:49,020 - DEBUG - Price: 0.49 | Bid Vol: 126,386 | Ask Vol: 91,421 | Imb: +16.05%
+2024-12-27 14:46:51,070 - DEBUG - Price: 0.49 | Bid Vol: 116,454 | Ask Vol: 81,518 | Imb: +17.65%
+2024-12-27 14:46:58,078 - DEBUG - Price: 0.49 | Bid Vol: 109,281 | Ask Vol: 88,921 | Imb: +10.27%
+2024-12-27 14:46:59,081 - DEBUG - Price: 0.49 | Bid Vol: 109,691 | Ask Vol: 88,921 | Imb: +10.46%
+2024-12-27 14:47:01,031 - DEBUG - Price: 0.49 | Bid Vol: 111,169 | Ask Vol: 84,059 | Imb: +13.89%
+2024-12-27 14:47:02,091 - DEBUG - Price: 0.49 | Bid Vol: 81,945 | Ask Vol: 99,174 | Imb: -9.51%
+2024-12-27 14:47:03,067 - DEBUG - Price: 0.49 | Bid Vol: 95,691 | Ask Vol: 91,085 | Imb: +2.47%
+2024-12-27 14:47:04,034 - DEBUG - Price: 0.49 | Bid Vol: 95,786 | Ask Vol: 91,574 | Imb: +2.25%
+2024-12-27 14:47:09,032 - DEBUG - Price: 0.49 | Bid Vol: 101,344 | Ask Vol: 88,338 | Imb: +6.86%
+2024-12-27 14:47:10,060 - DEBUG - Price: 0.49 | Bid Vol: 121,943 | Ask Vol: 83,713 | Imb: +18.59%
+2024-12-27 14:47:11,056 - DEBUG - Price: 0.49 | Bid Vol: 98,713 | Ask Vol: 96,465 | Imb: +1.15%
+2024-12-27 14:47:15,070 - DEBUG - Price: 0.49 | Bid Vol: 79,171 | Ask Vol: 102,418 | Imb: -12.80%
+2024-12-27 14:47:20,024 - DEBUG - Price: 0.49 | Bid Vol: 102,861 | Ask Vol: 88,084 | Imb: +7.74%
+2024-12-27 14:47:21,061 - DEBUG - Price: 0.49 | Bid Vol: 102,861 | Ask Vol: 88,408 | Imb: +7.56%
+2024-12-27 14:47:22,081 - DEBUG - Price: 0.49 | Bid Vol: 102,707 | Ask Vol: 91,222 | Imb: +5.92%
+2024-12-27 14:47:23,026 - DEBUG - Price: 0.49 | Bid Vol: 102,996 | Ask Vol: 84,843 | Imb: +9.66%
+2024-12-27 14:47:24,099 - DEBUG - Price: 0.49 | Bid Vol: 103,990 | Ask Vol: 84,691 | Imb: +10.23%
+2024-12-27 14:47:26,028 - DEBUG - Price: 0.49 | Bid Vol: 112,165 | Ask Vol: 78,428 | Imb: +17.70%
+2024-12-27 14:47:27,084 - DEBUG - Price: 0.49 | Bid Vol: 103,754 | Ask Vol: 87,284 | Imb: +8.62%
+2024-12-27 14:47:28,020 - DEBUG - Price: 0.49 | Bid Vol: 104,547 | Ask Vol: 87,841 | Imb: +8.68%
+2024-12-27 14:47:29,029 - DEBUG - Price: 0.49 | Bid Vol: 95,235 | Ask Vol: 86,830 | Imb: +4.62%
+2024-12-27 14:47:30,069 - DEBUG - Price: 0.49 | Bid Vol: 95,335 | Ask Vol: 86,656 | Imb: +4.77%
+2024-12-27 14:47:31,018 - DEBUG - Price: 0.49 | Bid Vol: 95,235 | Ask Vol: 86,673 | Imb: +4.71%
+2024-12-27 14:47:32,058 - DEBUG - Price: 0.49 | Bid Vol: 95,242 | Ask Vol: 86,680 | Imb: +4.71%
+2024-12-27 14:47:33,020 - DEBUG - Price: 0.49 | Bid Vol: 112,095 | Ask Vol: 85,044 | Imb: +13.72%
+2024-12-27 14:47:34,025 - DEBUG - Price: 0.49 | Bid Vol: 114,349 | Ask Vol: 85,502 | Imb: +14.43%
+2024-12-27 14:47:35,094 - DEBUG - Price: 0.49 | Bid Vol: 114,149 | Ask Vol: 85,502 | Imb: +14.35%
+2024-12-27 14:47:38,070 - DEBUG - Price: 0.49 | Bid Vol: 112,016 | Ask Vol: 90,032 | Imb: +10.88%
+2024-12-27 14:47:39,053 - DEBUG - Price: 0.49 | Bid Vol: 112,885 | Ask Vol: 90,037 | Imb: +11.26%
+2024-12-27 14:47:41,089 - DEBUG - Price: 0.49 | Bid Vol: 103,026 | Ask Vol: 88,500 | Imb: +7.58%
+2024-12-27 14:47:42,026 - DEBUG - Price: 0.49 | Bid Vol: 99,458 | Ask Vol: 90,077 | Imb: +4.95%
+2024-12-27 14:47:44,076 - DEBUG - Price: 0.49 | Bid Vol: 105,360 | Ask Vol: 85,500 | Imb: +10.41%
+2024-12-27 14:47:46,045 - DEBUG - Price: 0.49 | Bid Vol: 94,990 | Ask Vol: 90,423 | Imb: +2.46%
+2024-12-27 14:47:49,097 - DEBUG - Price: 0.49 | Bid Vol: 102,314 | Ask Vol: 88,801 | Imb: +7.07%
+2024-12-27 14:47:50,083 - DEBUG - Price: 0.49 | Bid Vol: 102,314 | Ask Vol: 88,801 | Imb: +7.07%
+2024-12-27 14:47:51,031 - DEBUG - Price: 0.49 | Bid Vol: 103,121 | Ask Vol: 85,685 | Imb: +9.24%
+2024-12-27 14:47:52,074 - DEBUG - Price: 0.49 | Bid Vol: 103,220 | Ask Vol: 85,691 | Imb: +9.28%
+2024-12-27 14:47:54,013 - DEBUG - Price: 0.49 | Bid Vol: 104,058 | Ask Vol: 85,691 | Imb: +9.68%
+2024-12-27 14:47:55,028 - DEBUG - Price: 0.49 | Bid Vol: 101,758 | Ask Vol: 86,033 | Imb: +8.37%
+2024-12-27 14:47:56,082 - DEBUG - Price: 0.49 | Bid Vol: 101,518 | Ask Vol: 88,532 | Imb: +6.83%
+2024-12-27 14:47:57,029 - DEBUG - Price: 0.49 | Bid Vol: 94,806 | Ask Vol: 88,376 | Imb: +3.51%
+2024-12-27 14:48:01,023 - DEBUG - Price: 0.49 | Bid Vol: 99,732 | Ask Vol: 86,302 | Imb: +7.22%
+2024-12-27 14:48:03,045 - DEBUG - Price: 0.49 | Bid Vol: 100,304 | Ask Vol: 86,686 | Imb: +7.28%
+2024-12-27 14:48:04,034 - DEBUG - Price: 0.49 | Bid Vol: 105,275 | Ask Vol: 86,794 | Imb: +9.62%
+2024-12-27 14:48:05,064 - DEBUG - Price: 0.49 | Bid Vol: 123,679 | Ask Vol: 81,648 | Imb: +20.47%
+2024-12-27 14:48:06,018 - DEBUG - Price: 0.49 | Bid Vol: 118,109 | Ask Vol: 81,528 | Imb: +18.32%
+2024-12-27 14:48:07,070 - DEBUG - Price: 0.49 | Bid Vol: 113,735 | Ask Vol: 79,211 | Imb: +17.89%
+2024-12-27 14:48:08,032 - DEBUG - Price: 0.49 | Bid Vol: 119,869 | Ask Vol: 77,125 | Imb: +21.70%
+2024-12-27 14:48:09,096 - DEBUG - Price: 0.49 | Bid Vol: 108,867 | Ask Vol: 85,091 | Imb: +12.26%
+2024-12-27 14:48:10,024 - DEBUG - Price: 0.49 | Bid Vol: 110,969 | Ask Vol: 83,650 | Imb: +14.04%
+2024-12-27 14:48:11,001 - DEBUG - Price: 0.49 | Bid Vol: 111,016 | Ask Vol: 84,270 | Imb: +13.70%
+2024-12-27 14:48:13,061 - DEBUG - Price: 0.49 | Bid Vol: 89,443 | Ask Vol: 83,797 | Imb: +3.26%
+2024-12-27 14:48:18,024 - DEBUG - Price: 0.49 | Bid Vol: 103,161 | Ask Vol: 84,668 | Imb: +9.85%
+2024-12-27 14:48:19,094 - DEBUG - Price: 0.49 | Bid Vol: 102,295 | Ask Vol: 84,739 | Imb: +9.39%
+2024-12-27 14:48:20,034 - DEBUG - Price: 0.49 | Bid Vol: 103,380 | Ask Vol: 84,799 | Imb: +9.87%
+2024-12-27 14:48:21,088 - DEBUG - Price: 0.49 | Bid Vol: 92,476 | Ask Vol: 90,970 | Imb: +0.82%
+2024-12-27 14:48:22,095 - DEBUG - Price: 0.49 | Bid Vol: 94,545 | Ask Vol: 88,895 | Imb: +3.08%
+2024-12-27 14:48:23,039 - DEBUG - Price: 0.49 | Bid Vol: 97,519 | Ask Vol: 88,901 | Imb: +4.62%
+2024-12-27 14:48:25,014 - DEBUG - Price: 0.49 | Bid Vol: 95,441 | Ask Vol: 94,929 | Imb: +0.27%
+2024-12-27 14:48:27,028 - DEBUG - Price: 0.49 | Bid Vol: 101,439 | Ask Vol: 104,639 | Imb: -1.55%
+2024-12-27 14:48:27,028 - DEBUG - Price: 0.49 | Bid Vol: 101,439 | Ask Vol: 104,639 | Imb: -1.55%
+2024-12-27 14:48:30,070 - DEBUG - Price: 0.49 | Bid Vol: 98,058 | Ask Vol: 101,497 | Imb: -1.72%
+2024-12-27 14:48:30,070 - DEBUG - Price: 0.49 | Bid Vol: 98,058 | Ask Vol: 101,497 | Imb: -1.72%
+2024-12-27 14:48:31,021 - DEBUG - Price: 0.49 | Bid Vol: 94,483 | Ask Vol: 106,264 | Imb: -5.87%
+2024-12-27 14:48:31,073 - DEBUG - Price: 0.49 | Bid Vol: 94,383 | Ask Vol: 106,264 | Imb: -5.92%
+2024-12-27 14:48:32,054 - DEBUG - Price: 0.49 | Bid Vol: 93,435 | Ask Vol: 108,344 | Imb: -7.39%
+2024-12-27 14:48:33,042 - DEBUG - Price: 0.49 | Bid Vol: 102,621 | Ask Vol: 92,633 | Imb: +5.12%
+2024-12-27 14:48:34,078 - DEBUG - Price: 0.49 | Bid Vol: 96,612 | Ask Vol: 98,728 | Imb: -1.08%
+2024-12-27 14:48:35,003 - DEBUG - Price: 0.49 | Bid Vol: 97,607 | Ask Vol: 98,734 | Imb: -0.57%
+2024-12-27 14:48:37,061 - DEBUG - Price: 0.49 | Bid Vol: 109,150 | Ask Vol: 85,063 | Imb: +12.40%
+2024-12-27 14:48:38,037 - DEBUG - Price: 0.49 | Bid Vol: 109,369 | Ask Vol: 81,513 | Imb: +14.59%
+2024-12-27 14:48:39,009 - DEBUG - Price: 0.49 | Bid Vol: 108,838 | Ask Vol: 87,134 | Imb: +11.07%
+2024-12-27 14:48:40,084 - DEBUG - Price: 0.49 | Bid Vol: 109,192 | Ask Vol: 87,134 | Imb: +11.24%
+2024-12-27 14:48:41,039 - DEBUG - Price: 0.49 | Bid Vol: 111,143 | Ask Vol: 87,055 | Imb: +12.15%
+2024-12-27 14:48:45,002 - DEBUG - Price: 0.49 | Bid Vol: 121,015 | Ask Vol: 78,646 | Imb: +21.22%
+2024-12-27 14:48:46,006 - DEBUG - Price: 0.49 | Bid Vol: 123,537 | Ask Vol: 78,658 | Imb: +22.20%
+2024-12-27 14:48:49,000 - DEBUG - Price: 0.49 | Bid Vol: 125,423 | Ask Vol: 79,450 | Imb: +22.44%
+2024-12-27 14:48:50,034 - DEBUG - Price: 0.49 | Bid Vol: 124,750 | Ask Vol: 81,100 | Imb: +21.20%
+2024-12-27 14:48:54,009 - DEBUG - Price: 0.49 | Bid Vol: 117,206 | Ask Vol: 89,078 | Imb: +13.64%
+2024-12-27 14:48:56,054 - DEBUG - Price: 0.49 | Bid Vol: 118,973 | Ask Vol: 83,112 | Imb: +17.75%
+2024-12-27 14:48:57,012 - DEBUG - Price: 0.49 | Bid Vol: 116,417 | Ask Vol: 83,403 | Imb: +16.52%
+2024-12-27 14:48:59,065 - DEBUG - Price: 0.49 | Bid Vol: 117,361 | Ask Vol: 82,710 | Imb: +17.32%
+2024-12-27 14:49:00,013 - DEBUG - Добавлены данные для 1m: imbalance=13.30, bid_vol=108158, ask_vol=82757
+2024-12-27 14:49:00,013 - DEBUG - Анализ 1m: длина истории = 12
+2024-12-27 14:49:00,013 - DEBUG - Данные 1m: imbalances=[6.086003310479649, 11.637364546103452, -7.4650174685313, -8.398757147652852, -8.7149506514497, -16.2304113062379, -6.244010453660929, 4.157845509295371, 4.8615345001065835, 13.304855403129444]
+2024-12-27 14:49:00,013 - DEBUG - Результат анализа 1m: {'trend_ascii': 'UP', 'current_imbalance': 13.304855403129444, 'volume_ratio': 1.3069342686951286}
+2024-12-27 14:49:00,013 - INFO - === СТАТИСТИКА 1M ===
+1m  | Trend: UP   | Imb:  +13.3% | Vol Ratio:  1.3
+==================
+
+2024-12-27 14:49:00,014 - DEBUG - Price: 0.49 | Bid Vol: 108,158 | Ask Vol: 82,757 | Imb: +13.30%
+2024-12-27 14:49:01,094 - DEBUG - Price: 0.49 | Bid Vol: 104,823 | Ask Vol: 83,200 | Imb: +11.50%
+2024-12-27 14:49:04,048 - DEBUG - Price: 0.49 | Bid Vol: 89,308 | Ask Vol: 91,886 | Imb: -1.42%
+2024-12-27 14:49:05,036 - DEBUG - Price: 0.49 | Bid Vol: 109,664 | Ask Vol: 88,274 | Imb: +10.81%
+2024-12-27 14:49:06,007 - DEBUG - Price: 0.49 | Bid Vol: 106,601 | Ask Vol: 96,524 | Imb: +4.96%
+2024-12-27 14:49:07,037 - DEBUG - Price: 0.49 | Bid Vol: 106,946 | Ask Vol: 95,818 | Imb: +5.49%
+2024-12-27 14:49:08,041 - DEBUG - Price: 0.49 | Bid Vol: 104,751 | Ask Vol: 93,365 | Imb: +5.75%
+2024-12-27 14:49:09,096 - DEBUG - Price: 0.49 | Bid Vol: 91,453 | Ask Vol: 92,932 | Imb: -0.80%
+2024-12-27 14:49:10,027 - DEBUG - Price: 0.49 | Bid Vol: 96,888 | Ask Vol: 89,354 | Imb: +4.05%
+2024-12-27 14:49:11,066 - DEBUG - Price: 0.49 | Bid Vol: 95,136 | Ask Vol: 89,512 | Imb: +3.05%
+2024-12-27 14:49:13,087 - DEBUG - Price: 0.49 | Bid Vol: 100,159 | Ask Vol: 87,634 | Imb: +6.67%
+2024-12-27 14:49:16,001 - DEBUG - Price: 0.49 | Bid Vol: 104,107 | Ask Vol: 89,042 | Imb: +7.80%
+2024-12-27 14:49:18,054 - DEBUG - Price: 0.49 | Bid Vol: 106,375 | Ask Vol: 92,861 | Imb: +6.78%
+2024-12-27 14:49:19,007 - DEBUG - Price: 0.49 | Bid Vol: 107,467 | Ask Vol: 92,861 | Imb: +7.29%
+2024-12-27 14:49:19,087 - DEBUG - Price: 0.49 | Bid Vol: 107,467 | Ask Vol: 92,861 | Imb: +7.29%
+2024-12-27 14:49:20,069 - DEBUG - Price: 0.49 | Bid Vol: 110,658 | Ask Vol: 90,827 | Imb: +9.84%
+2024-12-27 14:49:21,027 - DEBUG - Price: 0.49 | Bid Vol: 108,800 | Ask Vol: 95,868 | Imb: +6.32%
+2024-12-27 14:49:23,089 - DEBUG - Price: 0.49 | Bid Vol: 101,760 | Ask Vol: 90,245 | Imb: +6.00%
+2024-12-27 14:49:25,027 - DEBUG - Price: 0.49 | Bid Vol: 110,953 | Ask Vol: 89,423 | Imb: +10.75%
+2024-12-27 14:49:26,074 - DEBUG - Price: 0.49 | Bid Vol: 104,532 | Ask Vol: 93,763 | Imb: +5.43%
+2024-12-27 14:49:27,087 - DEBUG - Price: 0.49 | Bid Vol: 129,133 | Ask Vol: 84,420 | Imb: +20.94%
+2024-12-27 14:49:28,025 - DEBUG - Price: 0.49 | Bid Vol: 116,606 | Ask Vol: 86,493 | Imb: +14.83%
+2024-12-27 14:49:28,025 - DEBUG - Price: 0.49 | Bid Vol: 116,606 | Ask Vol: 88,492 | Imb: +13.71%
+2024-12-27 14:49:28,026 - DEBUG - Price: 0.49 | Bid Vol: 116,683 | Ask Vol: 88,492 | Imb: +13.74%
+2024-12-27 14:49:31,001 - DEBUG - Price: 0.49 | Bid Vol: 94,548 | Ask Vol: 91,943 | Imb: +1.40%
+2024-12-27 14:49:32,012 - DEBUG - Price: 0.49 | Bid Vol: 108,190 | Ask Vol: 86,340 | Imb: +11.23%
+2024-12-27 14:49:33,033 - DEBUG - Price: 0.49 | Bid Vol: 97,637 | Ask Vol: 87,832 | Imb: +5.29%
+2024-12-27 14:49:34,037 - DEBUG - Price: 0.49 | Bid Vol: 96,964 | Ask Vol: 89,126 | Imb: +4.21%
+2024-12-27 14:49:34,043 - DEBUG - Price: 0.49 | Bid Vol: 96,774 | Ask Vol: 95,056 | Imb: +0.90%
+2024-12-27 14:49:35,060 - DEBUG - Price: 0.49 | Bid Vol: 110,330 | Ask Vol: 92,381 | Imb: +8.85%
+2024-12-27 14:49:36,017 - DEBUG - Price: 0.49 | Bid Vol: 100,371 | Ask Vol: 95,304 | Imb: +2.59%
+2024-12-27 14:49:37,042 - DEBUG - Price: 0.49 | Bid Vol: 95,878 | Ask Vol: 95,166 | Imb: +0.37%
+2024-12-27 14:49:38,032 - DEBUG - Price: 0.49 | Bid Vol: 101,331 | Ask Vol: 91,041 | Imb: +5.35%
+2024-12-27 14:49:40,018 - DEBUG - Price: 0.49 | Bid Vol: 102,061 | Ask Vol: 88,484 | Imb: +7.13%
+2024-12-27 14:49:41,085 - DEBUG - Price: 0.49 | Bid Vol: 103,100 | Ask Vol: 88,669 | Imb: +7.53%
+2024-12-27 14:49:42,023 - DEBUG - Price: 0.49 | Bid Vol: 102,901 | Ask Vol: 88,669 | Imb: +7.43%
+2024-12-27 14:49:43,047 - DEBUG - Price: 0.49 | Bid Vol: 105,080 | Ask Vol: 88,650 | Imb: +8.48%
+2024-12-27 14:49:45,052 - DEBUG - Price: 0.49 | Bid Vol: 103,039 | Ask Vol: 88,868 | Imb: +7.38%
+2024-12-27 14:49:47,002 - DEBUG - Price: 0.49 | Bid Vol: 103,611 | Ask Vol: 90,599 | Imb: +6.70%
+2024-12-27 14:49:48,095 - DEBUG - Price: 0.49 | Bid Vol: 104,685 | Ask Vol: 90,626 | Imb: +7.20%
+2024-12-27 14:49:51,070 - DEBUG - Price: 0.49 | Bid Vol: 100,649 | Ask Vol: 92,246 | Imb: +4.36%
+2024-12-27 14:49:52,061 - DEBUG - Price: 0.49 | Bid Vol: 98,292 | Ask Vol: 97,730 | Imb: +0.29%
+2024-12-27 14:49:56,095 - DEBUG - Price: 0.49 | Bid Vol: 114,834 | Ask Vol: 93,156 | Imb: +10.42%
+2024-12-27 14:49:57,071 - DEBUG - Price: 0.49 | Bid Vol: 116,786 | Ask Vol: 83,089 | Imb: +16.86%
+2024-12-27 14:49:58,038 - DEBUG - Price: 0.49 | Bid Vol: 119,012 | Ask Vol: 83,422 | Imb: +17.58%
+2024-12-27 14:49:59,094 - DEBUG - Price: 0.49 | Bid Vol: 119,366 | Ask Vol: 84,773 | Imb: +16.95%
+2024-12-27 14:50:00,043 - DEBUG - Добавлены данные для 1m: imbalance=16.95, bid_vol=119366, ask_vol=84772
+2024-12-27 14:50:00,043 - DEBUG - Анализ 1m: длина истории = 13
+2024-12-27 14:50:00,043 - DEBUG - Данные 1m: imbalances=[11.637364546103452, -7.4650174685313, -8.398757147652852, -8.7149506514497, -16.2304113062379, -6.244010453660929, 4.157845509295371, 4.8615345001065835, 13.304855403129444, 16.946321876966408]
+2024-12-27 14:50:00,043 - DEBUG - Результат анализа 1m: {'trend_ascii': 'UP', 'current_imbalance': 16.946321876966408, 'volume_ratio': 1.4080811894173444}
+2024-12-27 14:50:00,043 - INFO - === СТАТИСТИКА 1M ===
+1m  | Trend: UP   | Imb:  +16.9% | Vol Ratio:  1.4
+==================
+
+2024-12-27 14:50:00,045 - DEBUG - Добавлены данные для 5m: imbalance=16.95, bid_vol=119366, ask_vol=84772
+2024-12-27 14:50:00,045 - DEBUG - Анализ 5m: длина истории = 4
+2024-12-27 14:50:00,045 - DEBUG - Данные 5m: imbalances=[5.807478043899849, -8.398757147652852, 4.8615345001065835, 16.946321876966408]
+2024-12-27 14:50:00,045 - DEBUG - Результат анализа 5m: {'trend_ascii': 'UP', 'current_imbalance': 16.946321876966408, 'volume_ratio': 1.4080811894173444}
+2024-12-27 14:50:00,045 - INFO - === СТАТИСТИКА 5M ===
+5m  | Trend: UP   | Imb:  +16.9% | Vol Ratio:  1.4
+==================
+
+2024-12-27 14:50:00,046 - DEBUG - Price: 0.49 | Bid Vol: 119,366 | Ask Vol: 84,772 | Imb: +16.95%
+2024-12-27 14:50:00,098 - DEBUG - Добавлены данные для 1m: imbalance=20.87, bid_vol=131915, ask_vol=86369
+2024-12-27 14:50:00,099 - DEBUG - Анализ 1m: длина истории = 14
+2024-12-27 14:50:00,099 - DEBUG - Данные 1m: imbalances=[-7.4650174685313, -8.398757147652852, -8.7149506514497, -16.2304113062379, -6.244010453660929, 4.157845509295371, 4.8615345001065835, 13.304855403129444, 16.946321876966408, 20.865569954673155]
+2024-12-27 14:50:00,099 - DEBUG - Результат анализа 1m: {'trend_ascii': 'UP', 'current_imbalance': 20.865569954673155, 'volume_ratio': 1.5273449228792502}
+2024-12-27 14:50:00,099 - INFO - === СТАТИСТИКА 1M ===
+1m  | Trend: UP   | Imb:  +20.9% | Vol Ratio:  1.5
+==================
+
+2024-12-27 14:50:00,099 - DEBUG - Добавлены данные для 5m: imbalance=20.87, bid_vol=131915, ask_vol=86369
+2024-12-27 14:50:00,099 - DEBUG - Анализ 5m: длина истории = 5
+2024-12-27 14:50:00,099 - DEBUG - Данные 5m: imbalances=[5.807478043899849, -8.398757147652852, 4.8615345001065835, 16.946321876966408, 20.865569954673155]
+2024-12-27 14:50:00,099 - DEBUG - Результат анализа 5m: {'trend_ascii': 'UP', 'current_imbalance': 20.865569954673155, 'volume_ratio': 1.5273449228792502}
+2024-12-27 14:50:00,099 - INFO - === СТАТИСТИКА 5M ===
+5m  | Trend: UP   | Imb:  +20.9% | Vol Ratio:  1.5
+==================
+
+2024-12-27 14:50:00,100 - DEBUG - Price: 0.49 | Bid Vol: 131,915 | Ask Vol: 86,369 | Imb: +20.87%
+2024-12-27 14:50:01,001 - DEBUG - Price: 0.49 | Bid Vol: 110,988 | Ask Vol: 85,312 | Imb: +13.08%
+2024-12-27 14:50:03,075 - DEBUG - Price: 0.49 | Bid Vol: 99,127 | Ask Vol: 103,409 | Imb: -2.11%
+2024-12-27 14:50:05,033 - DEBUG - Price: 0.49 | Bid Vol: 99,862 | Ask Vol: 101,561 | Imb: -0.84%
+2024-12-27 14:50:06,001 - DEBUG - Price: 0.49 | Bid Vol: 110,037 | Ask Vol: 86,358 | Imb: +12.06%
+2024-12-27 14:50:09,089 - DEBUG - Price: 0.49 | Bid Vol: 111,074 | Ask Vol: 86,901 | Imb: +12.21%
+2024-12-27 14:50:10,047 - DEBUG - Price: 0.49 | Bid Vol: 110,975 | Ask Vol: 86,918 | Imb: +12.16%
+2024-12-27 14:50:11,067 - DEBUG - Price: 0.49 | Bid Vol: 108,449 | Ask Vol: 87,046 | Imb: +10.95%
+2024-12-27 14:50:12,081 - DEBUG - Price: 0.49 | Bid Vol: 103,326 | Ask Vol: 89,249 | Imb: +7.31%
+2024-12-27 14:50:13,033 - DEBUG - Price: 0.49 | Bid Vol: 110,389 | Ask Vol: 85,717 | Imb: +12.58%
+2024-12-27 14:50:14,000 - DEBUG - Price: 0.49 | Bid Vol: 110,179 | Ask Vol: 88,517 | Imb: +10.90%
+2024-12-27 14:50:15,094 - DEBUG - Price: 0.49 | Bid Vol: 112,430 | Ask Vol: 87,395 | Imb: +12.53%
+2024-12-27 14:50:16,091 - DEBUG - Price: 0.49 | Bid Vol: 115,643 | Ask Vol: 87,236 | Imb: +14.00%
+2024-12-27 14:50:17,016 - DEBUG - Price: 0.49 | Bid Vol: 115,689 | Ask Vol: 87,552 | Imb: +13.84%
+2024-12-27 14:50:18,047 - DEBUG - Price: 0.49 | Bid Vol: 116,756 | Ask Vol: 87,449 | Imb: +14.35%
+2024-12-27 14:50:21,095 - DEBUG - Price: 0.49 | Bid Vol: 99,724 | Ask Vol: 95,813 | Imb: +2.00%
+2024-12-27 14:50:23,071 - DEBUG - Price: 0.49 | Bid Vol: 99,417 | Ask Vol: 96,010 | Imb: +1.74%
+2024-12-27 14:50:25,044 - DEBUG - Price: 0.49 | Bid Vol: 114,738 | Ask Vol: 86,591 | Imb: +13.98%
+2024-12-27 14:50:28,091 - DEBUG - Price: 0.49 | Bid Vol: 104,145 | Ask Vol: 89,230 | Imb: +7.71%
+2024-12-27 14:50:29,011 - DEBUG - Price: 0.49 | Bid Vol: 102,832 | Ask Vol: 89,901 | Imb: +6.71%
+2024-12-27 14:50:31,047 - DEBUG - Price: 0.49 | Bid Vol: 103,391 | Ask Vol: 93,062 | Imb: +5.26%
+2024-12-27 14:50:35,063 - DEBUG - Price: 0.49 | Bid Vol: 115,645 | Ask Vol: 88,162 | Imb: +13.48%
+2024-12-27 14:50:38,007 - DEBUG - Price: 0.49 | Bid Vol: 99,400 | Ask Vol: 95,498 | Imb: +2.00%
+2024-12-27 14:50:39,096 - DEBUG - Price: 0.49 | Bid Vol: 99,417 | Ask Vol: 95,596 | Imb: +1.96%
+2024-12-27 14:50:41,034 - DEBUG - Price: 0.49 | Bid Vol: 100,289 | Ask Vol: 94,045 | Imb: +3.21%
+2024-12-27 14:50:48,083 - DEBUG - Price: 0.49 | Bid Vol: 98,886 | Ask Vol: 95,797 | Imb: +1.59%
+2024-12-27 14:50:50,016 - DEBUG - Price: 0.49 | Bid Vol: 114,090 | Ask Vol: 88,097 | Imb: +12.86%
+2024-12-27 14:50:51,032 - DEBUG - Price: 0.49 | Bid Vol: 99,099 | Ask Vol: 95,335 | Imb: +1.94%
+2024-12-27 14:50:52,093 - DEBUG - Price: 0.49 | Bid Vol: 116,302 | Ask Vol: 88,158 | Imb: +13.76%
+2024-12-27 14:50:53,015 - DEBUG - Price: 0.49 | Bid Vol: 103,359 | Ask Vol: 92,492 | Imb: +5.55%
+2024-12-27 14:50:54,042 - DEBUG - Price: 0.49 | Bid Vol: 97,739 | Ask Vol: 96,616 | Imb: +0.58%
+2024-12-27 14:50:55,019 - DEBUG - Price: 0.49 | Bid Vol: 98,361 | Ask Vol: 96,416 | Imb: +1.00%
+2024-12-27 14:50:56,013 - DEBUG - Price: 0.49 | Bid Vol: 95,473 | Ask Vol: 96,678 | Imb: -0.63%
+2024-12-27 14:50:57,042 - DEBUG - Price: 0.49 | Bid Vol: 98,466 | Ask Vol: 95,090 | Imb: +1.74%
+2024-12-27 14:50:59,001 - DEBUG - Price: 0.49 | Bid Vol: 97,908 | Ask Vol: 95,597 | Imb: +1.19%
+2024-12-27 14:51:01,056 - DEBUG - Price: 0.49 | Bid Vol: 100,424 | Ask Vol: 95,596 | Imb: +2.46%
+2024-12-27 14:51:02,014 - DEBUG - Price: 0.49 | Bid Vol: 100,623 | Ask Vol: 95,618 | Imb: +2.55%
+2024-12-27 14:51:03,003 - DEBUG - Price: 0.49 | Bid Vol: 100,725 | Ask Vol: 95,618 | Imb: +2.60%
+2024-12-27 14:51:04,021 - DEBUG - Price: 0.49 | Bid Vol: 90,082 | Ask Vol: 104,133 | Imb: -7.23%
+2024-12-27 14:51:06,010 - DEBUG - Price: 0.49 | Bid Vol: 101,381 | Ask Vol: 91,745 | Imb: +4.99%
+2024-12-27 14:51:07,073 - DEBUG - Price: 0.49 | Bid Vol: 101,275 | Ask Vol: 91,745 | Imb: +4.94%
+2024-12-27 14:51:10,072 - DEBUG - Price: 0.49 | Bid Vol: 100,822 | Ask Vol: 92,765 | Imb: +4.16%
+2024-12-27 14:51:12,021 - DEBUG - Price: 0.49 | Bid Vol: 89,547 | Ask Vol: 111,462 | Imb: -10.90%
+2024-12-27 14:51:18,007 - DEBUG - Price: 0.49 | Bid Vol: 100,254 | Ask Vol: 95,732 | Imb: +2.31%
+2024-12-27 14:51:19,081 - DEBUG - Price: 0.49 | Bid Vol: 99,901 | Ask Vol: 95,371 | Imb: +2.32%
+2024-12-27 14:51:20,099 - DEBUG - Price: 0.49 | Bid Vol: 116,695 | Ask Vol: 88,670 | Imb: +13.65%
+2024-12-27 14:51:27,071 - DEBUG - Price: 0.49 | Bid Vol: 95,453 | Ask Vol: 96,823 | Imb: -0.71%
+2024-12-27 14:51:28,089 - DEBUG - Price: 0.49 | Bid Vol: 97,828 | Ask Vol: 95,414 | Imb: +1.25%
+2024-12-27 14:51:29,085 - DEBUG - Price: 0.49 | Bid Vol: 110,390 | Ask Vol: 93,453 | Imb: +8.31%
+2024-12-27 14:51:31,096 - DEBUG - Price: 0.49 | Bid Vol: 112,768 | Ask Vol: 93,273 | Imb: +9.46%
+2024-12-27 14:51:32,097 - DEBUG - Price: 0.49 | Bid Vol: 100,304 | Ask Vol: 93,953 | Imb: +3.27%
+2024-12-27 14:51:33,038 - DEBUG - Price: 0.49 | Bid Vol: 101,173 | Ask Vol: 94,458 | Imb: +3.43%
+2024-12-27 14:51:35,066 - DEBUG - Price: 0.49 | Bid Vol: 114,838 | Ask Vol: 91,242 | Imb: +11.45%
+2024-12-27 14:51:36,015 - DEBUG - Price: 0.49 | Bid Vol: 115,304 | Ask Vol: 91,215 | Imb: +11.66%
+2024-12-27 14:51:38,075 - DEBUG - Price: 0.49 | Bid Vol: 113,786 | Ask Vol: 89,870 | Imb: +11.74%
+2024-12-27 14:51:38,076 - DEBUG - Price: 0.49 | Bid Vol: 113,786 | Ask Vol: 89,870 | Imb: +11.74%
+2024-12-27 14:51:43,014 - DEBUG - Price: 0.49 | Bid Vol: 116,278 | Ask Vol: 88,137 | Imb: +13.77%
+2024-12-27 14:51:53,070 - DEBUG - Price: 0.49 | Bid Vol: 111,444 | Ask Vol: 88,338 | Imb: +11.57%
+2024-12-27 14:51:54,011 - DEBUG - Price: 0.49 | Bid Vol: 112,451 | Ask Vol: 87,652 | Imb: +12.39%
+2024-12-27 14:51:55,060 - DEBUG - Price: 0.49 | Bid Vol: 109,145 | Ask Vol: 89,054 | Imb: +10.14%
+2024-12-27 14:51:56,081 - DEBUG - Price: 0.49 | Bid Vol: 111,042 | Ask Vol: 90,254 | Imb: +10.33%
+2024-12-27 14:51:58,006 - DEBUG - Price: 0.49 | Bid Vol: 132,586 | Ask Vol: 84,340 | Imb: +22.24%
+2024-12-27 14:51:58,007 - DEBUG - Price: 0.49 | Bid Vol: 132,586 | Ask Vol: 84,340 | Imb: +22.24%
+2024-12-27 14:51:58,008 - DEBUG - Price: 0.49 | Bid Vol: 132,616 | Ask Vol: 84,328 | Imb: +22.26%
+2024-12-27 14:52:01,033 - DEBUG - Price: 0.49 | Bid Vol: 132,284 | Ask Vol: 82,901 | Imb: +22.95%
+2024-12-27 14:52:02,099 - DEBUG - Price: 0.49 | Bid Vol: 132,185 | Ask Vol: 83,132 | Imb: +22.78%
+2024-12-27 14:52:07,023 - DEBUG - Price: 0.49 | Bid Vol: 117,098 | Ask Vol: 102,926 | Imb: +6.44%
+2024-12-27 14:52:08,062 - DEBUG - Price: 0.49 | Bid Vol: 123,713 | Ask Vol: 86,274 | Imb: +17.83%
+2024-12-27 14:52:09,045 - DEBUG - Price: 0.49 | Bid Vol: 125,435 | Ask Vol: 84,129 | Imb: +19.71%
+2024-12-27 14:52:10,095 - DEBUG - Price: 0.49 | Bid Vol: 125,994 | Ask Vol: 85,842 | Imb: +18.95%
+2024-12-27 14:52:11,075 - DEBUG - Price: 0.49 | Bid Vol: 126,024 | Ask Vol: 85,860 | Imb: +18.96%
+2024-12-27 14:52:13,001 - DEBUG - Price: 0.49 | Bid Vol: 144,859 | Ask Vol: 72,757 | Imb: +33.13%
+2024-12-27 14:52:14,099 - DEBUG - Price: 0.49 | Bid Vol: 126,633 | Ask Vol: 79,485 | Imb: +22.87%
+2024-12-27 14:52:15,011 - DEBUG - Price: 0.49 | Bid Vol: 133,001 | Ask Vol: 75,344 | Imb: +27.67%
+2024-12-27 14:52:16,007 - DEBUG - Price: 0.49 | Bid Vol: 132,091 | Ask Vol: 75,434 | Imb: +27.30%
+2024-12-27 14:52:17,038 - DEBUG - Price: 0.49 | Bid Vol: 134,560 | Ask Vol: 75,134 | Imb: +28.34%
+2024-12-27 14:52:18,086 - DEBUG - Price: 0.49 | Bid Vol: 132,645 | Ask Vol: 75,755 | Imb: +27.30%
+2024-12-27 14:52:20,026 - DEBUG - Price: 0.49 | Bid Vol: 132,571 | Ask Vol: 75,143 | Imb: +27.65%
+2024-12-27 14:52:22,023 - DEBUG - Price: 0.49 | Bid Vol: 133,696 | Ask Vol: 75,179 | Imb: +28.02%
+2024-12-27 14:52:23,012 - DEBUG - Price: 0.49 | Bid Vol: 133,601 | Ask Vol: 75,174 | Imb: +27.99%
+2024-12-27 14:52:25,063 - DEBUG - Price: 0.49 | Bid Vol: 133,760 | Ask Vol: 75,265 | Imb: +27.98%
+2024-12-27 14:52:26,080 - DEBUG - Price: 0.49 | Bid Vol: 133,279 | Ask Vol: 75,235 | Imb: +27.84%
+2024-12-27 14:52:27,054 - DEBUG - Price: 0.49 | Bid Vol: 133,677 | Ask Vol: 75,230 | Imb: +27.98%
+2024-12-27 14:52:33,024 - DEBUG - Price: 0.49 | Bid Vol: 125,712 | Ask Vol: 86,640 | Imb: +18.40%
+2024-12-27 14:52:36,055 - DEBUG - Price: 0.49 | Bid Vol: 115,587 | Ask Vol: 84,570 | Imb: +15.50%
+2024-12-27 14:52:37,019 - DEBUG - Price: 0.49 | Bid Vol: 115,189 | Ask Vol: 84,570 | Imb: +15.33%
+2024-12-27 14:52:38,029 - DEBUG - Price: 0.49 | Bid Vol: 115,182 | Ask Vol: 84,412 | Imb: +15.42%
+2024-12-27 14:52:40,078 - DEBUG - Price: 0.49 | Bid Vol: 115,150 | Ask Vol: 84,465 | Imb: +15.37%
+2024-12-27 14:52:41,076 - DEBUG - Price: 0.49 | Bid Vol: 113,831 | Ask Vol: 84,465 | Imb: +14.81%
+2024-12-27 14:52:42,076 - DEBUG - Price: 0.49 | Bid Vol: 114,052 | Ask Vol: 84,465 | Imb: +14.90%
+2024-12-27 14:52:46,011 - DEBUG - Price: 0.49 | Bid Vol: 126,624 | Ask Vol: 81,331 | Imb: +21.78%
+2024-12-27 14:52:46,064 - DEBUG - Price: 0.49 | Bid Vol: 126,624 | Ask Vol: 81,331 | Imb: +21.78%
+2024-12-27 14:52:53,011 - DEBUG - Price: 0.49 | Bid Vol: 112,712 | Ask Vol: 90,935 | Imb: +10.69%
+2024-12-27 14:52:55,060 - DEBUG - Price: 0.49 | Bid Vol: 113,021 | Ask Vol: 85,227 | Imb: +14.02%
+2024-12-27 14:52:56,046 - DEBUG - Price: 0.49 | Bid Vol: 110,884 | Ask Vol: 85,227 | Imb: +13.08%
+2024-12-27 14:53:00,020 - DEBUG - Добавлены данные для 1m: imbalance=11.56, bid_vol=107368, ask_vol=85124
+2024-12-27 14:53:00,020 - DEBUG - Анализ 1m: длина истории = 15
+2024-12-27 14:53:00,020 - DEBUG - Данные 1m: imbalances=[-8.398757147652852, -8.7149506514497, -16.2304113062379, -6.244010453660929, 4.157845509295371, 4.8615345001065835, 13.304855403129444, 16.946321876966408, 20.865569954673155, 11.556105234916798]
+2024-12-27 14:53:00,021 - DEBUG - Результат анализа 1m: {'trend_ascii': 'UP', 'current_imbalance': 11.556105234916798, 'volume_ratio': 1.2613205866976143}
+2024-12-27 14:53:00,021 - INFO - === СТАТИСТИКА 1M ===
+1m  | Trend: UP   | Imb:  +11.6% | Vol Ratio:  1.3
+==================
+
+2024-12-27 14:53:00,021 - DEBUG - Price: 0.49 | Bid Vol: 107,368 | Ask Vol: 85,124 | Imb: +11.56%
+2024-12-27 14:53:01,083 - DEBUG - Price: 0.49 | Bid Vol: 107,282 | Ask Vol: 85,069 | Imb: +11.55%
+2024-12-27 14:53:02,094 - DEBUG - Price: 0.49 | Bid Vol: 107,383 | Ask Vol: 85,124 | Imb: +11.56%
+2024-12-27 14:53:04,019 - DEBUG - Price: 0.49 | Bid Vol: 110,097 | Ask Vol: 83,390 | Imb: +13.80%
+2024-12-27 14:53:05,004 - DEBUG - Price: 0.49 | Bid Vol: 109,215 | Ask Vol: 83,395 | Imb: +13.41%
+2024-12-27 14:53:07,070 - DEBUG - Price: 0.49 | Bid Vol: 108,057 | Ask Vol: 84,656 | Imb: +12.14%
+2024-12-27 14:53:08,093 - DEBUG - Price: 0.49 | Bid Vol: 109,005 | Ask Vol: 84,422 | Imb: +12.71%
+2024-12-27 14:53:09,086 - DEBUG - Price: 0.49 | Bid Vol: 95,546 | Ask Vol: 105,710 | Imb: -5.05%
+2024-12-27 14:53:10,094 - DEBUG - Price: 0.49 | Bid Vol: 93,651 | Ask Vol: 107,588 | Imb: -6.93%
+2024-12-27 14:53:15,008 - DEBUG - Price: 0.49 | Bid Vol: 107,018 | Ask Vol: 83,661 | Imb: +12.25%
+2024-12-27 14:53:24,066 - DEBUG - Price: 0.49 | Bid Vol: 137,769 | Ask Vol: 80,664 | Imb: +26.14%
+2024-12-27 14:53:27,098 - DEBUG - Price: 0.49 | Bid Vol: 137,562 | Ask Vol: 81,731 | Imb: +25.46%
+2024-12-27 14:53:28,091 - DEBUG - Price: 0.49 | Bid Vol: 109,533 | Ask Vol: 89,527 | Imb: +10.05%
+2024-12-27 14:53:29,082 - DEBUG - Price: 0.49 | Bid Vol: 109,533 | Ask Vol: 89,527 | Imb: +10.05%
+2024-12-27 14:53:32,014 - DEBUG - Price: 0.49 | Bid Vol: 111,091 | Ask Vol: 87,154 | Imb: +12.07%
+2024-12-27 14:53:33,080 - DEBUG - Price: 0.49 | Bid Vol: 113,732 | Ask Vol: 87,154 | Imb: +13.23%
+2024-12-27 14:53:34,099 - DEBUG - Price: 0.49 | Bid Vol: 113,691 | Ask Vol: 87,154 | Imb: +13.21%
+2024-12-27 14:53:35,012 - DEBUG - Price: 0.49 | Bid Vol: 110,576 | Ask Vol: 88,365 | Imb: +11.16%
+2024-12-27 14:53:35,093 - DEBUG - Price: 0.49 | Bid Vol: 109,733 | Ask Vol: 89,685 | Imb: +10.05%
+2024-12-27 14:53:36,035 - DEBUG - Price: 0.49 | Bid Vol: 108,312 | Ask Vol: 91,507 | Imb: +8.41%
+2024-12-27 14:53:37,065 - DEBUG - Price: 0.49 | Bid Vol: 134,392 | Ask Vol: 83,371 | Imb: +23.43%
+2024-12-27 14:53:38,071 - DEBUG - Price: 0.49 | Bid Vol: 132,748 | Ask Vol: 82,763 | Imb: +23.19%
+2024-12-27 14:53:42,011 - DEBUG - Price: 0.49 | Bid Vol: 122,063 | Ask Vol: 81,901 | Imb: +19.69%
+2024-12-27 14:53:44,074 - DEBUG - Price: 0.49 | Bid Vol: 123,185 | Ask Vol: 81,879 | Imb: +20.14%
+2024-12-27 14:53:44,083 - DEBUG - Price: 0.49 | Bid Vol: 123,185 | Ask Vol: 81,879 | Imb: +20.14%
+2024-12-27 14:53:45,077 - DEBUG - Price: 0.49 | Bid Vol: 123,225 | Ask Vol: 81,853 | Imb: +20.17%
+2024-12-27 14:53:46,006 - DEBUG - Price: 0.49 | Bid Vol: 106,525 | Ask Vol: 91,744 | Imb: +7.46%
+2024-12-27 14:53:56,040 - DEBUG - Price: 0.49 | Bid Vol: 111,780 | Ask Vol: 94,087 | Imb: +8.59%
+2024-12-27 14:53:58,061 - DEBUG - Price: 0.49 | Bid Vol: 107,163 | Ask Vol: 96,410 | Imb: +5.28%
+2024-12-27 14:54:00,014 - DEBUG - Добавлены данные для 1m: imbalance=5.78, bid_vol=107859, ask_vol=96072
+2024-12-27 14:54:00,014 - DEBUG - Анализ 1m: длина истории = 16
+2024-12-27 14:54:00,014 - DEBUG - Данные 1m: imbalances=[-8.7149506514497, -16.2304113062379, -6.244010453660929, 4.157845509295371, 4.8615345001065835, 13.304855403129444, 16.946321876966408, 20.865569954673155, 11.556105234916798, 5.779967836575653]
+2024-12-27 14:54:00,014 - DEBUG - Результат анализа 1m: {'trend_ascii': 'UP', 'current_imbalance': 5.779967836575653, 'volume_ratio': 1.1226908483017777}
+2024-12-27 14:54:00,014 - INFO - === СТАТИСТИКА 1M ===
+1m  | Trend: UP   | Imb:   +5.8% | Vol Ratio:  1.1
+==================
+
+2024-12-27 14:54:00,015 - DEBUG - Price: 0.49 | Bid Vol: 107,859 | Ask Vol: 96,072 | Imb: +5.78%
+2024-12-27 14:54:01,020 - DEBUG - Price: 0.49 | Bid Vol: 107,919 | Ask Vol: 95,763 | Imb: +5.97%
+2024-12-27 14:54:02,003 - DEBUG - Price: 0.49 | Bid Vol: 107,919 | Ask Vol: 95,763 | Imb: +5.97%
+2024-12-27 14:54:05,032 - DEBUG - Price: 0.49 | Bid Vol: 123,707 | Ask Vol: 84,410 | Imb: +18.88%
+2024-12-27 14:54:08,005 - DEBUG - Price: 0.49 | Bid Vol: 140,244 | Ask Vol: 82,408 | Imb: +25.98%
+2024-12-27 14:54:09,056 - DEBUG - Price: 0.49 | Bid Vol: 140,244 | Ask Vol: 82,415 | Imb: +25.97%
+2024-12-27 14:54:12,071 - DEBUG - Price: 0.49 | Bid Vol: 131,455 | Ask Vol: 80,727 | Imb: +23.91%
+2024-12-27 14:54:14,037 - DEBUG - Price: 0.49 | Bid Vol: 130,240 | Ask Vol: 80,836 | Imb: +23.41%
+2024-12-27 14:54:17,005 - DEBUG - Price: 0.49 | Bid Vol: 127,772 | Ask Vol: 83,030 | Imb: +21.22%
+2024-12-27 14:54:17,087 - DEBUG - Price: 0.49 | Bid Vol: 127,772 | Ask Vol: 83,030 | Imb: +21.22%
+2024-12-27 14:54:19,060 - DEBUG - Price: 0.49 | Bid Vol: 121,357 | Ask Vol: 93,482 | Imb: +12.97%
+2024-12-27 14:54:20,011 - DEBUG - Price: 0.49 | Bid Vol: 118,193 | Ask Vol: 95,543 | Imb: +10.60%
+2024-12-27 14:54:24,092 - DEBUG - Price: 0.49 | Bid Vol: 135,028 | Ask Vol: 75,345 | Imb: +28.37%
+2024-12-27 14:54:29,036 - DEBUG - Price: 0.49 | Bid Vol: 127,917 | Ask Vol: 78,798 | Imb: +23.76%
+2024-12-27 14:54:30,018 - DEBUG - Price: 0.49 | Bid Vol: 126,965 | Ask Vol: 79,146 | Imb: +23.20%
+2024-12-27 14:54:31,022 - DEBUG - Price: 0.49 | Bid Vol: 128,151 | Ask Vol: 77,828 | Imb: +24.43%
+2024-12-27 14:54:32,085 - DEBUG - Price: 0.49 | Bid Vol: 127,871 | Ask Vol: 78,797 | Imb: +23.75%
+2024-12-27 14:54:33,057 - DEBUG - Price: 0.49 | Bid Vol: 127,010 | Ask Vol: 78,925 | Imb: +23.35%
+2024-12-27 14:54:34,060 - DEBUG - Price: 0.49 | Bid Vol: 127,030 | Ask Vol: 79,148 | Imb: +23.22%
+2024-12-27 14:54:35,009 - DEBUG - Price: 0.49 | Bid Vol: 126,995 | Ask Vol: 79,002 | Imb: +23.30%
+2024-12-27 14:54:35,072 - DEBUG - Price: 0.49 | Bid Vol: 127,799 | Ask Vol: 79,002 | Imb: +23.60%
+2024-12-27 14:54:37,076 - DEBUG - Price: 0.49 | Bid Vol: 126,994 | Ask Vol: 79,002 | Imb: +23.30%
+2024-12-27 14:54:38,056 - DEBUG - Price: 0.49 | Bid Vol: 127,079 | Ask Vol: 79,078 | Imb: +23.28%
+2024-12-27 14:54:39,072 - DEBUG - Price: 0.49 | Bid Vol: 127,409 | Ask Vol: 79,072 | Imb: +23.41%
+2024-12-27 14:54:40,095 - DEBUG - Price: 0.49 | Bid Vol: 126,597 | Ask Vol: 79,116 | Imb: +23.08%
+2024-12-27 14:54:43,004 - DEBUG - Price: 0.49 | Bid Vol: 125,778 | Ask Vol: 83,484 | Imb: +20.21%
+2024-12-27 14:54:47,006 - DEBUG - Price: 0.49 | Bid Vol: 136,646 | Ask Vol: 73,016 | Imb: +30.35%
+2024-12-27 14:54:48,045 - DEBUG - Price: 0.49 | Bid Vol: 126,952 | Ask Vol: 75,195 | Imb: +25.60%
+2024-12-27 14:54:51,067 - DEBUG - Price: 0.49 | Bid Vol: 131,971 | Ask Vol: 71,829 | Imb: +29.51%
+2024-12-27 14:54:51,068 - DEBUG - Price: 0.49 | Bid Vol: 132,370 | Ask Vol: 71,829 | Imb: +29.65%
+2024-12-27 14:54:51,068 - DEBUG - Price: 0.49 | Bid Vol: 132,669 | Ask Vol: 73,034 | Imb: +28.99%
+2024-12-27 14:54:52,058 - DEBUG - Price: 0.49 | Bid Vol: 133,112 | Ask Vol: 74,074 | Imb: +28.50%
+2024-12-27 14:54:53,092 - DEBUG - Price: 0.49 | Bid Vol: 130,632 | Ask Vol: 74,074 | Imb: +27.63%
+2024-12-27 14:54:54,086 - DEBUG - Price: 0.49 | Bid Vol: 130,539 | Ask Vol: 75,103 | Imb: +26.96%
+2024-12-27 14:54:58,079 - DEBUG - Price: 0.49 | Bid Vol: 109,820 | Ask Vol: 89,287 | Imb: +10.31%
+2024-12-27 14:54:59,085 - DEBUG - Price: 0.49 | Bid Vol: 106,874 | Ask Vol: 98,001 | Imb: +4.33%
+2024-12-27 14:55:02,009 - DEBUG - Price: 0.49 | Bid Vol: 123,420 | Ask Vol: 81,106 | Imb: +20.69%
+2024-12-27 14:55:02,073 - DEBUG - Price: 0.49 | Bid Vol: 123,420 | Ask Vol: 80,245 | Imb: +21.20%
+2024-12-27 14:55:03,016 - DEBUG - Price: 0.49 | Bid Vol: 133,195 | Ask Vol: 72,827 | Imb: +29.30%
+2024-12-27 14:55:07,032 - DEBUG - Price: 0.49 | Bid Vol: 128,783 | Ask Vol: 74,038 | Imb: +26.99%
+2024-12-27 14:55:08,048 - DEBUG - Price: 0.49 | Bid Vol: 129,847 | Ask Vol: 74,037 | Imb: +27.37%
+2024-12-27 14:55:10,078 - DEBUG - Price: 0.49 | Bid Vol: 131,142 | Ask Vol: 72,656 | Imb: +28.70%
+2024-12-27 14:55:12,093 - DEBUG - Price: 0.49 | Bid Vol: 124,152 | Ask Vol: 75,932 | Imb: +24.10%
+2024-12-27 14:55:12,093 - DEBUG - Price: 0.49 | Bid Vol: 124,248 | Ask Vol: 74,711 | Imb: +24.90%
+2024-12-27 14:55:13,066 - DEBUG - Price: 0.49 | Bid Vol: 111,947 | Ask Vol: 93,726 | Imb: +8.86%
+2024-12-27 14:55:15,069 - DEBUG - Price: 0.49 | Bid Vol: 137,413 | Ask Vol: 72,383 | Imb: +31.00%
+2024-12-27 14:55:16,039 - DEBUG - Price: 0.49 | Bid Vol: 109,684 | Ask Vol: 96,857 | Imb: +6.21%
+2024-12-27 14:55:18,056 - DEBUG - Price: 0.49 | Bid Vol: 110,475 | Ask Vol: 95,427 | Imb: +7.31%
+2024-12-27 14:55:22,033 - DEBUG - Price: 0.49 | Bid Vol: 124,575 | Ask Vol: 79,853 | Imb: +21.88%
+2024-12-27 14:55:26,061 - DEBUG - Price: 0.49 | Bid Vol: 118,306 | Ask Vol: 80,025 | Imb: +19.30%
+2024-12-27 14:55:27,090 - DEBUG - Price: 0.49 | Bid Vol: 128,812 | Ask Vol: 75,823 | Imb: +25.89%
+2024-12-27 14:55:28,018 - DEBUG - Price: 0.49 | Bid Vol: 127,139 | Ask Vol: 74,855 | Imb: +25.88%
+2024-12-27 14:55:31,092 - DEBUG - Price: 0.49 | Bid Vol: 124,670 | Ask Vol: 75,080 | Imb: +24.83%
+2024-12-27 14:55:35,023 - DEBUG - Price: 0.49 | Bid Vol: 124,055 | Ask Vol: 75,597 | Imb: +24.27%
+2024-12-27 14:55:36,064 - DEBUG - Price: 0.49 | Bid Vol: 126,219 | Ask Vol: 77,447 | Imb: +23.95%
+2024-12-27 14:55:38,033 - DEBUG - Price: 0.49 | Bid Vol: 123,286 | Ask Vol: 78,166 | Imb: +22.40%
+2024-12-27 14:55:39,029 - DEBUG - Price: 0.49 | Bid Vol: 148,087 | Ask Vol: 74,876 | Imb: +32.84%
+2024-12-27 14:55:40,025 - DEBUG - Price: 0.49 | Bid Vol: 149,960 | Ask Vol: 73,775 | Imb: +34.05%
+2024-12-27 14:55:41,010 - DEBUG - Price: 0.49 | Bid Vol: 149,555 | Ask Vol: 74,580 | Imb: +33.45%
+2024-12-27 14:55:43,084 - DEBUG - Price: 0.49 | Bid Vol: 150,605 | Ask Vol: 73,552 | Imb: +34.37%
+2024-12-27 14:55:44,034 - DEBUG - Price: 0.49 | Bid Vol: 141,146 | Ask Vol: 73,552 | Imb: +31.48%
+2024-12-27 14:55:46,076 - DEBUG - Price: 0.49 | Bid Vol: 139,599 | Ask Vol: 73,552 | Imb: +30.99%
+2024-12-27 14:55:49,038 - DEBUG - Price: 0.49 | Bid Vol: 135,785 | Ask Vol: 73,551 | Imb: +29.73%
+2024-12-27 14:55:50,056 - DEBUG - Price: 0.49 | Bid Vol: 135,879 | Ask Vol: 72,551 | Imb: +30.38%
+2024-12-27 14:55:51,015 - DEBUG - Price: 0.49 | Bid Vol: 125,162 | Ask Vol: 78,503 | Imb: +22.91%
+2024-12-27 14:55:53,089 - DEBUG - Price: 0.49 | Bid Vol: 122,037 | Ask Vol: 80,777 | Imb: +20.34%
+2024-12-27 14:55:58,054 - DEBUG - Price: 0.49 | Bid Vol: 120,726 | Ask Vol: 79,644 | Imb: +20.50%
+2024-12-27 14:55:58,075 - DEBUG - Price: 0.49 | Bid Vol: 112,609 | Ask Vol: 81,808 | Imb: +15.84%
+2024-12-27 14:55:59,043 - DEBUG - Price: 0.49 | Bid Vol: 112,270 | Ask Vol: 84,031 | Imb: +14.39%
+2024-12-27 14:56:00,066 - DEBUG - Добавлены данные для 1m: imbalance=22.94, bid_vol=134477, ask_vol=84287
+2024-12-27 14:56:00,066 - DEBUG - Анализ 1m: длина истории = 17
+2024-12-27 14:56:00,066 - DEBUG - Данные 1m: imbalances=[-16.2304113062379, -6.244010453660929, 4.157845509295371, 4.8615345001065835, 13.304855403129444, 16.946321876966408, 20.865569954673155, 11.556105234916798, 5.779967836575653, 22.94216307215006]
+2024-12-27 14:56:00,066 - DEBUG - Результат анализа 1m: {'trend_ascii': 'UP', 'current_imbalance': 22.94216307215006, 'volume_ratio': 1.5954530775015408}
+2024-12-27 14:56:00,066 - INFO - === СТАТИСТИКА 1M ===
+1m  | Trend: UP   | Imb:  +22.9% | Vol Ratio:  1.6
+==================
+
+2024-12-27 14:56:00,067 - DEBUG - Price: 0.49 | Bid Vol: 134,477 | Ask Vol: 84,287 | Imb: +22.94%
+2024-12-27 14:56:01,010 - DEBUG - Price: 0.49 | Bid Vol: 134,490 | Ask Vol: 89,116 | Imb: +20.29%
+2024-12-27 14:56:03,010 - DEBUG - Price: 0.49 | Bid Vol: 121,426 | Ask Vol: 77,802 | Imb: +21.90%
+2024-12-27 14:56:04,031 - DEBUG - Price: 0.49 | Bid Vol: 120,094 | Ask Vol: 79,011 | Imb: +20.63%
+2024-12-27 14:56:06,026 - DEBUG - Price: 0.49 | Bid Vol: 118,086 | Ask Vol: 79,555 | Imb: +19.50%
+2024-12-27 14:56:16,056 - DEBUG - Price: 0.49 | Bid Vol: 125,192 | Ask Vol: 86,105 | Imb: +18.50%
+2024-12-27 14:56:17,016 - DEBUG - Price: 0.49 | Bid Vol: 113,192 | Ask Vol: 86,086 | Imb: +13.60%
+2024-12-27 14:56:20,077 - DEBUG - Price: 0.49 | Bid Vol: 143,696 | Ask Vol: 79,272 | Imb: +28.89%
+2024-12-27 14:56:21,014 - DEBUG - Price: 0.49 | Bid Vol: 144,868 | Ask Vol: 79,305 | Imb: +29.25%
+2024-12-27 14:56:22,078 - DEBUG - Price: 0.49 | Bid Vol: 125,788 | Ask Vol: 86,458 | Imb: +18.53%
+2024-12-27 14:56:23,040 - DEBUG - Price: 0.49 | Bid Vol: 134,601 | Ask Vol: 81,439 | Imb: +24.61%
+2024-12-27 14:56:24,048 - DEBUG - Price: 0.49 | Bid Vol: 133,261 | Ask Vol: 81,662 | Imb: +24.01%
+2024-12-27 14:56:25,067 - DEBUG - Price: 0.49 | Bid Vol: 132,857 | Ask Vol: 81,662 | Imb: +23.86%
+2024-12-27 14:56:27,058 - DEBUG - Price: 0.49 | Bid Vol: 128,019 | Ask Vol: 77,656 | Imb: +24.49%
+2024-12-27 14:56:28,047 - DEBUG - Price: 0.49 | Bid Vol: 119,738 | Ask Vol: 81,298 | Imb: +19.12%
+2024-12-27 14:56:34,048 - DEBUG - Price: 0.49 | Bid Vol: 119,947 | Ask Vol: 79,826 | Imb: +20.08%
+2024-12-27 14:56:35,087 - DEBUG - Price: 0.49 | Bid Vol: 103,886 | Ask Vol: 90,892 | Imb: +6.67%
+2024-12-27 14:56:37,029 - DEBUG - Price: 0.49 | Bid Vol: 104,743 | Ask Vol: 95,610 | Imb: +4.56%
+2024-12-27 14:56:38,066 - DEBUG - Price: 0.49 | Bid Vol: 105,609 | Ask Vol: 95,442 | Imb: +5.06%
+2024-12-27 14:56:39,028 - DEBUG - Price: 0.49 | Bid Vol: 106,130 | Ask Vol: 94,472 | Imb: +5.81%
+2024-12-27 14:56:40,012 - DEBUG - Price: 0.49 | Bid Vol: 106,136 | Ask Vol: 94,484 | Imb: +5.81%
+2024-12-27 14:56:42,097 - DEBUG - Price: 0.49 | Bid Vol: 117,302 | Ask Vol: 110,383 | Imb: +3.04%
+2024-12-27 14:56:43,010 - DEBUG - Price: 0.49 | Bid Vol: 113,880 | Ask Vol: 93,749 | Imb: +9.70%
+2024-12-27 14:56:46,078 - DEBUG - Price: 0.49 | Bid Vol: 110,965 | Ask Vol: 95,374 | Imb: +7.56%
+2024-12-27 14:56:47,039 - DEBUG - Price: 0.49 | Bid Vol: 99,989 | Ask Vol: 96,285 | Imb: +1.89%
+2024-12-27 14:56:48,088 - DEBUG - Price: 0.49 | Bid Vol: 99,783 | Ask Vol: 97,611 | Imb: +1.10%
+2024-12-27 14:56:51,013 - DEBUG - Price: 0.49 | Bid Vol: 100,709 | Ask Vol: 98,183 | Imb: +1.27%
+2024-12-27 14:56:52,070 - DEBUG - Price: 0.49 | Bid Vol: 103,737 | Ask Vol: 90,641 | Imb: +6.74%
+2024-12-27 14:56:54,090 - DEBUG - Price: 0.49 | Bid Vol: 103,612 | Ask Vol: 89,406 | Imb: +7.36%
+2024-12-27 14:56:56,026 - DEBUG - Price: 0.49 | Bid Vol: 105,242 | Ask Vol: 87,480 | Imb: +9.22%
+2024-12-27 14:56:57,024 - DEBUG - Price: 0.49 | Bid Vol: 105,247 | Ask Vol: 87,641 | Imb: +9.13%
+2024-12-27 14:57:00,083 - DEBUG - Добавлены данные для 1m: imbalance=9.43, bid_vol=105920, ask_vol=87664
+2024-12-27 14:57:00,083 - DEBUG - Анализ 1m: длина истории = 18
+2024-12-27 14:57:00,084 - DEBUG - Данные 1m: imbalances=[-6.244010453660929, 4.157845509295371, 4.8615345001065835, 13.304855403129444, 16.946321876966408, 20.865569954673155, 11.556105234916798, 5.779967836575653, 22.94216307215006, 9.430106714996809]
+2024-12-27 14:57:00,084 - DEBUG - Результат анализа 1m: {'trend_ascii': 'UP', 'current_imbalance': 9.430106714996809, 'volume_ratio': 1.2082393248564922}
+2024-12-27 14:57:00,084 - INFO - === СТАТИСТИКА 1M ===
+1m  | Trend: UP   | Imb:   +9.4% | Vol Ratio:  1.2
+==================
+
+2024-12-27 14:57:00,084 - DEBUG - Price: 0.49 | Bid Vol: 105,920 | Ask Vol: 87,664 | Imb: +9.43%
+2024-12-27 14:57:01,023 - DEBUG - Price: 0.49 | Bid Vol: 105,983 | Ask Vol: 88,724 | Imb: +8.86%
+2024-12-27 14:57:02,093 - DEBUG - Price: 0.49 | Bid Vol: 106,989 | Ask Vol: 87,439 | Imb: +10.06%
+2024-12-27 14:57:05,042 - DEBUG - Price: 0.49 | Bid Vol: 108,089 | Ask Vol: 89,321 | Imb: +9.51%
+2024-12-27 14:57:05,042 - DEBUG - Price: 0.49 | Bid Vol: 107,989 | Ask Vol: 89,321 | Imb: +9.46%
+2024-12-27 14:57:08,080 - DEBUG - Price: 0.49 | Bid Vol: 111,406 | Ask Vol: 89,321 | Imb: +11.00%
+2024-12-27 14:57:09,020 - DEBUG - Price: 0.49 | Bid Vol: 97,665 | Ask Vol: 99,044 | Imb: -0.70%
+2024-12-27 14:57:09,095 - DEBUG - Price: 0.49 | Bid Vol: 98,745 | Ask Vol: 96,605 | Imb: +1.10%
+2024-12-27 14:57:12,066 - DEBUG - Price: 0.49 | Bid Vol: 94,090 | Ask Vol: 113,641 | Imb: -9.41%
+2024-12-27 14:57:14,008 - DEBUG - Price: 0.49 | Bid Vol: 98,235 | Ask Vol: 92,488 | Imb: +3.01%
+2024-12-27 14:57:15,091 - DEBUG - Price: 0.49 | Bid Vol: 107,973 | Ask Vol: 82,852 | Imb: +13.16%
+2024-12-27 14:57:17,066 - DEBUG - Price: 0.49 | Bid Vol: 107,951 | Ask Vol: 79,369 | Imb: +15.26%
+2024-12-27 14:57:18,011 - DEBUG - Price: 0.49 | Bid Vol: 108,915 | Ask Vol: 80,785 | Imb: +14.83%
+2024-12-27 14:57:25,081 - DEBUG - Price: 0.49 | Bid Vol: 107,431 | Ask Vol: 81,035 | Imb: +14.01%
+2024-12-27 14:57:28,074 - DEBUG - Price: 0.49 | Bid Vol: 108,185 | Ask Vol: 81,571 | Imb: +14.03%
+2024-12-27 14:57:29,012 - DEBUG - Price: 0.49 | Bid Vol: 108,285 | Ask Vol: 81,571 | Imb: +14.07%
+2024-12-27 14:57:30,054 - DEBUG - Price: 0.49 | Bid Vol: 100,073 | Ask Vol: 81,645 | Imb: +10.14%
+2024-12-27 14:57:31,078 - DEBUG - Price: 0.49 | Bid Vol: 105,344 | Ask Vol: 81,571 | Imb: +12.72%
+2024-12-27 14:57:32,031 - DEBUG - Price: 0.49 | Bid Vol: 105,350 | Ask Vol: 81,571 | Imb: +12.72%
+2024-12-27 14:57:33,099 - DEBUG - Price: 0.49 | Bid Vol: 104,586 | Ask Vol: 81,070 | Imb: +12.67%
+2024-12-27 14:57:35,045 - DEBUG - Price: 0.49 | Bid Vol: 91,927 | Ask Vol: 93,887 | Imb: -1.06%
+2024-12-27 14:57:36,020 - DEBUG - Price: 0.49 | Bid Vol: 93,613 | Ask Vol: 90,404 | Imb: +1.74%
+2024-12-27 14:57:37,066 - DEBUG - Price: 0.49 | Bid Vol: 95,693 | Ask Vol: 109,337 | Imb: -6.65%
+2024-12-27 14:57:37,093 - DEBUG - Price: 0.49 | Bid Vol: 84,769 | Ask Vol: 113,162 | Imb: -14.35%
+2024-12-27 14:57:38,058 - DEBUG - Price: 0.49 | Bid Vol: 94,386 | Ask Vol: 110,536 | Imb: -7.88%
+2024-12-27 14:57:39,014 - DEBUG - Price: 0.49 | Bid Vol: 101,783 | Ask Vol: 110,664 | Imb: -4.18%
+2024-12-27 14:57:40,000 - DEBUG - Price: 0.49 | Bid Vol: 101,112 | Ask Vol: 94,485 | Imb: +3.39%
+2024-12-27 14:57:41,085 - DEBUG - Price: 0.49 | Bid Vol: 105,048 | Ask Vol: 93,627 | Imb: +5.75%
+2024-12-27 14:57:42,039 - DEBUG - Price: 0.49 | Bid Vol: 105,840 | Ask Vol: 93,627 | Imb: +6.12%
+2024-12-27 14:57:43,072 - DEBUG - Price: 0.49 | Bid Vol: 107,531 | Ask Vol: 93,777 | Imb: +6.83%
+2024-12-27 14:57:44,016 - DEBUG - Price: 0.49 | Bid Vol: 107,525 | Ask Vol: 93,161 | Imb: +7.16%
+2024-12-27 14:57:47,027 - DEBUG - Price: 0.49 | Bid Vol: 110,177 | Ask Vol: 83,015 | Imb: +14.06%
+2024-12-27 14:57:48,045 - DEBUG - Price: 0.49 | Bid Vol: 110,292 | Ask Vol: 83,193 | Imb: +14.01%
+2024-12-27 14:57:48,095 - DEBUG - Price: 0.49 | Bid Vol: 110,292 | Ask Vol: 82,678 | Imb: +14.31%
+2024-12-27 14:57:51,036 - DEBUG - Price: 0.49 | Bid Vol: 97,404 | Ask Vol: 90,847 | Imb: +3.48%
+2024-12-27 14:57:52,002 - DEBUG - Price: 0.49 | Bid Vol: 98,252 | Ask Vol: 90,847 | Imb: +3.92%
+2024-12-27 14:57:55,057 - DEBUG - Price: 0.49 | Bid Vol: 130,175 | Ask Vol: 86,338 | Imb: +20.25%
+2024-12-27 14:57:56,043 - DEBUG - Price: 0.49 | Bid Vol: 122,658 | Ask Vol: 87,531 | Imb: +16.71%
+2024-12-27 14:57:57,036 - DEBUG - Price: 0.49 | Bid Vol: 122,658 | Ask Vol: 87,531 | Imb: +16.71%
+2024-12-27 14:57:58,098 - DEBUG - Price: 0.49 | Bid Vol: 122,809 | Ask Vol: 83,051 | Imb: +19.31%
+2024-12-27 14:58:01,067 - DEBUG - Price: 0.49 | Bid Vol: 114,291 | Ask Vol: 82,158 | Imb: +16.36%
+2024-12-27 14:58:03,045 - DEBUG - Price: 0.49 | Bid Vol: 110,880 | Ask Vol: 84,155 | Imb: +13.70%
+2024-12-27 14:58:03,074 - DEBUG - Price: 0.49 | Bid Vol: 111,578 | Ask Vol: 82,800 | Imb: +14.81%
+2024-12-27 14:58:05,050 - DEBUG - Price: 0.49 | Bid Vol: 111,796 | Ask Vol: 82,816 | Imb: +14.89%
+2024-12-27 14:58:06,079 - DEBUG - Price: 0.49 | Bid Vol: 113,311 | Ask Vol: 82,816 | Imb: +15.55%
+2024-12-27 14:58:07,085 - DEBUG - Price: 0.49 | Bid Vol: 95,134 | Ask Vol: 94,187 | Imb: +0.50%
+2024-12-27 14:58:08,049 - DEBUG - Price: 0.49 | Bid Vol: 99,790 | Ask Vol: 91,328 | Imb: +4.43%
+2024-12-27 14:58:09,018 - DEBUG - Price: 0.49 | Bid Vol: 99,987 | Ask Vol: 95,882 | Imb: +2.10%
+2024-12-27 14:58:09,093 - DEBUG - Price: 0.49 | Bid Vol: 100,372 | Ask Vol: 95,808 | Imb: +2.33%
+2024-12-27 14:58:10,080 - DEBUG - Price: 0.49 | Bid Vol: 100,091 | Ask Vol: 96,120 | Imb: +2.02%
+2024-12-27 14:58:13,098 - DEBUG - Price: 0.49 | Bid Vol: 101,623 | Ask Vol: 90,278 | Imb: +5.91%
+2024-12-27 14:58:16,037 - DEBUG - Price: 0.49 | Bid Vol: 99,844 | Ask Vol: 90,447 | Imb: +4.94%
+2024-12-27 14:58:17,032 - DEBUG - Price: 0.49 | Bid Vol: 91,557 | Ask Vol: 91,586 | Imb: -0.02%
+2024-12-27 14:58:17,052 - DEBUG - Price: 0.49 | Bid Vol: 91,541 | Ask Vol: 89,432 | Imb: +1.17%
+2024-12-27 14:58:18,050 - DEBUG - Price: 0.49 | Bid Vol: 91,199 | Ask Vol: 97,432 | Imb: -3.30%
+2024-12-27 14:58:19,053 - DEBUG - Price: 0.49 | Bid Vol: 97,721 | Ask Vol: 97,408 | Imb: +0.16%
+2024-12-27 14:58:20,003 - DEBUG - Price: 0.49 | Bid Vol: 93,500 | Ask Vol: 84,750 | Imb: +4.91%
+2024-12-27 14:58:21,005 - DEBUG - Price: 0.49 | Bid Vol: 93,177 | Ask Vol: 84,442 | Imb: +4.92%
+2024-12-27 14:58:23,021 - DEBUG - Price: 0.49 | Bid Vol: 95,753 | Ask Vol: 86,435 | Imb: +5.11%
+2024-12-27 14:58:25,087 - DEBUG - Price: 0.49 | Bid Vol: 95,359 | Ask Vol: 87,518 | Imb: +4.29%
+2024-12-27 14:58:29,041 - DEBUG - Price: 0.49 | Bid Vol: 95,447 | Ask Vol: 88,811 | Imb: +3.60%
+2024-12-27 14:58:31,008 - DEBUG - Price: 0.49 | Bid Vol: 108,921 | Ask Vol: 84,276 | Imb: +12.76%
+2024-12-27 14:58:32,033 - DEBUG - Price: 0.49 | Bid Vol: 104,344 | Ask Vol: 85,576 | Imb: +9.88%
+2024-12-27 14:58:34,004 - DEBUG - Price: 0.49 | Bid Vol: 109,360 | Ask Vol: 89,776 | Imb: +9.83%
+2024-12-27 14:58:36,023 - DEBUG - Price: 0.49 | Bid Vol: 122,345 | Ask Vol: 90,099 | Imb: +15.18%
+2024-12-27 14:58:37,040 - DEBUG - Price: 0.49 | Bid Vol: 124,768 | Ask Vol: 90,099 | Imb: +16.13%
+2024-12-27 14:58:38,009 - DEBUG - Price: 0.49 | Bid Vol: 129,698 | Ask Vol: 90,099 | Imb: +18.02%
+2024-12-27 14:58:39,087 - DEBUG - Price: 0.49 | Bid Vol: 129,740 | Ask Vol: 90,105 | Imb: +18.03%
+2024-12-27 14:58:40,070 - DEBUG - Price: 0.49 | Bid Vol: 130,600 | Ask Vol: 90,105 | Imb: +18.35%
+2024-12-27 14:58:40,071 - DEBUG - Price: 0.49 | Bid Vol: 130,600 | Ask Vol: 90,105 | Imb: +18.35%
+2024-12-27 14:58:40,081 - DEBUG - Price: 0.49 | Bid Vol: 129,611 | Ask Vol: 90,105 | Imb: +17.98%
+2024-12-27 14:58:41,099 - DEBUG - Price: 0.49 | Bid Vol: 102,144 | Ask Vol: 96,599 | Imb: +2.79%
+2024-12-27 14:58:47,021 - DEBUG - Price: 0.49 | Bid Vol: 110,041 | Ask Vol: 95,047 | Imb: +7.31%
+2024-12-27 14:58:47,022 - DEBUG - Price: 0.49 | Bid Vol: 110,241 | Ask Vol: 95,047 | Imb: +7.40%
+2024-12-27 14:58:47,045 - DEBUG - Price: 0.49 | Bid Vol: 108,614 | Ask Vol: 95,047 | Imb: +6.66%
+2024-12-27 14:58:47,045 - DEBUG - Price: 0.49 | Bid Vol: 108,614 | Ask Vol: 95,047 | Imb: +6.66%
+2024-12-27 14:58:47,045 - DEBUG - Price: 0.49 | Bid Vol: 108,619 | Ask Vol: 95,047 | Imb: +6.66%
+2024-12-27 14:58:47,045 - DEBUG - Price: 0.49 | Bid Vol: 108,719 | Ask Vol: 95,047 | Imb: +6.71%
+2024-12-27 14:58:48,001 - DEBUG - Price: 0.49 | Bid Vol: 108,942 | Ask Vol: 95,392 | Imb: +6.63%
+2024-12-27 14:58:50,084 - DEBUG - Price: 0.49 | Bid Vol: 104,512 | Ask Vol: 99,625 | Imb: +2.39%
+2024-12-27 14:58:52,075 - DEBUG - Price: 0.49 | Bid Vol: 104,071 | Ask Vol: 100,178 | Imb: +1.91%
+2024-12-27 14:58:56,023 - DEBUG - Price: 0.49 | Bid Vol: 119,562 | Ask Vol: 93,568 | Imb: +12.20%
+2024-12-27 14:58:57,074 - DEBUG - Price: 0.49 | Bid Vol: 120,055 | Ask Vol: 92,414 | Imb: +13.01%
+2024-12-27 14:58:58,088 - DEBUG - Price: 0.49 | Bid Vol: 120,504 | Ask Vol: 91,361 | Imb: +13.76%
+2024-12-27 14:58:59,073 - DEBUG - Price: 0.49 | Bid Vol: 107,904 | Ask Vol: 91,848 | Imb: +8.04%
+2024-12-27 14:59:01,063 - DEBUG - Price: 0.49 | Bid Vol: 109,306 | Ask Vol: 91,854 | Imb: +8.68%
+2024-12-27 14:59:04,063 - DEBUG - Price: 0.49 | Bid Vol: 121,863 | Ask Vol: 92,786 | Imb: +13.55%
+2024-12-27 14:59:07,044 - DEBUG - Price: 0.49 | Bid Vol: 115,387 | Ask Vol: 96,265 | Imb: +9.03%
+2024-12-27 14:59:08,098 - DEBUG - Price: 0.49 | Bid Vol: 114,323 | Ask Vol: 96,165 | Imb: +8.63%
+2024-12-27 14:59:11,019 - DEBUG - Price: 0.49 | Bid Vol: 103,102 | Ask Vol: 95,771 | Imb: +3.69%
+2024-12-27 14:59:12,078 - DEBUG - Price: 0.49 | Bid Vol: 116,204 | Ask Vol: 92,778 | Imb: +11.21%
+2024-12-27 14:59:13,032 - DEBUG - Price: 0.49 | Bid Vol: 116,963 | Ask Vol: 94,610 | Imb: +10.56%
+2024-12-27 14:59:15,091 - DEBUG - Price: 0.49 | Bid Vol: 116,006 | Ask Vol: 101,817 | Imb: +6.51%
+2024-12-27 14:59:17,028 - DEBUG - Price: 0.49 | Bid Vol: 108,375 | Ask Vol: 95,621 | Imb: +6.25%
+2024-12-27 14:59:18,001 - DEBUG - Price: 0.49 | Bid Vol: 109,545 | Ask Vol: 95,163 | Imb: +7.03%
+2024-12-27 14:59:20,008 - DEBUG - Price: 0.49 | Bid Vol: 123,401 | Ask Vol: 94,831 | Imb: +13.09%
+2024-12-27 14:59:22,040 - DEBUG - Price: 0.49 | Bid Vol: 120,828 | Ask Vol: 94,841 | Imb: +12.05%
+2024-12-27 14:59:23,075 - DEBUG - Price: 0.49 | Bid Vol: 121,545 | Ask Vol: 94,841 | Imb: +12.34%
+2024-12-27 14:59:24,024 - DEBUG - Price: 0.49 | Bid Vol: 119,270 | Ask Vol: 92,181 | Imb: +12.81%
+2024-12-27 14:59:26,010 - DEBUG - Price: 0.49 | Bid Vol: 110,855 | Ask Vol: 102,126 | Imb: +4.10%
+2024-12-27 14:59:28,022 - DEBUG - Price: 0.49 | Bid Vol: 124,474 | Ask Vol: 86,639 | Imb: +17.92%
+2024-12-27 14:59:29,004 - DEBUG - Price: 0.49 | Bid Vol: 125,615 | Ask Vol: 87,156 | Imb: +18.08%
+2024-12-27 14:59:30,084 - DEBUG - Price: 0.49 | Bid Vol: 126,114 | Ask Vol: 87,324 | Imb: +18.17%
+2024-12-27 14:59:31,086 - DEBUG - Price: 0.49 | Bid Vol: 128,837 | Ask Vol: 87,467 | Imb: +19.13%
+2024-12-27 14:59:37,004 - DEBUG - Price: 0.49 | Bid Vol: 105,326 | Ask Vol: 104,042 | Imb: +0.61%
+2024-12-27 14:59:39,063 - DEBUG - Price: 0.49 | Bid Vol: 103,444 | Ask Vol: 105,788 | Imb: -1.12%
+2024-12-27 14:59:41,042 - DEBUG - Price: 0.49 | Bid Vol: 123,995 | Ask Vol: 88,694 | Imb: +16.60%
+2024-12-27 14:59:42,099 - DEBUG - Price: 0.49 | Bid Vol: 125,247 | Ask Vol: 86,995 | Imb: +18.02%
+2024-12-27 14:59:46,062 - DEBUG - Price: 0.49 | Bid Vol: 119,643 | Ask Vol: 87,343 | Imb: +15.60%
+2024-12-27 14:59:47,032 - DEBUG - Price: 0.49 | Bid Vol: 119,643 | Ask Vol: 88,150 | Imb: +15.16%
+2024-12-27 14:59:48,039 - DEBUG - Price: 0.49 | Bid Vol: 114,276 | Ask Vol: 90,648 | Imb: +11.53%
+2024-12-27 14:59:49,022 - DEBUG - Price: 0.49 | Bid Vol: 113,929 | Ask Vol: 90,076 | Imb: +11.69%
+2024-12-27 14:59:50,057 - DEBUG - Price: 0.49 | Bid Vol: 118,200 | Ask Vol: 96,407 | Imb: +10.16%
+2024-12-27 14:59:51,001 - DEBUG - Price: 0.49 | Bid Vol: 124,169 | Ask Vol: 96,907 | Imb: +12.33%
+2024-12-27 14:59:55,001 - DEBUG - Price: 0.49 | Bid Vol: 126,756 | Ask Vol: 96,881 | Imb: +13.36%
+2024-12-27 14:59:56,024 - DEBUG - Price: 0.49 | Bid Vol: 127,109 | Ask Vol: 96,881 | Imb: +13.50%
+2024-12-27 14:59:57,033 - DEBUG - Price: 0.49 | Bid Vol: 123,042 | Ask Vol: 97,164 | Imb: +11.75%
+2024-12-27 14:59:58,027 - DEBUG - Price: 0.49 | Bid Vol: 124,189 | Ask Vol: 97,009 | Imb: +12.29%
+2024-12-27 14:59:59,061 - DEBUG - Price: 0.49 | Bid Vol: 113,385 | Ask Vol: 92,089 | Imb: +10.36%
+2024-12-27 15:00:03,002 - DEBUG - Price: 0.49 | Bid Vol: 93,938 | Ask Vol: 81,151 | Imb: +7.30%
+2024-12-27 15:00:04,049 - DEBUG - Price: 0.49 | Bid Vol: 94,017 | Ask Vol: 83,134 | Imb: +6.14%
+2024-12-27 15:00:05,028 - DEBUG - Price: 0.49 | Bid Vol: 94,515 | Ask Vol: 94,960 | Imb: -0.23%
+2024-12-27 15:00:06,015 - DEBUG - Price: 0.49 | Bid Vol: 90,865 | Ask Vol: 95,561 | Imb: -2.52%
+2024-12-27 15:00:07,035 - DEBUG - Price: 0.49 | Bid Vol: 90,822 | Ask Vol: 97,159 | Imb: -3.37%
+2024-12-27 15:00:08,011 - DEBUG - Price: 0.49 | Bid Vol: 92,710 | Ask Vol: 94,559 | Imb: -0.99%
+2024-12-27 15:00:09,018 - DEBUG - Price: 0.49 | Bid Vol: 93,450 | Ask Vol: 94,548 | Imb: -0.58%
+2024-12-27 15:00:10,061 - DEBUG - Price: 0.49 | Bid Vol: 96,071 | Ask Vol: 94,729 | Imb: +0.70%
+2024-12-27 15:00:12,041 - DEBUG - Price: 0.49 | Bid Vol: 96,637 | Ask Vol: 89,978 | Imb: +3.57%
+2024-12-27 15:00:14,096 - DEBUG - Price: 0.49 | Bid Vol: 93,499 | Ask Vol: 91,375 | Imb: +1.15%
+2024-12-27 15:00:14,098 - DEBUG - Price: 0.49 | Bid Vol: 93,499 | Ask Vol: 91,321 | Imb: +1.18%
+2024-12-27 15:00:17,036 - DEBUG - Price: 0.49 | Bid Vol: 79,193 | Ask Vol: 101,132 | Imb: -12.17%
+2024-12-27 15:00:20,080 - DEBUG - Price: 0.49 | Bid Vol: 94,328 | Ask Vol: 91,701 | Imb: +1.41%
+2024-12-27 15:00:20,080 - DEBUG - Price: 0.49 | Bid Vol: 94,228 | Ask Vol: 91,701 | Imb: +1.36%
+2024-12-27 15:00:20,080 - DEBUG - Price: 0.49 | Bid Vol: 93,198 | Ask Vol: 91,745 | Imb: +0.79%
+2024-12-27 15:00:20,082 - DEBUG - Price: 0.49 | Bid Vol: 93,198 | Ask Vol: 91,745 | Imb: +0.79%
+2024-12-27 15:00:23,064 - DEBUG - Price: 0.49 | Bid Vol: 96,704 | Ask Vol: 88,953 | Imb: +4.17%
+2024-12-27 15:00:24,021 - DEBUG - Price: 0.49 | Bid Vol: 94,055 | Ask Vol: 92,985 | Imb: +0.57%
+2024-12-27 15:00:25,065 - DEBUG - Price: 0.49 | Bid Vol: 96,281 | Ask Vol: 87,163 | Imb: +4.97%
+2024-12-27 15:00:27,032 - DEBUG - Price: 0.49 | Bid Vol: 100,209 | Ask Vol: 93,158 | Imb: +3.65%
+2024-12-27 15:00:29,046 - DEBUG - Price: 0.49 | Bid Vol: 113,918 | Ask Vol: 87,966 | Imb: +12.85%
+2024-12-27 15:00:30,028 - DEBUG - Price: 0.49 | Bid Vol: 115,766 | Ask Vol: 87,123 | Imb: +14.12%
+2024-12-27 15:00:30,039 - DEBUG - Price: 0.49 | Bid Vol: 100,977 | Ask Vol: 94,148 | Imb: +3.50%
+2024-12-27 15:00:31,003 - DEBUG - Price: 0.49 | Bid Vol: 104,774 | Ask Vol: 92,398 | Imb: +6.28%
+2024-12-27 15:00:32,053 - DEBUG - Price: 0.49 | Bid Vol: 107,079 | Ask Vol: 100,651 | Imb: +3.09%
+2024-12-27 15:00:32,078 - DEBUG - Price: 0.49 | Bid Vol: 107,085 | Ask Vol: 100,258 | Imb: +3.29%
+2024-12-27 15:00:34,041 - DEBUG - Price: 0.49 | Bid Vol: 79,057 | Ask Vol: 100,259 | Imb: -11.82%
+2024-12-27 15:00:36,006 - DEBUG - Price: 0.49 | Bid Vol: 99,493 | Ask Vol: 94,330 | Imb: +2.66%
+2024-12-27 15:00:37,025 - DEBUG - Price: 0.49 | Bid Vol: 94,947 | Ask Vol: 95,926 | Imb: -0.51%
+2024-12-27 15:00:38,017 - DEBUG - Price: 0.49 | Bid Vol: 81,753 | Ask Vol: 87,956 | Imb: -3.65%
+2024-12-27 15:00:39,074 - DEBUG - Price: 0.49 | Bid Vol: 82,229 | Ask Vol: 89,797 | Imb: -4.40%
+2024-12-27 15:00:40,057 - DEBUG - Price: 0.49 | Bid Vol: 75,370 | Ask Vol: 114,390 | Imb: -20.56%
+2024-12-27 15:00:41,062 - DEBUG - Price: 0.49 | Bid Vol: 83,388 | Ask Vol: 110,067 | Imb: -13.79%
+2024-12-27 15:00:42,070 - DEBUG - Price: 0.49 | Bid Vol: 97,681 | Ask Vol: 89,081 | Imb: +4.60%
+2024-12-27 15:00:46,018 - DEBUG - Price: 0.49 | Bid Vol: 88,080 | Ask Vol: 84,277 | Imb: +2.21%
+2024-12-27 15:00:49,017 - DEBUG - Price: 0.49 | Bid Vol: 108,835 | Ask Vol: 84,644 | Imb: +12.50%
+2024-12-27 15:00:50,011 - DEBUG - Price: 0.49 | Bid Vol: 115,021 | Ask Vol: 79,319 | Imb: +18.37%
+2024-12-27 15:00:54,085 - DEBUG - Price: 0.49 | Bid Vol: 106,676 | Ask Vol: 88,594 | Imb: +9.26%
+2024-12-27 15:01:01,031 - DEBUG - Price: 0.49 | Bid Vol: 99,098 | Ask Vol: 91,842 | Imb: +3.80%
+2024-12-27 15:01:02,004 - DEBUG - Price: 0.49 | Bid Vol: 92,991 | Ask Vol: 104,036 | Imb: -5.61%
+2024-12-27 15:01:05,017 - DEBUG - Price: 0.49 | Bid Vol: 103,188 | Ask Vol: 86,412 | Imb: +8.85%
+2024-12-27 15:01:05,057 - DEBUG - Price: 0.49 | Bid Vol: 99,660 | Ask Vol: 86,577 | Imb: +7.03%
+2024-12-27 15:01:06,084 - DEBUG - Price: 0.49 | Bid Vol: 114,358 | Ask Vol: 79,251 | Imb: +18.13%
+2024-12-27 15:01:07,035 - DEBUG - Price: 0.49 | Bid Vol: 129,094 | Ask Vol: 82,400 | Imb: +22.08%
+2024-12-27 15:01:08,038 - DEBUG - Price: 0.49 | Bid Vol: 130,094 | Ask Vol: 84,800 | Imb: +21.08%
+2024-12-27 15:01:09,067 - DEBUG - Price: 0.49 | Bid Vol: 131,098 | Ask Vol: 84,714 | Imb: +21.49%
+2024-12-27 15:01:10,013 - DEBUG - Price: 0.49 | Bid Vol: 130,833 | Ask Vol: 84,720 | Imb: +21.39%
+2024-12-27 15:01:11,097 - DEBUG - Price: 0.49 | Bid Vol: 142,968 | Ask Vol: 81,688 | Imb: +27.28%
+2024-12-27 15:01:13,083 - DEBUG - Price: 0.49 | Bid Vol: 145,251 | Ask Vol: 82,143 | Imb: +27.75%
+2024-12-27 15:01:15,034 - DEBUG - Price: 0.49 | Bid Vol: 142,903 | Ask Vol: 83,268 | Imb: +26.37%
+2024-12-27 15:01:16,030 - DEBUG - Price: 0.49 | Bid Vol: 142,802 | Ask Vol: 84,429 | Imb: +25.69%
+2024-12-27 15:01:17,060 - DEBUG - Price: 0.49 | Bid Vol: 142,922 | Ask Vol: 83,161 | Imb: +26.43%
+2024-12-27 15:01:21,004 - DEBUG - Price: 0.49 | Bid Vol: 119,436 | Ask Vol: 89,097 | Imb: +14.55%
+2024-12-27 15:01:21,032 - DEBUG - Price: 0.49 | Bid Vol: 117,409 | Ask Vol: 89,097 | Imb: +13.71%
+2024-12-27 15:01:21,032 - DEBUG - Price: 0.49 | Bid Vol: 117,409 | Ask Vol: 89,097 | Imb: +13.71%
+2024-12-27 15:01:21,032 - DEBUG - Price: 0.49 | Bid Vol: 117,409 | Ask Vol: 89,097 | Imb: +13.71%
+2024-12-27 15:01:22,027 - DEBUG - Price: 0.49 | Bid Vol: 115,355 | Ask Vol: 92,078 | Imb: +11.22%
+2024-12-27 15:01:27,012 - DEBUG - Price: 0.49 | Bid Vol: 135,978 | Ask Vol: 85,338 | Imb: +22.88%
+2024-12-27 15:01:28,070 - DEBUG - Price: 0.49 | Bid Vol: 143,825 | Ask Vol: 96,615 | Imb: +19.63%
+2024-12-27 15:01:30,037 - DEBUG - Price: 0.49 | Bid Vol: 134,557 | Ask Vol: 97,380 | Imb: +16.03%
+2024-12-27 15:01:31,005 - DEBUG - Price: 0.49 | Bid Vol: 140,248 | Ask Vol: 94,495 | Imb: +19.49%
+2024-12-27 15:01:32,091 - DEBUG - Price: 0.49 | Bid Vol: 128,481 | Ask Vol: 94,861 | Imb: +15.05%
+2024-12-27 15:01:36,076 - DEBUG - Price: 0.49 | Bid Vol: 141,590 | Ask Vol: 91,432 | Imb: +21.53%
+2024-12-27 15:01:37,059 - DEBUG - Price: 0.49 | Bid Vol: 141,422 | Ask Vol: 91,426 | Imb: +21.47%
+2024-12-27 15:01:39,052 - DEBUG - Price: 0.49 | Bid Vol: 143,466 | Ask Vol: 89,493 | Imb: +23.17%
+2024-12-27 15:01:40,078 - DEBUG - Price: 0.49 | Bid Vol: 129,252 | Ask Vol: 92,212 | Imb: +16.72%
+2024-12-27 15:01:41,042 - DEBUG - Price: 0.49 | Bid Vol: 130,565 | Ask Vol: 92,535 | Imb: +17.05%
+2024-12-27 15:01:42,091 - DEBUG - Price: 0.49 | Bid Vol: 133,910 | Ask Vol: 89,456 | Imb: +19.90%
+2024-12-27 15:01:44,090 - DEBUG - Price: 0.49 | Bid Vol: 128,526 | Ask Vol: 91,382 | Imb: +16.89%
+2024-12-27 15:01:46,021 - DEBUG - Price: 0.49 | Bid Vol: 126,601 | Ask Vol: 92,934 | Imb: +15.34%
+2024-12-27 15:01:48,005 - DEBUG - Price: 0.49 | Bid Vol: 129,581 | Ask Vol: 91,393 | Imb: +17.28%
+2024-12-27 15:01:49,099 - DEBUG - Price: 0.49 | Bid Vol: 129,750 | Ask Vol: 91,393 | Imb: +17.34%
+2024-12-27 15:01:52,018 - DEBUG - Price: 0.49 | Bid Vol: 106,641 | Ask Vol: 104,786 | Imb: +0.88%
+2024-12-27 15:01:54,059 - DEBUG - Price: 0.49 | Bid Vol: 110,956 | Ask Vol: 107,305 | Imb: +1.67%
+2024-12-27 15:01:56,036 - DEBUG - Price: 0.49 | Bid Vol: 121,271 | Ask Vol: 112,397 | Imb: +3.80%
+2024-12-27 15:01:57,042 - DEBUG - Price: 0.49 | Bid Vol: 121,106 | Ask Vol: 113,719 | Imb: +3.15%
+2024-12-27 15:01:58,020 - DEBUG - Price: 0.49 | Bid Vol: 119,625 | Ask Vol: 111,715 | Imb: +3.42%
+2024-12-27 15:01:59,080 - DEBUG - Price: 0.49 | Bid Vol: 120,485 | Ask Vol: 110,525 | Imb: +4.31%
+2024-12-27 15:02:00,003 - DEBUG - Добавлены данные для 1m: imbalance=4.46, bid_vol=120666, ask_vol=110361
+2024-12-27 15:02:00,003 - DEBUG - Анализ 1m: длина истории = 19
+2024-12-27 15:02:00,003 - DEBUG - Данные 1m: imbalances=[4.157845509295371, 4.8615345001065835, 13.304855403129444, 16.946321876966408, 20.865569954673155, 11.556105234916798, 5.779967836575653, 22.94216307215006, 9.430106714996809, 4.460242929026346]
+2024-12-27 15:02:00,003 - DEBUG - Результат анализа 1m: {'trend_ascii': '-', 'current_imbalance': 4.460242929026346, 'volume_ratio': 1.093369358804481}
+2024-12-27 15:02:00,003 - INFO - === СТАТИСТИКА 1M ===
+1m  | Trend: -    | Imb:   +4.5% | Vol Ratio:  1.1
+==================
+
+2024-12-27 15:02:00,003 - DEBUG - Price: 0.49 | Bid Vol: 120,666 | Ask Vol: 110,361 | Imb: +4.46%
+2024-12-27 15:02:01,014 - DEBUG - Price: 0.49 | Bid Vol: 118,543 | Ask Vol: 110,501 | Imb: +3.51%
+2024-12-27 15:02:02,002 - DEBUG - Price: 0.49 | Bid Vol: 151,164 | Ask Vol: 88,613 | Imb: +26.09%
+2024-12-27 15:02:03,041 - DEBUG - Price: 0.49 | Bid Vol: 147,300 | Ask Vol: 91,254 | Imb: +23.49%
+2024-12-27 15:02:05,087 - DEBUG - Price: 0.49 | Bid Vol: 119,700 | Ask Vol: 100,804 | Imb: +8.57%
+2024-12-27 15:02:07,083 - DEBUG - Price: 0.49 | Bid Vol: 123,547 | Ask Vol: 98,944 | Imb: +11.06%
+2024-12-27 15:02:09,066 - DEBUG - Price: 0.49 | Bid Vol: 126,553 | Ask Vol: 98,029 | Imb: +12.70%
+2024-12-27 15:02:11,073 - DEBUG - Price: 0.49 | Bid Vol: 149,661 | Ask Vol: 90,554 | Imb: +24.61%
+2024-12-27 15:02:13,069 - DEBUG - Price: 0.49 | Bid Vol: 150,835 | Ask Vol: 84,757 | Imb: +28.05%
+2024-12-27 15:02:14,032 - DEBUG - Price: 0.49 | Bid Vol: 150,816 | Ask Vol: 85,310 | Imb: +27.74%
+2024-12-27 15:02:15,069 - DEBUG - Price: 0.49 | Bid Vol: 150,905 | Ask Vol: 85,384 | Imb: +27.73%
+2024-12-27 15:02:17,032 - DEBUG - Price: 0.49 | Bid Vol: 150,644 | Ask Vol: 85,529 | Imb: +27.57%
+2024-12-27 15:02:26,034 - DEBUG - Price: 0.49 | Bid Vol: 153,271 | Ask Vol: 83,308 | Imb: +29.57%
+2024-12-27 15:02:29,034 - DEBUG - Price: 0.49 | Bid Vol: 145,138 | Ask Vol: 79,795 | Imb: +29.05%
+2024-12-27 15:02:31,024 - DEBUG - Price: 0.49 | Bid Vol: 142,246 | Ask Vol: 82,675 | Imb: +26.49%
+2024-12-27 15:02:34,067 - DEBUG - Price: 0.49 | Bid Vol: 140,771 | Ask Vol: 86,207 | Imb: +24.04%
+2024-12-27 15:02:36,013 - DEBUG - Price: 0.49 | Bid Vol: 140,771 | Ask Vol: 90,517 | Imb: +21.73%
+2024-12-27 15:02:38,058 - DEBUG - Price: 0.49 | Bid Vol: 154,931 | Ask Vol: 91,907 | Imb: +25.53%
+2024-12-27 15:02:39,016 - DEBUG - Price: 0.49 | Bid Vol: 146,847 | Ask Vol: 76,929 | Imb: +31.24%
+2024-12-27 15:02:40,073 - DEBUG - Price: 0.49 | Bid Vol: 98,570 | Ask Vol: 87,858 | Imb: +5.75%
+2024-12-27 15:02:42,030 - DEBUG - Price: 0.49 | Bid Vol: 130,446 | Ask Vol: 88,900 | Imb: +18.94%
+2024-12-27 15:02:44,036 - DEBUG - Price: 0.49 | Bid Vol: 139,763 | Ask Vol: 89,655 | Imb: +21.84%
+2024-12-27 15:02:46,032 - DEBUG - Price: 0.49 | Bid Vol: 108,136 | Ask Vol: 94,482 | Imb: +6.74%
+2024-12-27 15:02:47,013 - DEBUG - Price: 0.49 | Bid Vol: 108,133 | Ask Vol: 93,696 | Imb: +7.15%
+2024-12-27 15:02:56,017 - DEBUG - Price: 0.49 | Bid Vol: 121,977 | Ask Vol: 83,516 | Imb: +18.72%
+2024-12-27 15:02:57,053 - DEBUG - Price: 0.49 | Bid Vol: 121,942 | Ask Vol: 82,443 | Imb: +19.33%
+2024-12-27 15:02:57,066 - DEBUG - Price: 0.49 | Bid Vol: 121,942 | Ask Vol: 82,443 | Imb: +19.33%
+2024-12-27 15:03:00,087 - DEBUG - Добавлены данные для 1m: imbalance=17.47, bid_vol=120537, ask_vol=84685
+2024-12-27 15:03:00,087 - DEBUG - Анализ 1m: длина истории = 20
+2024-12-27 15:03:00,087 - DEBUG - Данные 1m: imbalances=[4.8615345001065835, 13.304855403129444, 16.946321876966408, 20.865569954673155, 11.556105234916798, 5.779967836575653, 22.94216307215006, 9.430106714996809, 4.460242929026346, 17.46954471353303]
+2024-12-27 15:03:00,087 - DEBUG - Результат анализа 1m: {'trend_ascii': 'UP', 'current_imbalance': 17.46954471353303, 'volume_ratio': 1.4233478333033653}
+2024-12-27 15:03:00,087 - INFO - === СТАТИСТИКА 1M ===
+1m  | Trend: UP   | Imb:  +17.5% | Vol Ratio:  1.4
+==================
+
+2024-12-27 15:03:00,087 - DEBUG - Price: 0.49 | Bid Vol: 120,537 | Ask Vol: 84,685 | Imb: +17.47%
+2024-12-27 15:03:01,054 - DEBUG - Price: 0.49 | Bid Vol: 118,886 | Ask Vol: 80,540 | Imb: +19.23%
+2024-12-27 15:03:02,068 - DEBUG - Price: 0.49 | Bid Vol: 124,110 | Ask Vol: 77,375 | Imb: +23.20%
+2024-12-27 15:03:04,077 - DEBUG - Price: 0.49 | Bid Vol: 105,291 | Ask Vol: 81,659 | Imb: +12.64%
+2024-12-27 15:03:06,076 - DEBUG - Price: 0.49 | Bid Vol: 117,339 | Ask Vol: 75,916 | Imb: +21.43%
+2024-12-27 15:03:07,027 - DEBUG - Price: 0.49 | Bid Vol: 101,419 | Ask Vol: 76,516 | Imb: +14.00%
+2024-12-27 15:03:08,092 - DEBUG - Price: 0.49 | Bid Vol: 101,402 | Ask Vol: 76,324 | Imb: +14.11%
+2024-12-27 15:03:09,040 - DEBUG - Price: 0.49 | Bid Vol: 116,963 | Ask Vol: 80,431 | Imb: +18.51%
+2024-12-27 15:03:09,049 - DEBUG - Price: 0.49 | Bid Vol: 116,963 | Ask Vol: 80,448 | Imb: +18.50%
+2024-12-27 15:03:11,097 - DEBUG - Price: 0.49 | Bid Vol: 112,724 | Ask Vol: 79,597 | Imb: +17.22%
+2024-12-27 15:03:12,014 - DEBUG - Price: 0.49 | Bid Vol: 112,724 | Ask Vol: 79,498 | Imb: +17.29%
+2024-12-27 15:03:13,023 - DEBUG - Price: 0.49 | Bid Vol: 113,665 | Ask Vol: 79,791 | Imb: +17.51%
+2024-12-27 15:03:16,043 - DEBUG - Price: 0.49 | Bid Vol: 118,341 | Ask Vol: 74,981 | Imb: +22.43%
+2024-12-27 15:03:17,011 - DEBUG - Price: 0.49 | Bid Vol: 115,495 | Ask Vol: 75,553 | Imb: +20.91%
+2024-12-27 15:03:18,078 - DEBUG - Price: 0.49 | Bid Vol: 105,675 | Ask Vol: 75,949 | Imb: +16.37%
+2024-12-27 15:03:19,099 - DEBUG - Price: 0.49 | Bid Vol: 98,756 | Ask Vol: 82,261 | Imb: +9.11%
+2024-12-27 15:03:20,073 - DEBUG - Price: 0.49 | Bid Vol: 100,566 | Ask Vol: 81,893 | Imb: +10.23%
+2024-12-27 15:03:21,001 - DEBUG - Price: 0.49 | Bid Vol: 99,468 | Ask Vol: 80,354 | Imb: +10.63%
+2024-12-27 15:03:22,094 - DEBUG - Price: 0.49 | Bid Vol: 99,462 | Ask Vol: 80,350 | Imb: +10.63%
+2024-12-27 15:03:24,049 - DEBUG - Price: 0.49 | Bid Vol: 118,308 | Ask Vol: 80,194 | Imb: +19.20%
+2024-12-27 15:03:25,056 - DEBUG - Price: 0.49 | Bid Vol: 119,250 | Ask Vol: 79,744 | Imb: +19.85%
+2024-12-27 15:03:26,099 - DEBUG - Price: 0.49 | Bid Vol: 118,302 | Ask Vol: 79,745 | Imb: +19.47%
+2024-12-27 15:03:28,012 - DEBUG - Price: 0.49 | Bid Vol: 121,938 | Ask Vol: 77,087 | Imb: +22.54%
+2024-12-27 15:03:29,074 - DEBUG - Price: 0.49 | Bid Vol: 121,978 | Ask Vol: 77,071 | Imb: +22.56%
+2024-12-27 15:03:31,069 - DEBUG - Price: 0.49 | Bid Vol: 113,276 | Ask Vol: 77,321 | Imb: +18.86%
+2024-12-27 15:03:31,069 - DEBUG - Price: 0.49 | Bid Vol: 114,092 | Ask Vol: 77,321 | Imb: +19.21%
+2024-12-27 15:03:31,069 - DEBUG - Price: 0.49 | Bid Vol: 114,092 | Ask Vol: 77,485 | Imb: +19.11%
+2024-12-27 15:03:31,076 - DEBUG - Price: 0.49 | Bid Vol: 113,149 | Ask Vol: 77,491 | Imb: +18.70%
+2024-12-27 15:03:32,079 - DEBUG - Price: 0.49 | Bid Vol: 113,956 | Ask Vol: 77,965 | Imb: +18.75%
+2024-12-27 15:03:33,016 - DEBUG - Price: 0.49 | Bid Vol: 108,466 | Ask Vol: 84,266 | Imb: +12.56%
+2024-12-27 15:03:34,000 - DEBUG - Price: 0.49 | Bid Vol: 118,241 | Ask Vol: 75,125 | Imb: +22.30%
+2024-12-27 15:03:34,090 - DEBUG - Price: 0.49 | Bid Vol: 118,247 | Ask Vol: 75,198 | Imb: +22.25%
+2024-12-27 15:03:36,074 - DEBUG - Price: 0.49 | Bid Vol: 121,169 | Ask Vol: 76,891 | Imb: +22.36%
+2024-12-27 15:03:37,069 - DEBUG - Price: 0.49 | Bid Vol: 121,977 | Ask Vol: 76,674 | Imb: +22.81%
+2024-12-27 15:03:40,088 - DEBUG - Price: 0.49 | Bid Vol: 123,093 | Ask Vol: 77,531 | Imb: +22.71%
+2024-12-27 15:03:41,094 - DEBUG - Price: 0.49 | Bid Vol: 121,809 | Ask Vol: 79,778 | Imb: +20.85%
+2024-12-27 15:03:42,026 - DEBUG - Price: 0.49 | Bid Vol: 120,873 | Ask Vol: 80,901 | Imb: +19.81%
+2024-12-27 15:03:43,038 - DEBUG - Price: 0.49 | Bid Vol: 121,894 | Ask Vol: 79,956 | Imb: +20.78%
+2024-12-27 15:03:44,030 - DEBUG - Price: 0.49 | Bid Vol: 122,002 | Ask Vol: 80,119 | Imb: +20.72%
+2024-12-27 15:03:48,016 - DEBUG - Price: 0.49 | Bid Vol: 122,201 | Ask Vol: 78,941 | Imb: +21.51%
+2024-12-27 15:03:49,008 - DEBUG - Price: 0.49 | Bid Vol: 105,156 | Ask Vol: 97,090 | Imb: +3.99%
+2024-12-27 15:03:50,011 - DEBUG - Price: 0.49 | Bid Vol: 91,193 | Ask Vol: 96,471 | Imb: -2.81%
+2024-12-27 15:03:51,036 - DEBUG - Price: 0.49 | Bid Vol: 92,012 | Ask Vol: 95,419 | Imb: -1.82%
+2024-12-27 15:03:52,006 - DEBUG - Price: 0.49 | Bid Vol: 92,918 | Ask Vol: 96,519 | Imb: -1.90%
+2024-12-27 15:03:56,031 - DEBUG - Price: 0.49 | Bid Vol: 92,320 | Ask Vol: 97,382 | Imb: -2.67%
+2024-12-27 15:03:57,074 - DEBUG - Price: 0.49 | Bid Vol: 92,520 | Ask Vol: 97,101 | Imb: -2.42%
+2024-12-27 15:04:02,081 - DEBUG - Price: 0.49 | Bid Vol: 92,211 | Ask Vol: 96,434 | Imb: -2.24%
+2024-12-27 15:04:04,063 - DEBUG - Price: 0.49 | Bid Vol: 80,210 | Ask Vol: 87,480 | Imb: -4.34%
+2024-12-27 15:04:08,072 - DEBUG - Price: 0.49 | Bid Vol: 88,004 | Ask Vol: 86,351 | Imb: +0.95%
+2024-12-27 15:04:10,044 - DEBUG - Price: 0.49 | Bid Vol: 74,769 | Ask Vol: 124,469 | Imb: -24.94%
+2024-12-27 15:04:11,093 - DEBUG - Price: 0.49 | Bid Vol: 103,298 | Ask Vol: 98,740 | Imb: +2.26%
+2024-12-27 15:04:13,018 - DEBUG - Price: 0.49 | Bid Vol: 81,902 | Ask Vol: 100,843 | Imb: -10.36%
+2024-12-27 15:04:17,093 - DEBUG - Price: 0.49 | Bid Vol: 86,198 | Ask Vol: 95,239 | Imb: -4.98%
+2024-12-27 15:04:20,098 - DEBUG - Price: 0.49 | Bid Vol: 90,053 | Ask Vol: 94,689 | Imb: -2.51%
+2024-12-27 15:04:22,055 - DEBUG - Price: 0.49 | Bid Vol: 89,247 | Ask Vol: 97,602 | Imb: -4.47%
+2024-12-27 15:04:24,030 - DEBUG - Price: 0.49 | Bid Vol: 90,328 | Ask Vol: 109,163 | Imb: -9.44%
+2024-12-27 15:04:27,026 - DEBUG - Price: 0.49 | Bid Vol: 106,728 | Ask Vol: 96,305 | Imb: +5.13%
+2024-12-27 15:04:27,058 - DEBUG - Price: 0.49 | Bid Vol: 77,363 | Ask Vol: 108,517 | Imb: -16.76%
+2024-12-27 15:04:29,006 - DEBUG - Price: 0.49 | Bid Vol: 79,054 | Ask Vol: 111,244 | Imb: -16.92%
+2024-12-27 15:04:30,065 - DEBUG - Price: 0.49 | Bid Vol: 79,054 | Ask Vol: 112,407 | Imb: -17.42%
+2024-12-27 15:04:32,015 - DEBUG - Price: 0.49 | Bid Vol: 86,718 | Ask Vol: 110,620 | Imb: -12.11%
+2024-12-27 15:04:34,001 - DEBUG - Price: 0.49 | Bid Vol: 119,776 | Ask Vol: 99,215 | Imb: +9.39%
+2024-12-27 15:04:35,058 - DEBUG - Price: 0.49 | Bid Vol: 82,024 | Ask Vol: 97,708 | Imb: -8.73%
+2024-12-27 15:04:36,007 - DEBUG - Price: 0.49 | Bid Vol: 89,490 | Ask Vol: 98,634 | Imb: -4.86%
+2024-12-27 15:04:38,099 - DEBUG - Price: 0.49 | Bid Vol: 101,728 | Ask Vol: 95,841 | Imb: +2.98%
+2024-12-27 15:04:39,004 - DEBUG - Price: 0.49 | Bid Vol: 99,300 | Ask Vol: 89,567 | Imb: +5.15%
+2024-12-27 15:04:40,044 - DEBUG - Price: 0.49 | Bid Vol: 83,395 | Ask Vol: 99,665 | Imb: -8.89%
+2024-12-27 15:04:41,018 - DEBUG - Price: 0.49 | Bid Vol: 81,471 | Ask Vol: 93,409 | Imb: -6.83%
+2024-12-27 15:04:42,046 - DEBUG - Price: 0.49 | Bid Vol: 100,972 | Ask Vol: 87,186 | Imb: +7.33%
+2024-12-27 15:04:44,026 - DEBUG - Price: 0.49 | Bid Vol: 101,661 | Ask Vol: 90,582 | Imb: +5.76%
+2024-12-27 15:04:46,007 - DEBUG - Price: 0.49 | Bid Vol: 86,167 | Ask Vol: 93,419 | Imb: -4.04%
+2024-12-27 15:04:46,099 - DEBUG - Price: 0.49 | Bid Vol: 85,948 | Ask Vol: 93,593 | Imb: -4.26%
+2024-12-27 15:04:47,001 - DEBUG - Price: 0.49 | Bid Vol: 85,143 | Ask Vol: 93,257 | Imb: -4.55%
+2024-12-27 15:04:48,017 - DEBUG - Price: 0.49 | Bid Vol: 85,143 | Ask Vol: 97,362 | Imb: -6.70%
+2024-12-27 15:04:49,075 - DEBUG - Price: 0.49 | Bid Vol: 70,106 | Ask Vol: 103,452 | Imb: -19.21%
+2024-12-27 15:04:50,065 - DEBUG - Price: 0.49 | Bid Vol: 70,307 | Ask Vol: 105,354 | Imb: -19.95%
+2024-12-27 15:04:51,070 - DEBUG - Price: 0.49 | Bid Vol: 98,983 | Ask Vol: 99,463 | Imb: -0.24%
+2024-12-27 15:04:52,020 - DEBUG - Price: 0.49 | Bid Vol: 84,262 | Ask Vol: 104,766 | Imb: -10.85%
+2024-12-27 15:04:53,077 - DEBUG - Price: 0.49 | Bid Vol: 87,281 | Ask Vol: 104,706 | Imb: -9.08%
+2024-12-27 15:04:54,008 - DEBUG - Price: 0.49 | Bid Vol: 115,948 | Ask Vol: 96,914 | Imb: +8.94%
+2024-12-27 15:04:56,073 - DEBUG - Price: 0.49 | Bid Vol: 105,455 | Ask Vol: 97,252 | Imb: +4.05%
+2024-12-27 15:04:57,062 - DEBUG - Price: 0.49 | Bid Vol: 104,923 | Ask Vol: 97,259 | Imb: +3.79%
+2024-12-27 15:04:59,024 - DEBUG - Price: 0.49 | Bid Vol: 91,339 | Ask Vol: 91,208 | Imb: +0.07%
+2024-12-27 15:05:00,035 - DEBUG - Добавлены данные для 1m: imbalance=0.08, bid_vol=91874, ask_vol=91720
+2024-12-27 15:05:00,036 - DEBUG - Анализ 1m: длина истории = 21
+2024-12-27 15:05:00,036 - DEBUG - Данные 1m: imbalances=[13.304855403129444, 16.946321876966408, 20.865569954673155, 11.556105234916798, 5.779967836575653, 22.94216307215006, 9.430106714996809, 4.460242929026346, 17.46954471353303, 0.08386466708869633]
+2024-12-27 15:05:00,036 - DEBUG - Результат анализа 1m: {'trend_ascii': 'DOWN', 'current_imbalance': 0.08386466708869633, 'volume_ratio': 1.001678701178929}
+2024-12-27 15:05:00,036 - INFO - === СТАТИСТИКА 1M ===
+1m  | Trend: DOWN | Imb:   +0.1% | Vol Ratio:  1.0
+==================
+
+2024-12-27 15:05:00,037 - DEBUG - Добавлены данные для 5m: imbalance=0.08, bid_vol=91874, ask_vol=91720
+2024-12-27 15:05:00,037 - DEBUG - Анализ 5m: длина истории = 6
+2024-12-27 15:05:00,037 - DEBUG - Данные 5m: imbalances=[5.807478043899849, -8.398757147652852, 4.8615345001065835, 16.946321876966408, 20.865569954673155, 0.08386466708869633]
+2024-12-27 15:05:00,037 - DEBUG - Результат анализа 5m: {'trend_ascii': 'DOWN', 'current_imbalance': 0.08386466708869633, 'volume_ratio': 1.001678701178929}
+2024-12-27 15:05:00,037 - INFO - === СТАТИСТИКА 5M ===
+5m  | Trend: DOWN | Imb:   +0.1% | Vol Ratio:  1.0
+==================
+
+2024-12-27 15:05:00,037 - DEBUG - Price: 0.49 | Bid Vol: 91,874 | Ask Vol: 91,720 | Imb: +0.08%
+2024-12-27 15:05:02,012 - DEBUG - Price: 0.49 | Bid Vol: 80,909 | Ask Vol: 98,357 | Imb: -9.73%
+2024-12-27 15:05:03,077 - DEBUG - Price: 0.49 | Bid Vol: 106,773 | Ask Vol: 86,565 | Imb: +10.45%
+2024-12-27 15:05:05,032 - DEBUG - Price: 0.49 | Bid Vol: 98,311 | Ask Vol: 82,857 | Imb: +8.53%
+2024-12-27 15:05:07,034 - DEBUG - Price: 0.49 | Bid Vol: 106,489 | Ask Vol: 85,402 | Imb: +10.99%
+2024-12-27 15:05:10,074 - DEBUG - Price: 0.49 | Bid Vol: 125,680 | Ask Vol: 83,868 | Imb: +19.95%
+2024-12-27 15:05:13,037 - DEBUG - Price: 0.49 | Bid Vol: 121,490 | Ask Vol: 91,056 | Imb: +14.32%
+2024-12-27 15:05:15,048 - DEBUG - Price: 0.49 | Bid Vol: 111,215 | Ask Vol: 96,168 | Imb: +7.26%
+2024-12-27 15:05:16,054 - DEBUG - Price: 0.49 | Bid Vol: 89,379 | Ask Vol: 93,102 | Imb: -2.04%
+2024-12-27 15:05:17,045 - DEBUG - Price: 0.49 | Bid Vol: 111,264 | Ask Vol: 83,547 | Imb: +14.23%
+2024-12-27 15:05:18,006 - DEBUG - Price: 0.49 | Bid Vol: 112,324 | Ask Vol: 97,376 | Imb: +7.13%
+2024-12-27 15:05:19,015 - DEBUG - Price: 0.49 | Bid Vol: 108,723 | Ask Vol: 88,894 | Imb: +10.03%
+2024-12-27 15:05:20,085 - DEBUG - Price: 0.49 | Bid Vol: 95,730 | Ask Vol: 88,036 | Imb: +4.19%
+2024-12-27 15:05:21,016 - DEBUG - Price: 0.49 | Bid Vol: 95,157 | Ask Vol: 90,015 | Imb: +2.78%
+2024-12-27 15:05:24,057 - DEBUG - Price: 0.49 | Bid Vol: 85,513 | Ask Vol: 100,615 | Imb: -8.11%
+2024-12-27 15:05:25,012 - DEBUG - Price: 0.49 | Bid Vol: 87,995 | Ask Vol: 99,849 | Imb: -6.31%
+2024-12-27 15:05:25,040 - DEBUG - Price: 0.49 | Bid Vol: 85,220 | Ask Vol: 99,671 | Imb: -7.82%
+2024-12-27 15:05:25,072 - DEBUG - Price: 0.49 | Bid Vol: 85,721 | Ask Vol: 100,069 | Imb: -7.72%
+2024-12-27 15:05:26,089 - DEBUG - Price: 0.49 | Bid Vol: 106,451 | Ask Vol: 88,294 | Imb: +9.32%
+2024-12-27 15:05:27,006 - DEBUG - Price: 0.49 | Bid Vol: 105,906 | Ask Vol: 88,284 | Imb: +9.07%
+2024-12-27 15:05:28,083 - DEBUG - Price: 0.49 | Bid Vol: 104,965 | Ask Vol: 79,285 | Imb: +13.94%
+2024-12-27 15:05:29,061 - DEBUG - Price: 0.49 | Bid Vol: 110,063 | Ask Vol: 78,174 | Imb: +16.94%
+2024-12-27 15:05:30,049 - DEBUG - Price: 0.49 | Bid Vol: 93,226 | Ask Vol: 90,896 | Imb: +1.27%
+2024-12-27 15:05:31,060 - DEBUG - Price: 0.49 | Bid Vol: 105,930 | Ask Vol: 93,585 | Imb: +6.19%
+2024-12-27 15:05:33,084 - DEBUG - Price: 0.49 | Bid Vol: 94,573 | Ask Vol: 90,430 | Imb: +2.24%
+2024-12-27 15:05:34,049 - DEBUG - Price: 0.49 | Bid Vol: 117,551 | Ask Vol: 92,579 | Imb: +11.88%
+2024-12-27 15:05:35,071 - DEBUG - Price: 0.49 | Bid Vol: 117,650 | Ask Vol: 92,659 | Imb: +11.88%
+2024-12-27 15:05:36,093 - DEBUG - Price: 0.49 | Bid Vol: 83,823 | Ask Vol: 99,847 | Imb: -8.72%
+2024-12-27 15:05:36,097 - DEBUG - Price: 0.49 | Bid Vol: 85,430 | Ask Vol: 98,326 | Imb: -7.02%
+2024-12-27 15:05:37,066 - DEBUG - Price: 0.49 | Bid Vol: 85,406 | Ask Vol: 98,185 | Imb: -6.96%
+2024-12-27 15:05:38,001 - DEBUG - Price: 0.49 | Bid Vol: 96,578 | Ask Vol: 86,396 | Imb: +5.56%
+2024-12-27 15:05:39,036 - DEBUG - Price: 0.49 | Bid Vol: 96,691 | Ask Vol: 86,187 | Imb: +5.74%
+2024-12-27 15:05:40,014 - DEBUG - Price: 0.49 | Bid Vol: 91,665 | Ask Vol: 88,205 | Imb: +1.92%
+2024-12-27 15:05:41,003 - DEBUG - Price: 0.49 | Bid Vol: 103,744 | Ask Vol: 88,447 | Imb: +7.96%
+2024-12-27 15:05:42,077 - DEBUG - Price: 0.49 | Bid Vol: 103,297 | Ask Vol: 88,652 | Imb: +7.63%
+2024-12-27 15:05:44,007 - DEBUG - Price: 0.49 | Bid Vol: 103,402 | Ask Vol: 73,030 | Imb: +17.22%
+2024-12-27 15:05:47,091 - DEBUG - Price: 0.49 | Bid Vol: 87,993 | Ask Vol: 83,941 | Imb: +2.36%
+2024-12-27 15:05:49,074 - DEBUG - Price: 0.49 | Bid Vol: 93,687 | Ask Vol: 76,860 | Imb: +9.87%
+2024-12-27 15:05:49,086 - DEBUG - Price: 0.49 | Bid Vol: 93,590 | Ask Vol: 75,974 | Imb: +10.39%
+2024-12-27 15:05:51,090 - DEBUG - Price: 0.49 | Bid Vol: 93,596 | Ask Vol: 77,104 | Imb: +9.66%
+2024-12-27 15:05:52,045 - DEBUG - Price: 0.49 | Bid Vol: 94,866 | Ask Vol: 75,323 | Imb: +11.48%
+2024-12-27 15:05:53,009 - DEBUG - Price: 0.49 | Bid Vol: 89,332 | Ask Vol: 99,548 | Imb: -5.41%
+2024-12-27 15:05:54,000 - DEBUG - Price: 0.49 | Bid Vol: 92,626 | Ask Vol: 98,575 | Imb: -3.11%
+2024-12-27 15:05:55,034 - DEBUG - Price: 0.49 | Bid Vol: 84,021 | Ask Vol: 102,990 | Imb: -10.14%
+2024-12-27 15:05:56,000 - DEBUG - Price: 0.49 | Bid Vol: 90,086 | Ask Vol: 102,294 | Imb: -6.35%
+2024-12-27 15:05:57,002 - DEBUG - Price: 0.49 | Bid Vol: 79,762 | Ask Vol: 105,906 | Imb: -14.08%
+2024-12-27 15:05:57,092 - DEBUG - Price: 0.49 | Bid Vol: 79,762 | Ask Vol: 106,361 | Imb: -14.29%
+2024-12-27 15:05:58,083 - DEBUG - Price: 0.49 | Bid Vol: 103,376 | Ask Vol: 110,080 | Imb: -3.14%
+2024-12-27 15:06:01,017 - DEBUG - Price: 0.49 | Bid Vol: 108,178 | Ask Vol: 110,318 | Imb: -0.98%
+2024-12-27 15:06:02,026 - DEBUG - Price: 0.49 | Bid Vol: 84,373 | Ask Vol: 119,274 | Imb: -17.14%
+2024-12-27 15:06:04,073 - DEBUG - Price: 0.49 | Bid Vol: 86,385 | Ask Vol: 116,785 | Imb: -14.96%
+2024-12-27 15:06:06,000 - DEBUG - Price: 0.49 | Bid Vol: 92,123 | Ask Vol: 116,507 | Imb: -11.69%
+2024-12-27 15:06:09,085 - DEBUG - Price: 0.49 | Bid Vol: 78,248 | Ask Vol: 137,865 | Imb: -27.59%
+2024-12-27 15:06:10,074 - DEBUG - Price: 0.49 | Bid Vol: 88,837 | Ask Vol: 101,495 | Imb: -6.65%
+2024-12-27 15:06:11,090 - DEBUG - Price: 0.49 | Bid Vol: 85,055 | Ask Vol: 112,992 | Imb: -14.11%
+2024-12-27 15:06:12,093 - DEBUG - Price: 0.49 | Bid Vol: 85,083 | Ask Vol: 117,211 | Imb: -15.88%
+2024-12-27 15:06:13,023 - DEBUG - Price: 0.49 | Bid Vol: 86,513 | Ask Vol: 115,909 | Imb: -14.52%
+2024-12-27 15:06:14,084 - DEBUG - Price: 0.49 | Bid Vol: 88,000 | Ask Vol: 115,678 | Imb: -13.59%
+2024-12-27 15:06:15,014 - DEBUG - Price: 0.49 | Bid Vol: 89,240 | Ask Vol: 115,678 | Imb: -12.90%
+2024-12-27 15:06:17,007 - DEBUG - Price: 0.49 | Bid Vol: 89,254 | Ask Vol: 115,588 | Imb: -12.86%
+2024-12-27 15:06:18,037 - DEBUG - Price: 0.49 | Bid Vol: 88,012 | Ask Vol: 108,922 | Imb: -10.62%
+2024-12-27 15:06:19,039 - DEBUG - Price: 0.49 | Bid Vol: 83,422 | Ask Vol: 110,321 | Imb: -13.88%
+2024-12-27 15:06:20,075 - DEBUG - Price: 0.49 | Bid Vol: 75,501 | Ask Vol: 121,660 | Imb: -23.41%
+2024-12-27 15:06:21,084 - DEBUG - Price: 0.49 | Bid Vol: 76,454 | Ask Vol: 122,832 | Imb: -23.27%
+2024-12-27 15:06:24,020 - DEBUG - Price: 0.49 | Bid Vol: 86,630 | Ask Vol: 119,256 | Imb: -15.85%
+2024-12-27 15:06:25,032 - DEBUG - Price: 0.49 | Bid Vol: 83,979 | Ask Vol: 112,130 | Imb: -14.36%
+2024-12-27 15:06:27,046 - DEBUG - Price: 0.49 | Bid Vol: 103,281 | Ask Vol: 111,578 | Imb: -3.86%
+2024-12-27 15:06:29,015 - DEBUG - Price: 0.49 | Bid Vol: 101,490 | Ask Vol: 113,782 | Imb: -5.71%
+2024-12-27 15:06:30,037 - DEBUG - Price: 0.49 | Bid Vol: 81,128 | Ask Vol: 98,609 | Imb: -9.73%
+2024-12-27 15:06:31,091 - DEBUG - Price: 0.49 | Bid Vol: 77,400 | Ask Vol: 98,729 | Imb: -12.11%
+2024-12-27 15:06:33,015 - DEBUG - Price: 0.49 | Bid Vol: 99,499 | Ask Vol: 95,842 | Imb: +1.87%
+2024-12-27 15:06:33,015 - DEBUG - Price: 0.49 | Bid Vol: 99,499 | Ask Vol: 95,842 | Imb: +1.87%
+2024-12-27 15:06:33,015 - DEBUG - Price: 0.49 | Bid Vol: 99,499 | Ask Vol: 95,569 | Imb: +2.01%
+2024-12-27 15:06:33,016 - DEBUG - Price: 0.49 | Bid Vol: 88,852 | Ask Vol: 96,259 | Imb: -4.00%
+2024-12-27 15:06:33,016 - DEBUG - Price: 0.49 | Bid Vol: 88,861 | Ask Vol: 96,293 | Imb: -4.01%
+2024-12-27 15:06:35,052 - DEBUG - Price: 0.49 | Bid Vol: 111,228 | Ask Vol: 84,910 | Imb: +13.42%
+2024-12-27 15:06:39,020 - DEBUG - Price: 0.49 | Bid Vol: 86,949 | Ask Vol: 94,682 | Imb: -4.26%
+2024-12-27 15:06:39,035 - DEBUG - Price: 0.49 | Bid Vol: 88,029 | Ask Vol: 94,682 | Imb: -3.64%
+2024-12-27 15:06:39,037 - DEBUG - Price: 0.49 | Bid Vol: 88,029 | Ask Vol: 94,682 | Imb: -3.64%
+2024-12-27 15:06:41,049 - DEBUG - Price: 0.49 | Bid Vol: 75,214 | Ask Vol: 104,809 | Imb: -16.44%
+2024-12-27 15:06:42,024 - DEBUG - Price: 0.49 | Bid Vol: 84,282 | Ask Vol: 97,997 | Imb: -7.52%
+2024-12-27 15:06:43,046 - DEBUG - Price: 0.49 | Bid Vol: 84,387 | Ask Vol: 98,705 | Imb: -7.82%
+2024-12-27 15:06:43,058 - DEBUG - Price: 0.49 | Bid Vol: 85,888 | Ask Vol: 98,705 | Imb: -6.94%
+2024-12-27 15:06:43,075 - DEBUG - Price: 0.49 | Bid Vol: 85,888 | Ask Vol: 98,705 | Imb: -6.94%
+2024-12-27 15:06:44,038 - DEBUG - Price: 0.49 | Bid Vol: 88,600 | Ask Vol: 97,985 | Imb: -5.03%
+2024-12-27 15:06:46,055 - DEBUG - Price: 0.49 | Bid Vol: 91,083 | Ask Vol: 97,579 | Imb: -3.44%
+2024-12-27 15:06:47,044 - DEBUG - Price: 0.49 | Bid Vol: 90,776 | Ask Vol: 101,588 | Imb: -5.62%
+2024-12-27 15:06:50,058 - DEBUG - Price: 0.49 | Bid Vol: 77,963 | Ask Vol: 120,530 | Imb: -21.45%
+2024-12-27 15:06:51,069 - DEBUG - Price: 0.49 | Bid Vol: 86,471 | Ask Vol: 118,993 | Imb: -15.83%
+2024-12-27 15:06:53,051 - DEBUG - Price: 0.49 | Bid Vol: 108,919 | Ask Vol: 108,405 | Imb: +0.24%
+2024-12-27 15:06:56,075 - DEBUG - Price: 0.49 | Bid Vol: 85,933 | Ask Vol: 111,437 | Imb: -12.92%
+2024-12-27 15:06:58,016 - DEBUG - Price: 0.49 | Bid Vol: 86,423 | Ask Vol: 110,015 | Imb: -12.01%
+2024-12-27 15:06:59,020 - DEBUG - Price: 0.49 | Bid Vol: 87,727 | Ask Vol: 111,846 | Imb: -12.09%
+2024-12-27 15:07:01,050 - DEBUG - Price: 0.49 | Bid Vol: 86,965 | Ask Vol: 114,119 | Imb: -13.50%
+2024-12-27 15:07:03,050 - DEBUG - Price: 0.49 | Bid Vol: 88,436 | Ask Vol: 111,632 | Imb: -11.59%
+2024-12-27 15:07:05,047 - DEBUG - Price: 0.49 | Bid Vol: 83,630 | Ask Vol: 104,361 | Imb: -11.03%
+2024-12-27 15:07:06,061 - DEBUG - Price: 0.49 | Bid Vol: 103,306 | Ask Vol: 84,709 | Imb: +9.89%
+2024-12-27 15:07:10,044 - DEBUG - Price: 0.49 | Bid Vol: 86,714 | Ask Vol: 80,529 | Imb: +3.70%
+2024-12-27 15:07:15,051 - DEBUG - Price: 0.49 | Bid Vol: 94,342 | Ask Vol: 89,338 | Imb: +2.72%
+2024-12-27 15:07:16,009 - DEBUG - Price: 0.49 | Bid Vol: 93,676 | Ask Vol: 89,102 | Imb: +2.50%
+2024-12-27 15:07:16,067 - DEBUG - Price: 0.49 | Bid Vol: 112,227 | Ask Vol: 80,286 | Imb: +16.59%
+2024-12-27 15:07:17,008 - DEBUG - Price: 0.49 | Bid Vol: 94,027 | Ask Vol: 89,998 | Imb: +2.19%
+2024-12-27 15:07:19,098 - DEBUG - Price: 0.49 | Bid Vol: 96,294 | Ask Vol: 87,031 | Imb: +5.05%

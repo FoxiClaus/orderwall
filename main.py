@@ -62,6 +62,14 @@ class OrderBookMonitor:
         # Настройка логирования
         self._setup_logging()
         self.ws_connections = {}  # Добавляем хранение WebSocket соединений
+        
+        # Добавим накопление данных внутри текущей минуты
+        self.current_minute_data = {
+            'imbalances': [],
+            'bid_volumes': [],
+            'ask_volumes': [],
+            'minute': None
+        }
 
     def _setup_logging(self):
         """Настройка логгера с сохранением в файл"""
@@ -106,9 +114,17 @@ class OrderBookMonitor:
         logger.addHandler(console_handler)
         logger.setLevel(logging.DEBUG)
 
-    def analyze_timeframe(self, timeframe: str) -> Dict:
+    def analyze_timeframe(self, timeframe: str, min_history: int = 3) -> Optional[Dict]:
         """Анализ данных по таймфрейму"""
         try:
+            if len(self.history[timeframe]['imbalance']) < min_history:
+                logger.debug(f"Недостаточно данных для {timeframe} (нужно {min_history}, есть {len(self.history[timeframe]['imbalance'])})")
+                return {
+                    'trend_ascii': '-',
+                    'current_imbalance': self.history[timeframe]['imbalance'][-1],
+                    'volume_ratio': self.history[timeframe]['bid_volume'][-1] / self.history[timeframe]['ask_volume'][-1]
+                }
+            
             logger.debug(f"Анализ {timeframe}: длина истории = {len(self.history[timeframe]['imbalance'])}")
             
             if len(self.history[timeframe]['imbalance']) < 2:
@@ -142,7 +158,7 @@ class OrderBookMonitor:
             return result
             
         except Exception as e:
-            logger.error(f"Ошибка в analyze_timeframe для {timeframe}: {str(e)}")
+            logger.error(f"Ошибка анализа {timeframe}: {str(e)}")
             return None
 
     def analyze_signals(self, imbalance: float, imbalance_speed: float, 
@@ -358,14 +374,29 @@ class OrderBookMonitor:
     def _update_history(self, current_time: datetime):
         """Обновление исторических данных"""
         try:
-            # Обновляем историю только в начале каждой секунды
-            if current_time.microsecond < 100000:  # Первые 100мс каждой секунды
-                
-                # Обновляем и выводим статистику для 1m
-                if current_time.second == 0:
-                    logger.debug("Обновление 1m данных")
-                    self._append_history('1m', current_time)
-                    analysis = self.analyze_timeframe('1m')
+            # Собираем данные в текущий минутный буфер
+            if self.current_minute_data['minute'] != current_time.minute:
+                # Если началась новая минута, сохраняем предыдущие данные
+                if self.current_minute_data['minute'] is not None and self.current_minute_data['imbalances']:
+                    avg_imbalance = sum(self.current_minute_data['imbalances']) / len(self.current_minute_data['imbalances'])
+                    avg_bid_vol = sum(self.current_minute_data['bid_volumes']) / len(self.current_minute_data['bid_volumes'])
+                    avg_ask_vol = sum(self.current_minute_data['ask_volumes']) / len(self.current_minute_data['ask_volumes'])
+                    
+                    logger.debug(f"Минутная статистика: "
+                               f"Avg Imb: {avg_imbalance:.2f}% "
+                               f"(min: {min(self.current_minute_data['imbalances']):.2f}%, "
+                               f"max: {max(self.current_minute_data['imbalances']):.2f}%), "
+                               f"Avg Bid Vol: {avg_bid_vol:.0f}, "
+                               f"Avg Ask Vol: {avg_ask_vol:.0f}")
+                    
+                    # Обновляем историю средними значениями
+                    self.history['1m']['imbalance'].append(avg_imbalance)
+                    self.history['1m']['bid_volume'].append(avg_bid_vol)
+                    self.history['1m']['ask_volume'].append(avg_ask_vol)
+                    self.history['1m']['time'] = current_time
+
+                    # Выводим минутную сводку
+                    analysis = self.analyze_timeframe('1m', min_history=1)
                     if analysis:
                         logger.info("\n".join([
                             "=== СТАТИСТИКА 1M ===",
@@ -375,55 +406,65 @@ class OrderBookMonitor:
                             "==================\n"
                         ]))
                 
-                # Обновляем и выводим статистику для 5m
-                if current_time.minute % 5 == 0 and current_time.second == 0:
-                    logger.debug("Обновление 5m данных")
-                    self._append_history('5m', current_time)
-                    analysis = self.analyze_timeframe('5m')
-                    if analysis:
+                # Очищаем буфер для новой минуты
+                self.current_minute_data = {
+                    'imbalances': [],
+                    'bid_volumes': [],
+                    'ask_volumes': [],
+                    'minute': current_time.minute
+                }
+            
+            # Добавляем текущие данные в буфер
+            self.current_minute_data['imbalances'].append(self.current_metrics['imbalance'])
+            self.current_minute_data['bid_volumes'].append(self.current_metrics['bid_volume'])
+            self.current_minute_data['ask_volumes'].append(self.current_metrics['ask_volume'])
+            
+            # Обновляем и выводим 5m и 15m статистику
+            # Добавляем проверку микросекунд, чтобы выводить статистику только один раз
+            if current_time.second == 0 and current_time.microsecond < 100000:  # Выполняем только в первые 100ms секунды
+                if current_time.minute % 5 == 0:
+                    self._update_higher_timeframe('5m', current_time, 5)
+                    analysis_5m = self.analyze_timeframe('5m', min_history=1)
+                    if analysis_5m:
                         logger.info("\n".join([
                             "=== СТАТИСТИКА 5M ===",
-                            f"5m  | Trend: {analysis['trend_ascii']:4} | "
-                            f"Imb: {analysis['current_imbalance']:+6.1f}% | "
-                            f"Vol Ratio: {analysis['volume_ratio']:4.1f}",
+                            f"5m  | Trend: {analysis_5m['trend_ascii']:4} | "
+                            f"Imb: {analysis_5m['current_imbalance']:+6.1f}% | "
+                            f"Vol Ratio: {analysis_5m['volume_ratio']:4.1f}",
                             "==================\n"
                         ]))
                 
-                # Обновляем и выводим статистику для 15m
-                if current_time.minute % 15 == 0 and current_time.second == 0:
-                    logger.debug("Обновление 15m данных")
-                    self._append_history('15m', current_time)
-                    analysis = self.analyze_timeframe('15m')
-                    if analysis:
+                if current_time.minute % 15 == 0:
+                    self._update_higher_timeframe('15m', current_time, 15)
+                    analysis_15m = self.analyze_timeframe('15m', min_history=1)
+                    if analysis_15m:
                         logger.info("\n".join([
                             "=== СТАТИСТИКА 15M ===",
-                            f"15m | Trend: {analysis['trend_ascii']:4} | "
-                            f"Imb: {analysis['current_imbalance']:+6.1f}% | "
-                            f"Vol Ratio: {analysis['volume_ratio']:4.1f}",
+                            f"15m | Trend: {analysis_15m['trend_ascii']:4} | "
+                            f"Imb: {analysis_15m['current_imbalance']:+6.1f}% | "
+                            f"Vol Ratio: {analysis_15m['volume_ratio']:4.1f}",
                             "==================\n"
                         ]))
-                
-                # Очищаем старые данные
-                self._cleanup_history()
-                
+            
         except Exception as e:
             logger.error(f"Ошибка обновления истории: {str(e)}")
     
-    def _append_history(self, timeframe: str, current_time: datetime):
-        """Добавление текущих метрик в историю"""
+    def _update_higher_timeframe(self, timeframe: str, current_time: datetime, n_minutes: int):
+        """Обновление статистики старших таймфреймов на основе минутных данных"""
         try:
-            self.history[timeframe]['time'] = current_time
-            self.history[timeframe]['imbalance'].append(self.current_metrics['imbalance'])
-            self.history[timeframe]['bid_volume'].append(self.current_metrics['bid_volume'])
-            self.history[timeframe]['ask_volume'].append(self.current_metrics['ask_volume'])
+            imb = sum(self.history['1m']['imbalance'][-n_minutes:]) / n_minutes
+            bid = sum(self.history['1m']['bid_volume'][-n_minutes:]) / n_minutes
+            ask = sum(self.history['1m']['ask_volume'][-n_minutes:]) / n_minutes
             
-            logger.debug(f"Добавлены данные для {timeframe}: "
-                        f"imbalance={self.current_metrics['imbalance']:.2f}, "
-                        f"bid_vol={self.current_metrics['bid_volume']:.0f}, "
-                        f"ask_vol={self.current_metrics['ask_volume']:.0f}")
-                    
+            self.history[timeframe]['imbalance'].append(imb)
+            self.history[timeframe]['bid_volume'].append(bid)
+            self.history[timeframe]['ask_volume'].append(ask)
+            self.history[timeframe]['time'] = current_time
+            
+            logger.debug(f"Обновлена {timeframe} статистика: Imb={imb:.2f}%, Bid Vol={bid:.0f}, Ask Vol={ask:.0f}")
+            
         except Exception as e:
-            logger.error(f"Ошибка добавления в историю для {timeframe}: {str(e)}")
+            logger.error(f"Ошибка обновления {timeframe}: {str(e)}")
     
     def _cleanup_history(self):
         """Очистка устаревших данных"""
